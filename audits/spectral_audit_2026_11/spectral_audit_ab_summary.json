@@ -1,0 +1,125 @@
+{
+  "MicroScan_11x11": {
+    "local_constant": {
+      "total_cells": 121,
+      "legacy_healthy_fraction": 0.9338842975206612,
+      "patched_spectral_healthy_fraction": 0.9338842975206612,
+      "false_positive_tachyonic_cells": 0,
+      "false_negative_cells": 0,
+      "mixed_fraction_all": 0.9338842975206612,
+      "mixed_fraction_strictly_spectral_healthy": 0.9338842975206612,
+      "phase_changed_cells_between_runs": 0,
+      "min_legacy_min_eval": -0.7775767170386382,
+      "min_lambda_min_global": -0.7775767170386382,
+      "lee_wick_ghost_cells": 0
+    },
+    "single_pole": {
+      "total_cells": 121,
+      "legacy_healthy_fraction": 1.0,
+      "patched_spectral_healthy_fraction": 1.0,
+      "false_positive_tachyonic_cells": 0,
+      "false_negative_cells": 0,
+      "mixed_fraction_all": 1.0,
+      "mixed_fraction_strictly_spectral_healthy": 1.0,
+      "phase_changed_cells_between_runs": 0,
+      "min_legacy_min_eval": 0.07111800465693939,
+      "min_lambda_min_global": 0.19112306870048446,
+      "lee_wick_ghost_cells": 0
+    },
+    "exp_gap": {
+      "total_cells": 121,
+      "legacy_healthy_fraction": 1.0,
+      "patched_spectral_healthy_fraction": 1.0,
+      "false_positive_tachyonic_cells": 0,
+      "false_negative_cells": 0,
+      "mixed_fraction_all": 1.0,
+      "mixed_fraction_strictly_spectral_healthy": 1.0,
+      "phase_changed_cells_between_runs": 0,
+      "min_legacy_min_eval": 0.07128852585846547,
+      "min_lambda_min_global": 0.19127076334607834,
+      "lee_wick_ghost_cells": 0
+    }
+  },
+  "CooperativeAtlas_15x15": {
+    "local_constant": {
+      "total_cells": 225,
+      "legacy_healthy_fraction": 1.0,
+      "patched_spectral_healthy_fraction": 1.0,
+      "false_positive_tachyonic_cells": 0,
+      "false_negative_cells": 0,
+      "mixed_fraction_all": 1.0,
+      "mixed_fraction_strictly_spectral_healthy": 1.0,
+      "phase_changed_cells_between_runs": 0,
+      "min_legacy_min_eval": 0.07054331657426939,
+      "min_lambda_min_global": 0.19063895481187298,
+      "lee_wick_ghost_cells": 0
+    },
+    "single_pole": {
+      "total_cells": 225,
+      "legacy_healthy_fraction": 1.0,
+      "patched_spectral_healthy_fraction": 1.0,
+      "false_positive_tachyonic_cells": 0,
+      "false_negative_cells": 0,
+      "mixed_fraction_all": 1.0,
+      "mixed_fraction_strictly_spectral_healthy": 1.0,
+      "phase_changed_cells_between_runs": 0,
+      "min_legacy_min_eval": 0.07111800465693939,
+      "min_lambda_min_global": 0.19112306870048446,
+      "lee_wick_ghost_cells": 0
+    },
+    "exp_gap": {
+      "total_cells": 225,
+      "legacy_healthy_fraction": 1.0,
+      "patched_spectral_healthy_fraction": 1.0,
+      "false_positive_tachyonic_cells": 0,
+      "false_negative_cells": 0,
+      "mixed_fraction_all": 1.0,
+      "mixed_fraction_strictly_spectral_healthy": 1.0,
+      "phase_changed_cells_between_runs": 0,
+      "min_legacy_min_eval": 0.07128852585846547,
+      "min_lambda_min_global": 0.19127076334607834,
+      "lee_wick_ghost_cells": 0
+    }
+  },
+  "CooperativeAtlas_21x21": {
+    "local_constant": {
+      "total_cells": 441,
+      "legacy_healthy_fraction": 1.0,
+      "patched_spectral_healthy_fraction": 1.0,
+      "false_positive_tachyonic_cells": 0,
+      "false_negative_cells": 0,
+      "mixed_fraction_all": 1.0,
+      "mixed_fraction_strictly_spectral_healthy": 1.0,
+      "phase_changed_cells_between_runs": 0,
+      "min_legacy_min_eval": 0.07054331657426939,
+      "min_lambda_min_global": 0.19063895481187298,
+      "lee_wick_ghost_cells": 0
+    },
+    "single_pole": {
+      "total_cells": 441,
+      "legacy_healthy_fraction": 1.0,
+      "patched_spectral_healthy_fraction": 1.0,
+      "false_positive_tachyonic_cells": 0,
+      "false_negative_cells": 0,
+      "mixed_fraction_all": 1.0,
+      "mixed_fraction_strictly_spectral_healthy": 1.0,
+      "phase_changed_cells_between_runs": 0,
+      "min_legacy_min_eval": 0.07111800465693939,
+      "min_lambda_min_global": 0.19112306870048446,
+      "lee_wick_ghost_cells": 0
+    },
+    "exp_gap": {
+      "total_cells": 441,
+      "legacy_healthy_fraction": 1.0,
+      "patched_spectral_healthy_fraction": 1.0,
+      "false_positive_tachyonic_cells": 0,
+      "false_negative_cells": 0,
+      "mixed_fraction_all": 1.0,
+      "mixed_fraction_strictly_spectral_healthy": 1.0,
+      "phase_changed_cells_between_runs": 0,
+      "min_legacy_min_eval": 0.07128852585846547,
+      "min_lambda_min_global": 0.19127076334607834,
+      "lee_wick_ghost_cells": 0
+    }
+  }
+}

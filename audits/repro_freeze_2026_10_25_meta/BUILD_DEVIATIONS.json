@@ -1,0 +1,26 @@
+[
+  {
+    "item": "First development quick replay selected Cornell default6000 nodes instead of historical fine9000",
+    "resolution": "Portable adapter corrected to exact rmax10/N9000; unmodified historical source/golden data; corrected clean runs pass."
+  },
+  {
+    "item": "No verified Codex role_claim tool exposed",
+    "resolution": "Progress/results posted as verified Codex principal; task remains OPEN for review, no false claim state."
+  },
+  {
+    "item": "Original historical files contain absolute paths and top-level fits",
+    "resolution": "Safe AST and path/output-rebinding adapters used; historical bytes unchanged; active replay blocks original research roots and network."
+  },
+  {
+    "item": "Online pip wheel acquisition temporary directory not explicitly redirected in first download command",
+    "resolution": "Persistent downloads are inside new destination. That initial subprocess may have used normal OS transient temp; temporary-file provenance was not traced. Subsequent offline setup/validation explicitly scopes TEMP/TMP inside destination. No original scientific files changed."
+  },
+  {
+    "item": "No clean-OS boot/install performed",
+    "resolution": "Different extracted/copy paths and genuinely fresh offline venv tested on same Windows host; optional official Python installer included unexecuted."
+  },
+  {
+    "item": "Missing original raw historical optimizer returns",
+    "resolution": "Source seeds/bounds/tolerances and preserved results included; 236 fresh HIX returns, including55 unsuccessful, captured separately; not represented as original history."
+  }
+]

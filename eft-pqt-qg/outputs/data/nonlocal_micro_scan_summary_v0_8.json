@@ -1,0 +1,433 @@
+{
+  "summary_rows": [
+    {
+      "kernel": "local_constant",
+      "phase_counts_local": {
+        "Prema": 0,
+        "Gurutva": 4,
+        "Tamas": 1,
+        "Mixed": 113,
+        "Symmetric": 0,
+        "Rho_only": 0,
+        "Iota_only": 0,
+        "Other": 3,
+        "Unstable": 0
+      },
+      "phase_counts_nonlocal": {
+        "Prema": 0,
+        "Gurutva": 4,
+        "Tamas": 1,
+        "Mixed": 113,
+        "Symmetric": 0,
+        "Rho_only": 0,
+        "Iota_only": 0,
+        "Other": 3,
+        "Unstable": 0
+      },
+      "changed_phase_fraction": 0.0,
+      "changed_cells_count": 0,
+      "average_delta_position_norm": 0.0,
+      "max_delta_position_norm": 0.0,
+      "average_delta_objective": 0.0,
+      "determinant_health_fraction": 0.9338842975206612,
+      "min_iota_inverse_global": -0.7775767170386382,
+      "min_det_global": -0.7373367140682185,
+      "optimizer_success_fraction": 1.0,
+      "transition_matrix": {
+        "Prema": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 0,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Gurutva": {
+          "Prema": 0,
+          "Gurutva": 4,
+          "Tamas": 0,
+          "Mixed": 0,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Tamas": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 1,
+          "Mixed": 0,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Mixed": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 113,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Symmetric": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 0,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Rho_only": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 0,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Iota_only": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 0,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Other": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 0,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 3,
+          "Unstable": 0
+        },
+        "Unstable": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 0,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        }
+      }
+    },
+    {
+      "kernel": "single_pole",
+      "phase_counts_local": {
+        "Prema": 0,
+        "Gurutva": 4,
+        "Tamas": 1,
+        "Mixed": 113,
+        "Symmetric": 0,
+        "Rho_only": 0,
+        "Iota_only": 0,
+        "Other": 3,
+        "Unstable": 0
+      },
+      "phase_counts_nonlocal": {
+        "Prema": 0,
+        "Gurutva": 0,
+        "Tamas": 0,
+        "Mixed": 121,
+        "Symmetric": 0,
+        "Rho_only": 0,
+        "Iota_only": 0,
+        "Other": 0,
+        "Unstable": 0
+      },
+      "changed_phase_fraction": 0.06611570247933884,
+      "changed_cells_count": 8,
+      "average_delta_position_norm": 0.11192906089957179,
+      "max_delta_position_norm": 2.064052319708433,
+      "average_delta_objective": -0.023538413033628698,
+      "determinant_health_fraction": 1.0,
+      "min_iota_inverse_global": 0.48657059419000803,
+      "min_det_global": 0.07111800465693939,
+      "optimizer_success_fraction": 0.9173553719008265,
+      "transition_matrix": {
+        "Prema": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 0,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Gurutva": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 4,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Tamas": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 1,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Mixed": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 113,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Symmetric": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 0,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Rho_only": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 0,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Iota_only": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 0,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Other": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 3,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Unstable": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 0,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        }
+      }
+    },
+    {
+      "kernel": "exp_gap",
+      "phase_counts_local": {
+        "Prema": 0,
+        "Gurutva": 4,
+        "Tamas": 1,
+        "Mixed": 113,
+        "Symmetric": 0,
+        "Rho_only": 0,
+        "Iota_only": 0,
+        "Other": 3,
+        "Unstable": 0
+      },
+      "phase_counts_nonlocal": {
+        "Prema": 0,
+        "Gurutva": 0,
+        "Tamas": 0,
+        "Mixed": 121,
+        "Symmetric": 0,
+        "Rho_only": 0,
+        "Iota_only": 0,
+        "Other": 0,
+        "Unstable": 0
+      },
+      "changed_phase_fraction": 0.06611570247933884,
+      "changed_cells_count": 8,
+      "average_delta_position_norm": 0.1121049136494773,
+      "max_delta_position_norm": 2.064067930913051,
+      "average_delta_objective": -0.023542248184926843,
+      "determinant_health_fraction": 1.0,
+      "min_iota_inverse_global": 0.4874704122529269,
+      "min_det_global": 0.07128852585846547,
+      "optimizer_success_fraction": 0.9338842975206612,
+      "transition_matrix": {
+        "Prema": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 0,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Gurutva": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 4,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Tamas": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 1,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Mixed": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 113,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Symmetric": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 0,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Rho_only": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 0,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Iota_only": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 0,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Other": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 3,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        },
+        "Unstable": {
+          "Prema": 0,
+          "Gurutva": 0,
+          "Tamas": 0,
+          "Mixed": 0,
+          "Symmetric": 0,
+          "Rho_only": 0,
+          "Iota_only": 0,
+          "Other": 0,
+          "Unstable": 0
+        }
+      }
+    }
+  ],
+  "plots": {
+    "cooperative_local_phase_map": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_local_phase_map.png",
+    "cooperative_local_constant_nonlocal_phase_map": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_local_constant_nonlocal_phase_map.png",
+    "cooperative_local_constant_phase_changed_mask": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_local_constant_phase_changed_mask.png",
+    "cooperative_local_constant_delta_position_norm": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_local_constant_delta_position_norm.png",
+    "cooperative_local_constant_det_health_mask": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_local_constant_det_health_mask.png",
+    "cooperative_local_constant_min_iota_inverse_heatmap": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_local_constant_min_iota_inverse_heatmap.png",
+    "cooperative_local_constant_min_det_heatmap": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_local_constant_min_det_heatmap.png",
+    "cooperative_single_pole_nonlocal_phase_map": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_single_pole_nonlocal_phase_map.png",
+    "cooperative_single_pole_phase_changed_mask": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_single_pole_phase_changed_mask.png",
+    "cooperative_single_pole_delta_position_norm": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_single_pole_delta_position_norm.png",
+    "cooperative_single_pole_det_health_mask": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_single_pole_det_health_mask.png",
+    "cooperative_single_pole_min_iota_inverse_heatmap": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_single_pole_min_iota_inverse_heatmap.png",
+    "cooperative_single_pole_min_det_heatmap": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_single_pole_min_det_heatmap.png",
+    "cooperative_exp_gap_nonlocal_phase_map": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_exp_gap_nonlocal_phase_map.png",
+    "cooperative_exp_gap_phase_changed_mask": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_exp_gap_phase_changed_mask.png",
+    "cooperative_exp_gap_delta_position_norm": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_exp_gap_delta_position_norm.png",
+    "cooperative_exp_gap_det_health_mask": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_exp_gap_det_health_mask.png",
+    "cooperative_exp_gap_min_iota_inverse_heatmap": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_exp_gap_min_iota_inverse_heatmap.png",
+    "cooperative_exp_gap_min_det_heatmap": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_exp_gap_min_det_heatmap.png",
+    "summary_changed_phase_fraction_by_kernel": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\summary_changed_phase_fraction_by_kernel.png",
+    "summary_avg_delta_position_by_kernel": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\summary_avg_delta_position_by_kernel.png",
+    "summary_det_health_by_kernel": "C:\\AGI\\PQT-transformers\\pqt_qg_benchmark\\outputs\\plots\\nonlocal_micro_v0_8\\summary_det_health_by_kernel.png"
+  }
+}

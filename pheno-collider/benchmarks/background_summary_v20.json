@@ -1,0 +1,112 @@
+{
+  "background": {
+    "process": "pp > z z j j, z > l+ l-, z > l+ l-",
+    "mg5_cross_section_pb": 0.0120579868912882,
+    "events_after_shower": 10000,
+    "n_total": 10000,
+    "avg_electrons_loose": 1.0083,
+    "avg_muons_loose": 1.3295,
+    "avg_leptons_loose": 2.3378,
+    "avg_jets_loose": 3.5493,
+    "reco_4l": 1545,
+    "reco_2e2mu": 748,
+    "reco_4l_plus_2j": 1259,
+    "reco_2e2mu_plus_2j": 601,
+    "reco_4l_mass_window": 549,
+    "reco_2e2mu_mass_window": 269,
+    "reco_4l_mass_window_plus_2j": 432,
+    "reco_2e2mu_mass_window_plus_2j": 206,
+    "reco_4l_mass_window_m150": 18,
+    "reco_2e2mu_mass_window_m150": 8,
+    "reco_4l_mass_window_m200": 549,
+    "reco_2e2mu_mass_window_m200": 269,
+    "reco_efficiency_m150": 0.0018,
+    "reco_efficiency_m200": 0.0549,
+    "sigma_reco_pb_m150": 2.170437640431876e-05,
+    "sigma_reco_pb_m200": 0.0006619834803317221,
+    "sigma_reco_fb_m150": 0.02170437640431876,
+    "sigma_reco_fb_m200": 0.661983480331722,
+    "events_300fb_m150": 6.5113129212956276,
+    "events_3000fb_m150": 65.11312921295628,
+    "events_300fb_m200": 198.59504409951663,
+    "events_3000fb_m200": 1985.9504409951662,
+    "root_file": "/mnt/c/AGI/benchmark_v31_out/v20_background_closure/root/zzjj_delphes.root",
+    "hepmc_file": "/root/hep/pqt_mg5_scan/v20_background_closure/zzjj/process/Events/run_01/zzjj_pythia8.hepmc",
+    "lhe_file": "/root/hep/pqt_mg5_scan/v20_background_closure/zzjj/process/Events/run_01/unweighted_events.lhe.gz",
+    "status": "ok",
+    "notes": "Primary ZZjj fully processed; ttZ and Hjj pending by design.",
+    "secondary_channels": {
+      "ttZ": "pending",
+      "Hjj": "pending"
+    }
+  },
+  "signals": [
+    {
+      "signal_point": "m150_s2_1e-3_modeA",
+      "mS_GeV": 150.0,
+      "sigma_reco_fb": 0.0238656,
+      "reco_4l": 64,
+      "reco_2e2mu": 35,
+      "reco_4l_plus_2j": 61,
+      "reco_2e2mu_plus_2j": 32,
+      "reco_4l_mass_window": 64,
+      "reco_2e2mu_mass_window": 35,
+      "reco_4l_mass_window_plus_2j": 61,
+      "reco_2e2mu_mass_window_plus_2j": 32,
+      "expected_300": 7.15968,
+      "expected_3000": 71.5968,
+      "root_file": "/mnt/c/AGI/benchmark_v31_out/vbf_cutflow_v17/root/m150_s2_1e-3_modeA_delphes.root"
+    },
+    {
+      "signal_point": "m200_s2_1e-3_onshell",
+      "mS_GeV": 200.0,
+      "sigma_reco_fb": 0.001605996413,
+      "reco_4l": 5,
+      "reco_2e2mu": 3,
+      "reco_4l_plus_2j": 5,
+      "reco_2e2mu_plus_2j": 3,
+      "reco_4l_mass_window": 4,
+      "reco_2e2mu_mass_window": 2,
+      "reco_4l_mass_window_plus_2j": 4,
+      "reco_2e2mu_mass_window_plus_2j": 2,
+      "expected_300": 0.4817989239,
+      "expected_3000": 4.817989239,
+      "root_file": "/mnt/c/AGI/benchmark_v31_out/vbf_yield_boost_v19/root/m200_s2_1e-3_onshell_delphes.root"
+    }
+  ],
+  "significance": [
+    {
+      "signal_point": "m150_s2_1e-3_modeA",
+      "signal_sigma_reco_fb": 0.0238656,
+      "background_sigma_reco_fb": 0.02170437640431876,
+      "S_300": 7.15968,
+      "B_300": 6.5113129212956276,
+      "S_3000": 71.5968,
+      "B_3000": 65.11312921295628,
+      "Z_300": 2.805816911116845,
+      "Z_3000": 8.872772136547448,
+      "S_over_B_300": 1.0995754752599665,
+      "S_over_B_3000": 1.0995754752599665,
+      "classification": "strong"
+    },
+    {
+      "signal_point": "m200_s2_1e-3_onshell",
+      "signal_sigma_reco_fb": 0.001605996413,
+      "background_sigma_reco_fb": 0.661983480331722,
+      "S_300": 0.4817989239,
+      "B_300": 198.59504409951663,
+      "S_3000": 4.817989239,
+      "B_3000": 1985.9504409951662,
+      "Z_300": 0.03418862403297255,
+      "Z_3000": 0.10811392201136485,
+      "S_over_B_300": 0.0024260369944507226,
+      "S_over_B_3000": 0.0024260369944507226,
+      "classification": "hidden"
+    }
+  ],
+  "global_pass": true,
+  "secondary_channels": {
+    "ttZ": "pending",
+    "Hjj": "pending"
+  }
+}

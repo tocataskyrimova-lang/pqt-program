@@ -1,0 +1,4470 @@
+{
+  "manifest_version": "1.0",
+  "created_at": "2026-11-19T14:11:00+05:00",
+  "git_target": "https://github.com/tocataskyrimova-lang/pqt-program.git",
+  "total_files": 892,
+  "total_bytes": 49129636,
+  "total_mb": 46.85,
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 772,
+      "sha256": "1f9c18e539cb92bd0746fd49ccc03ae3964fcb0ee4f685dc419d836480674c14"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 5936,
+      "sha256": "430bc9ca55188128f16983099d6bba23d4602bb66eaec78d218704ccc86eb4ca"
+    },
+    {
+      "path": ".github\\workflows\\ci-smoke.yml",
+      "size_bytes": 1088,
+      "sha256": "e746fb8b1ac4306a57d5a63d1aed85b82642cfd576b3ba028c14950aa49c5785"
+    },
+    {
+      "path": "audits\\README.md",
+      "size_bytes": 1465,
+      "sha256": "2da8e4eb312ead7e5cc9402b02fc98cdbb73403fd2c6a173c9721e0ed9e47830"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\BUILD_DEVIATIONS.json",
+      "size_bytes": 1639,
+      "sha256": "ecf25eeb5d297dab1323048707f310f8b5dd99f5e9bbd906033b91d4d6e6d140"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\CLAIMS.json",
+      "size_bytes": 7787,
+      "sha256": "9e6c679cb5eebf744f14a18acf39c4b9a55bc5bf27e0212931ed6ead9b394a7f"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\CLEAN_ENVIRONMENT_ACCEPTANCE.json",
+      "size_bytes": 805,
+      "sha256": "04cacf81a22d60df383f948ef8cc8fb701ba620adba05ab8e90fd9ad763a0c42"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\ERRATA_ADDENDUM.md",
+      "size_bytes": 19322,
+      "sha256": "63c2fbef208cdbcfaeacba3d9321c63885da84c8242b36a4e10cc41873324141"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\EVIDENCE_MANIFEST.json",
+      "size_bytes": 281987,
+      "sha256": "cad88f031f028417279ea549eb3c5acfe76546faed6f4bdc240a5c4abad4a462"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\EXCLUDED_FILES.json",
+      "size_bytes": 1942,
+      "sha256": "3d6ca9d5206e0df809a31daf73023e0292be1a4512ca3172358dd2382bdecfc6"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\FINAL_REPRO_FREEZE_REPORT.md",
+      "size_bytes": 1591,
+      "sha256": "1268448571313723decb14ac783d82eee1ae48b3ce1412bfc56ff3a872a42fcd"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\HISTORICAL_MANIFEST_AUDIT.json",
+      "size_bytes": 45561,
+      "sha256": "a26564bd9fe2452b1b06874d1d10680ab2f35b1445f9b1988179d357cf94c76a"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\HIX_INDEPENDENT_REPORT.md",
+      "size_bytes": 16633,
+      "sha256": "8e6d721e94b90670868823bcbc03b8ebf4847766423fb7193f73fd5ddf82ba05"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\MANIFEST.sha256",
+      "size_bytes": 90,
+      "sha256": "473af1de23c54d9cb441b36bfab16da2cad38748ec7a183c72ed4fafe78c2b86"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\PRIMARY_SOURCE_GAPS.json",
+      "size_bytes": 2623,
+      "sha256": "56d0e15eb27e9f344800ba1912c6426773ee33d417668adfd1700c4156d642b2"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\README_REPRO.md",
+      "size_bytes": 7075,
+      "sha256": "f38cae41d7077895f92f71a14595e33365e373fad93f502882cc02472521f7d2"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\RELEASE_NOTES.md",
+      "size_bytes": 3663,
+      "sha256": "54a9c1405161cdc4312b52d5668f637cf7a148c3aaa91ef074a2bfd3f0e4ab27"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\REPLAY_DAG.json",
+      "size_bytes": 1493,
+      "sha256": "013a8656ef4c0d96e8b3f12a92904cf5de43db5dbbb9c7ba75f849f4d8bedd93"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\REPRO_INDEX.md",
+      "size_bytes": 5430,
+      "sha256": "fa538c52dabe2b4beb141905429885307981025e1739259815b92b77257b160d"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\SECRET_SCAN.json",
+      "size_bytes": 179,
+      "sha256": "a6654e0b7342f543aab6b7da39bdd2003cd5b463d3650dd3c7c785a1ba2ecc30"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\offline_guard.py",
+      "size_bytes": 734,
+      "sha256": "116b2079e6654d41c8d665d23d70b5c836b2ddd8596103427ce64894c2c0da89"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\replay_all.ps1",
+      "size_bytes": 509,
+      "sha256": "91f0bc02f5811eb221b5b1a2cafbc92d3adf306c3ae6742c2e8a5bd57b5c0dc0"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\replay_wolfram.ps1",
+      "size_bytes": 1200,
+      "sha256": "03e39b81ef1e4a4ce6e089203586d42fce5c088e427e788a5fd1b8b203962621"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\verify_hashes.ps1",
+      "size_bytes": 205,
+      "sha256": "a9e8cc73c728755b7c29c9d5d539025e1e1a411cad0f39945f766d5375b0d86a"
+    },
+    {
+      "path": "audits\\repro_freeze_2026_10_25_meta\\verify_hashes.py",
+      "size_bytes": 1496,
+      "sha256": "a38280fd404f35f4378455dc74a02a9a39252c0bbde45b96bbfc00d6b8b1a1d1"
+    },
+    {
+      "path": "audits\\spectral_audit_2026_11\\PQT_QG_Spectral_Audit_Report_v0_9a.md",
+      "size_bytes": 5993,
+      "sha256": "f4ec012fee8877f0af0548fd4cde43825ba6f1c429b2aab1d90ff9130830ba20"
+    },
+    {
+      "path": "audits\\spectral_audit_2026_11\\applied_spectral_patch.diff",
+      "size_bytes": 1777,
+      "sha256": "7eb7841a8ebdfc3daeeee1cc9d6dc38c1fc1459fd92a089b2c5b62343f11a0f0"
+    },
+    {
+      "path": "audits\\spectral_audit_2026_11\\spectral_audit_ab_summary.json",
+      "size_bytes": 4625,
+      "sha256": "3e917bfff753a5260cf9dd7e0cf931f10a612741d9706865a41cc665f6c348a6"
+    },
+    {
+      "path": "audits\\spectral_audit_2026_11\\unit_test_sylvester.json",
+      "size_bytes": 2385,
+      "sha256": "7621c79f2779c14d11e89236bb80dba1da5108f29fd18902f09af9f9a857ba4c"
+    },
+    {
+      "path": "eft-pqt-qg\\README.md",
+      "size_bytes": 2450,
+      "sha256": "86504d8db12a82da57c91f3401d91fb5c814ec9f494e5cc5676c98e33d3af0bb"
+    },
+    {
+      "path": "eft-pqt-qg\\requirements.txt",
+      "size_bytes": 31,
+      "sha256": "70c67d48beb8935f58ad0daba9ffdd92f7b227ab120b43fc8c18603ffd462630"
+    },
+    {
+      "path": "eft-pqt-qg\\run_benchmarks.py",
+      "size_bytes": 4296,
+      "sha256": "651b01ea047218c79a1bc4e34bf46f9fa5dccb05c42641a5f72d01fb9b432f22"
+    },
+    {
+      "path": "eft-pqt-qg\\run_field_bound_stress.py",
+      "size_bytes": 1208,
+      "sha256": "04d94b2c0f8df527de8eaa3be01badaaa361841929c02dc5d653a7f30626bf93"
+    },
+    {
+      "path": "eft-pqt-qg\\run_loop_scale_continuation.py",
+      "size_bytes": 995,
+      "sha256": "05d678953482eba6df76edcda08840479c2a424ff3ff64d721caeede28efd3b0"
+    },
+    {
+      "path": "eft-pqt-qg\\run_memory_sign_reconciliation.py",
+      "size_bytes": 1260,
+      "sha256": "6ef600267d5362fde36f131c9aea8eadad9297b5ebcd1c50b320b4c239bc3659"
+    },
+    {
+      "path": "eft-pqt-qg\\run_nonlocal_cooperative_atlas.py",
+      "size_bytes": 1376,
+      "sha256": "829cd9aa9fc25915b62e4c15ea58345010299f7178cf995866c4998067229774"
+    },
+    {
+      "path": "eft-pqt-qg\\run_nonlocal_memory_benchmark.py",
+      "size_bytes": 1183,
+      "sha256": "b7a7dd19b435353116a9d08f92b3b5beb0b4ef8a4c527a171dccfc93a22e3fd2"
+    },
+    {
+      "path": "eft-pqt-qg\\run_nonlocal_micro_scan.py",
+      "size_bytes": 1288,
+      "sha256": "2de3eb61a0743c52617021bccfa82923085124543939b79298160de7c6ba97d0"
+    },
+    {
+      "path": "eft-pqt-qg\\run_nonlocal_micro_validation.py",
+      "size_bytes": 1142,
+      "sha256": "42a18b909f8d01b930e15a4eccca2bd2f051d215b9af9f4024b9a07b258c04e5"
+    },
+    {
+      "path": "eft-pqt-qg\\run_one_loop_benchmark.py",
+      "size_bytes": 787,
+      "sha256": "e577691a1234dd7373907e7419a864d3030128221ef6226f232c7f8ec471b626"
+    },
+    {
+      "path": "eft-pqt-qg\\run_phase_boundary_scan.py",
+      "size_bytes": 1269,
+      "sha256": "187b14d293164f525d441dcbe132e7017aae563235bbd8f7949f931929d06157"
+    },
+    {
+      "path": "eft-pqt-qg\\run_robustness_atlas.py",
+      "size_bytes": 349,
+      "sha256": "b7e0b9fad5e99d71ca6e453a96d93fde688d19fb70cfd19b1f9ab0693f6fc5d8"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\benchmarks_used.json",
+      "size_bytes": 1025,
+      "sha256": "ecc02a64dffff0633bf5c2a5a6504b0fa96364dd5fd5b9db665acd1c51f82d19"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\field_bound_stress_changed_cells_v0_8_2.json",
+      "size_bytes": 50556,
+      "sha256": "51f1edce6c8aedee8962a4cbfeb0173b979723a388adf88f14c1e5d1213cd5ff"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\field_bound_stress_summary_v0_8_2.json",
+      "size_bytes": 12408,
+      "sha256": "f6cf13c638d75952623daf6d86cdc2f8386fc8b3f1dfa486de2dcfd52bff353e"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\field_bound_stress_v0_8_2.csv",
+      "size_bytes": 217998,
+      "sha256": "92b69951b5fc668c1847944a66f4a80b8e50ee7bfa5c33b715b1bbc94e1d6ba0"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\field_bound_stress_v0_8_2.json",
+      "size_bytes": 66232,
+      "sha256": "e05b2ef5736caf877f18a99e94dd80ecf94660b6c126483aad07f75df5d87d79"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\grid_scan_summary.json",
+      "size_bytes": 25132,
+      "sha256": "79f2309105b0a99c75cbb178fe637e9aa903785b1d2abbf3ebfb925e7f320406"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\loop_scale_continuation_summary_v0_5.json",
+      "size_bytes": 27795,
+      "sha256": "b098cc2f392aff3c936b02ddb3672b50a6b5a44449c99e0f983aa4ae3ffa5234"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\loop_scale_continuation_v0_5.csv",
+      "size_bytes": 5254852,
+      "sha256": "272ad7322d3f2cd41e5c6bc69181bd339585ba57d7a33e8240b8e325aee5e9d2"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\loop_scale_continuation_v0_5.json",
+      "size_bytes": 38023,
+      "sha256": "32fc8de60b57ea8d1cd86e2fc0450f7e9f1c689f11075cbbb3fd3324437a4b71"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\memory_sign_reconciliation_summary_v0_6.json",
+      "size_bytes": 133335,
+      "sha256": "a6e6e9c5101c883994742596264ef6e2e8dfc0e3e0cd61e1bcd0cfffc8eb2483"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\memory_sign_reconciliation_v0_6.json",
+      "size_bytes": 2809926,
+      "sha256": "bba18be145e7288a3ac63fd469f83cbc7298ff22137ee484bcc52f819ef7541c"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\minima_summary.csv",
+      "size_bytes": 4246,
+      "sha256": "0d1d0c06d7a6904ba90d5fd9e918c86464b867775698da2d617d54bd77a02d70"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\minima_summary.json",
+      "size_bytes": 70597,
+      "sha256": "3aaf0a5a0ba6984a25131fac5c08c488e2bb0c68b4ffc8302ea658d9bf152578"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\nonlocal_cooperative_atlas_changed_cells_v0_9.json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\nonlocal_cooperative_atlas_summary_v0_9.json",
+      "size_bytes": 19578,
+      "sha256": "fd30c51c07f03457f6a9a6a876d49a563c76816eb514a05420835740fed93576"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\nonlocal_cooperative_atlas_v0_9.csv",
+      "size_bytes": 876439,
+      "sha256": "94bd76459ee62872a8e725bb5510d8dd5dafa922593efd89f01d23c9e7225f3e"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\nonlocal_cooperative_atlas_v0_9.json",
+      "size_bytes": 20069,
+      "sha256": "ccd2b8d299292085e9db9e65e9f9bf765a75743f5f7d7d8b131f9e8f979e5edb"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\nonlocal_memory_benchmark_v0_7.csv",
+      "size_bytes": 2430281,
+      "sha256": "df4c125bb465c69ddb88619cdc686d8f7e447b3bddac748b70e6d0aadb704859"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\nonlocal_memory_benchmark_v0_7.json",
+      "size_bytes": 328636,
+      "sha256": "47f6a73abb5de3fe2af597e778f9c3ba30d9b415696f590a56d64b1ca807bf99"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\nonlocal_memory_summary_v0_7.json",
+      "size_bytes": 36385,
+      "sha256": "7adfe3f48b628ab727a5c719c0e5afc748b2946c9c9757fd5d85c33e2f546205"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\nonlocal_micro_scan_summary_v0_8.json",
+      "size_bytes": 13956,
+      "sha256": "f2cf7df1a098b42a41d624a6d6788c1db910752d16d3457031efeafef3fbff15"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\nonlocal_micro_scan_v0_8.csv",
+      "size_bytes": 152192,
+      "sha256": "5b4ef8ca9b030a472379952770c1960d944b6e31d36831d5d9b9d6e1da40008a"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\nonlocal_micro_scan_v0_8.json",
+      "size_bytes": 26047,
+      "sha256": "c8324974fa6f87264c7b330beae32e929dfb2a60ea920086fbae7cd113329130"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\nonlocal_micro_validation_changed_cells_v0_8_1.json",
+      "size_bytes": 29931,
+      "sha256": "f3423b16ffa5cf9d999e8da4fd8080830af4e3bd7dc752600a9a8e20a1bb1b70"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\nonlocal_micro_validation_summary_v0_8_1.json",
+      "size_bytes": 17022,
+      "sha256": "23415798b93534c1b75a6ee5df38518a55eb7324617af4648ed9edf22f254dbf"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\nonlocal_micro_validation_v0_8_1.csv",
+      "size_bytes": 269936,
+      "sha256": "de964d35be34cf65b17a0230edba1190d57f8bcac9884e4defceb1c3725123e2"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\nonlocal_micro_validation_v0_8_1.json",
+      "size_bytes": 49160,
+      "sha256": "daaa0dabff869166780a86f08626f66d23146a0891c209465ab5db11f7427ff5"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\one_loop_benchmark_v0_4.csv",
+      "size_bytes": 4069148,
+      "sha256": "388804d8487b293dbaa11639e75892ee29d97c84b9b9ba2521219aedaeb11326"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\one_loop_benchmark_v0_4.json",
+      "size_bytes": 16339,
+      "sha256": "673a79658527f380870bd4d30de8a4bb4f9bc9444c712102f349de64fe979b7d"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\one_loop_comparison_summary_v0_4.json",
+      "size_bytes": 10077,
+      "sha256": "2846d9d7c40e5f779a42fbb933cfeb95fe955b20ad048d40871f561401388b38"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\phase_boundary_scan_v0_2.csv",
+      "size_bytes": 2185222,
+      "sha256": "3a55d86c2a44bfa9e8151e775a1bc29feea67c4343e0c934cc0537508b2e31e3"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\phase_boundary_scan_v0_2.json",
+      "size_bytes": 5191797,
+      "sha256": "9775da05805b67d505002d050740755a614cddac0ea100d827693ea14ed00182"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\robustness_atlas_summary_v0_3.json",
+      "size_bytes": 35346,
+      "sha256": "b1c99d1fd9aee8e053fed101f549644b73d0e0c06a40c478d4294169699e3198"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\data\\robustness_atlas_v0_3.json",
+      "size_bytes": 4097412,
+      "sha256": "ce1e4e0e73829bad8a3c0129a7d8f9a70b0e7cf1eb2b83a95b9f8aea2d3f3d92"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\A_prema_only_low_energy_points.png",
+      "size_bytes": 270986,
+      "sha256": "0f5ae3a8b4c776639a6814c582d02c7df264bf28d2c8d4d928d87250a8480592"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\A_prema_only_phi_r_s0.png",
+      "size_bytes": 172250,
+      "sha256": "fbd8b761c9e70e11da46ad9a83fe71b2140755ad0c4c19e87348cde8d9e04954"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\A_prema_only_phi_s_r0.png",
+      "size_bytes": 158955,
+      "sha256": "226e65585ad3e05c19c4313dedc4fae12740ef687d5e9c42383ef3c389a5c3c0"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\B_gurutva_branch_low_energy_points.png",
+      "size_bytes": 228343,
+      "sha256": "3945afaee8063f9ceb8f8e471bb37bc3d0a85cdfa556f44a784ba2308a81328a"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\B_gurutva_branch_phi_r_s0.png",
+      "size_bytes": 169531,
+      "sha256": "29852c81bc536461abe035e1eac3e494db018d5619554244fe4fa735e8a81c7d"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\B_gurutva_branch_phi_s_r0.png",
+      "size_bytes": 159453,
+      "sha256": "3a87090c1d645a759f43c3529de842a8d7519e04484feaf6d9dcdfbf36f6964c"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\C_tamas_branch_low_energy_points.png",
+      "size_bytes": 212545,
+      "sha256": "756f0fb279e1370933694f912ae6379220997dd031bdf6bdda6cfd1faaec9c18"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\C_tamas_branch_phi_r_s0.png",
+      "size_bytes": 172687,
+      "sha256": "29bfdbad98bb1b3ad391ea955198244f29bc0bbc0b1f2b93f32c8776e03a5aef"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\C_tamas_branch_phi_s_r0.png",
+      "size_bytes": 173208,
+      "sha256": "613fae28d40d13e775a08a3cc0317716937d761fca6a25834e105d650e3be613"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\D_mixed_exploratory_low_energy_points.png",
+      "size_bytes": 196284,
+      "sha256": "49aadd9e2f15ed90a870e2aeecafb9032c79815b3e72bca317805c5eb080eeb1"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\D_mixed_exploratory_phi_r_s0.png",
+      "size_bytes": 171845,
+      "sha256": "57f593c7d2a90a08b41f6818c5ba228431703489f65856198208a0e4dc395f70"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\D_mixed_exploratory_phi_s_r0.png",
+      "size_bytes": 151331,
+      "sha256": "b170e55f81484a95950d63019b559f9570a5bca26f043e626fd7e3f7a3eee929"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\phase_boundary_v0_2_mrho2_miota2eff.png",
+      "size_bytes": 64010,
+      "sha256": "1771b829622fa260410c11ba91c9473c5e966a00592fad7fb904efaef82cfad7"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\exp_gap_baseline_det_health_mask.png",
+      "size_bytes": 35016,
+      "sha256": "a64515a22829f6a3d47819bc66f3532598c79ae50e0b1bba7d1bbb999e352210"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\exp_gap_baseline_objective_heatmap.png",
+      "size_bytes": 30380,
+      "sha256": "3d9055ae377b4d269de0e4db52720053f19cb15333128831c31207bb4fe091b3"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\exp_gap_baseline_phase_map.png",
+      "size_bytes": 28839,
+      "sha256": "219191f5921e676e35769a8e18a49cc3aff682f79679c966d9bcffeb0b9ce0c0"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\exp_gap_baseline_phi_heatmap.png",
+      "size_bytes": 27596,
+      "sha256": "7fce20a4a57d2d07fc9a8ba80c9b652d82086826d2cfdaf4fa9c6b302898a432"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\exp_gap_baseline_phi_near_bound_mask.png",
+      "size_bytes": 28785,
+      "sha256": "200512e0fc9712e00edd9961fca63425c7c25b27bf30907b53161ccf0e81b4e3"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\exp_gap_phi3_det_health_mask.png",
+      "size_bytes": 34187,
+      "sha256": "6aea4c9762598824266113877301f04fcf535a36ca3d3a4b7bd1b7ef4179922a"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\exp_gap_phi3_objective_heatmap.png",
+      "size_bytes": 30047,
+      "sha256": "508368c37dae75b35f77373ebf2c1396b4e5773d87c639288e2f64d7d08e43de"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\exp_gap_phi3_phase_map.png",
+      "size_bytes": 27832,
+      "sha256": "5c3c7ef149ce799998c0c8ee3cdde743fcfa44c1b5442f8069505ce5792a4f2b"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\exp_gap_phi3_phi_heatmap.png",
+      "size_bytes": 27124,
+      "sha256": "102f67ed69933a3523a47893473dfbe92ccf4bf4db39295d45d038444c95d3bc"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\exp_gap_phi3_phi_near_bound_mask.png",
+      "size_bytes": 35696,
+      "sha256": "e96baf1e454a1a666b9b8e3b3a5e5bba92811651b2d62cfaeca5b93672ebe497"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\exp_gap_soft25_det_health_mask.png",
+      "size_bytes": 35065,
+      "sha256": "b2adc38a48b4f138dd9b22a24039365bf3e128e8b41a2625bdc2ef50388f3cfb"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\exp_gap_soft25_objective_heatmap.png",
+      "size_bytes": 30601,
+      "sha256": "291b8b64c312d66eee7d840f0c26e5e0380b42259dbf6c5f7c1b43ef7eff0dfe"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\exp_gap_soft25_phase_map.png",
+      "size_bytes": 28912,
+      "sha256": "12ea7734ed9be8b21fcbd112e67875a537ef9d1890f2f0040933cb302de26aac"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\exp_gap_soft25_phi_heatmap.png",
+      "size_bytes": 27956,
+      "sha256": "5069203c3d7d985ddd37217791f5cd81f145361202cf4c9f9269cbdba736a7d3"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\exp_gap_soft25_phi_near_bound_mask.png",
+      "size_bytes": 36469,
+      "sha256": "780df8535a0997d310b9a18fd32be682e9db1ca64d7b79f5b3c00d62aac00f0f"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\single_pole_baseline_det_health_mask.png",
+      "size_bytes": 34879,
+      "sha256": "9da452ecbbe6d504d78f49ae2a0fac7aa14830f7ee5ed7fb7a7582b213f1b8f3"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\single_pole_baseline_objective_heatmap.png",
+      "size_bytes": 30135,
+      "sha256": "ea0d0a1c38ad053eac3d58c8c2f7da304e78f987936d4ebcc58588baf5c29d02"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\single_pole_baseline_phase_map.png",
+      "size_bytes": 28694,
+      "sha256": "b40d7020ffe34f74a19f4aafb21ac7c0d3e8f6f66a13b783237509273a9df431"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\single_pole_baseline_phi_heatmap.png",
+      "size_bytes": 27426,
+      "sha256": "7e105bbcdc186d417bf6da1ae12d3a791f9e706cec02f35a4b0a3750d2440ea4"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\single_pole_baseline_phi_near_bound_mask.png",
+      "size_bytes": 28664,
+      "sha256": "02bb43129537cdb83df74426f537bceae939e3c5e15b60011d819d645bbdf069"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\single_pole_phi3_det_health_mask.png",
+      "size_bytes": 34094,
+      "sha256": "8b9bd6336c4af2b6f659d8a166d0eb568668a9200ea7625d6e8a9f75b6eed25c"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\single_pole_phi3_objective_heatmap.png",
+      "size_bytes": 29645,
+      "sha256": "dfd7ba48350318dcc462feacf1b52082ad8fd5a326b2df1cb5b7fa3e4dac6242"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\single_pole_phi3_phase_map.png",
+      "size_bytes": 28002,
+      "sha256": "6807bd84e3d22160a094a583abcfb12b63d4adddd9ce3226017f14d9401d7981"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\single_pole_phi3_phi_heatmap.png",
+      "size_bytes": 26943,
+      "sha256": "8523be370df5c4e6dc5ba299041a841b9445cf0b05a04be00da12383dcfad661"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\single_pole_phi3_phi_near_bound_mask.png",
+      "size_bytes": 35451,
+      "sha256": "5dc586fe23cbde2c07e91ac88487e3682abc7fd5945f21dd7ceb46966d45bb90"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\single_pole_soft25_det_health_mask.png",
+      "size_bytes": 34655,
+      "sha256": "c22461a73ce738df623b2165ce24682d8958b7cce459231e037438ce801e1b75"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\single_pole_soft25_objective_heatmap.png",
+      "size_bytes": 30429,
+      "sha256": "420f6ef0a42d9192f9fa8d4d6f0ac2d71de8e715734becf6570971bbdcfbf944"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\single_pole_soft25_phase_map.png",
+      "size_bytes": 28556,
+      "sha256": "da9fdffac7e337dd82ed5487db04df2a1f6adc0da56a2f8b10b10f86aafc119c"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\single_pole_soft25_phi_heatmap.png",
+      "size_bytes": 27835,
+      "sha256": "edc906ee767689260f8714f0b1e9318a8d379ed7bb356efb394f8bb08cd16aea"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\single_pole_soft25_phi_near_bound_mask.png",
+      "size_bytes": 36286,
+      "sha256": "dff92f0639cb689cab87a4721a2577c6c42a71671cedc46c1748bec49a7e8290"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\summary_changed_fraction_vs_phi2.png",
+      "size_bytes": 38820,
+      "sha256": "3adc6d87e8d92dce2b31dfd993fd178d8d4baab2e07696eed5c8945354f80499"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\summary_det_health_by_bound_mode.png",
+      "size_bytes": 31633,
+      "sha256": "aefef6cdfd50280fe545230c0d599abad2ad27532eeea70de2dc0aa477124922"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\summary_fraction_phi_near_bound.png",
+      "size_bytes": 36969,
+      "sha256": "14a372518ceb75f864610da094927cbf3b03cfd705fd6ffc4288eedf5a460d08"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\summary_max_phi_by_bound_mode.png",
+      "size_bytes": 34241,
+      "sha256": "ef8729453d5c6c2ac1728848fc324a46213ec9c5625717d7e10467d9f3e73ef8"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\field_bound_v0_8_2\\summary_mixed_fraction_by_bound_mode.png",
+      "size_bytes": 30133,
+      "sha256": "e93d4edb25a74eb76469793d313649f42b0db9190aa7b376ad2bc188a3cf0506"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\baseline_mild_deformed_agreement_vs_loop_scale.png",
+      "size_bytes": 53940,
+      "sha256": "b4bc815036866129e18cd4646afe5f0ab39b26669c6cc38953820db3868606eb"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\baseline_mild_deformed_changed_fraction_vs_loop_scale.png",
+      "size_bytes": 54674,
+      "sha256": "ebfd03b36130a9589c696ce31142fe5dec58c099b57f62663b2092a7716715a9"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\baseline_mild_deformed_instability_fraction_vs_loop_scale.png",
+      "size_bytes": 45866,
+      "sha256": "ad73ebf060337ac6b4f78666f7496257255c43ea313852dd6a32b96962c86b68"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\baseline_mild_deformed_mixed_fraction_vs_loop_scale.png",
+      "size_bytes": 55266,
+      "sha256": "b44f0a416240bd642dd72d646eada066bd2881840eaa460084b10b874d44135c"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\baseline_mild_deformed_phase_maps_strip.png",
+      "size_bytes": 49627,
+      "sha256": "acb19656f6244f331da9940eea1b88e985ba1fe5ebada9fd368d9dcd29926d66"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\cooperative_strongly_deformed_agreement_vs_loop_scale.png",
+      "size_bytes": 48754,
+      "sha256": "622f90ebc31fa2ef20c0950323349f70833e6a65c409edbd58f0c760760fb9c7"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\cooperative_strongly_deformed_changed_fraction_vs_loop_scale.png",
+      "size_bytes": 50421,
+      "sha256": "45cc48c4756fe0b67644f26ebe2705efced23fc34ebcbaf2b90e7d1797a6fab9"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\cooperative_strongly_deformed_instability_fraction_vs_loop_scale.png",
+      "size_bytes": 46164,
+      "sha256": "0d9c8573e0336cdab0288e1d73065d17abcc9dfc9080fa9eba7b26195162634a"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\cooperative_strongly_deformed_mixed_fraction_vs_loop_scale.png",
+      "size_bytes": 54070,
+      "sha256": "bbb7e0c51ba7e855fda724f6468bb697c1a8416c713b62449f6c209be1120612"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\cooperative_strongly_deformed_phase_maps_strip.png",
+      "size_bytes": 52305,
+      "sha256": "089a63c62ea11a5de42d1fcb21baacaf55427904a86b910fc0d698984e32a859"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\positive_edge_deformed_agreement_vs_loop_scale.png",
+      "size_bytes": 54845,
+      "sha256": "1ee2ddd7d8d3da0748e717ac7c23ee4ba87051f303bbf99959c423387c68869c"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\positive_edge_deformed_changed_fraction_vs_loop_scale.png",
+      "size_bytes": 55290,
+      "sha256": "01fb8a0e7c54400fe8407ed80563399b2febf9bf1f93a9dacc09d9cc53a1293e"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\positive_edge_deformed_instability_fraction_vs_loop_scale.png",
+      "size_bytes": 31044,
+      "sha256": "8bc1bf614725d3746c33a863721c9772c312e6f00fd18cebffea168d5019022a"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\positive_edge_deformed_mixed_fraction_vs_loop_scale.png",
+      "size_bytes": 51319,
+      "sha256": "0295b5f72a1970ab9463c5f249082ef4c7b60fafa8ff479d0022810c15e3fc4c"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\positive_edge_deformed_phase_maps_strip.png",
+      "size_bytes": 49898,
+      "sha256": "8e9ec4fb5e581fac7151ecb45b1ff4e03793e7c767d9698712aa21826203fa46"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\preserved_c_plus_0_10_agreement_vs_loop_scale.png",
+      "size_bytes": 47525,
+      "sha256": "aca4318a1952b20b8e708f519af137aeef9ee64c3aed473713b8d54916da5d19"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\preserved_c_plus_0_10_changed_fraction_vs_loop_scale.png",
+      "size_bytes": 55420,
+      "sha256": "4351e160874c719ef73a530cee7f2a539ff85e70df94f8080269886990ea544e"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\preserved_c_plus_0_10_instability_fraction_vs_loop_scale.png",
+      "size_bytes": 49991,
+      "sha256": "57d0816c3e635a9afedb02de2b4093e00367aa85729407c4d973734a1b8ea4f2"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\preserved_c_plus_0_10_mixed_fraction_vs_loop_scale.png",
+      "size_bytes": 56574,
+      "sha256": "57af63ad128d0513d504f317a80b498937ab5f35716613dc3cf6f143fdccf567"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\preserved_c_plus_0_10_phase_maps_strip.png",
+      "size_bytes": 49903,
+      "sha256": "06efe14d896b733d6c38da9e5aa1f7634996a33c53dff062c0630cd4a45fbce6"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\summary_agreement_all_slices.png",
+      "size_bytes": 61487,
+      "sha256": "2229ac04e7aacae62e1118806b450b07511cef614a0dca29d8fd53aa11d4458c"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\loop_scale_v0_5\\summary_mixed_fraction_all_slices.png",
+      "size_bytes": 68933,
+      "sha256": "5d1d2dd64890e354908893672ca2bf8093778f4f1729c08ecd119bf9bc21f5a5"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\phase_boundary_minus.png",
+      "size_bytes": 45643,
+      "sha256": "43c55dc39dca0ef8ddf498cb5627244c6027ad92d21af999b95e263f88b0c581"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\phase_boundary_plus.png",
+      "size_bytes": 45585,
+      "sha256": "bd7d0c54eec9540b9bbfa13a3e2c10821b4614e4f35b3ca3d4ee99c43529d853"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\phase_boundary_plus_minus_changed_mask.png",
+      "size_bytes": 33560,
+      "sha256": "d6b8cdfa26ee95aaf82519a150889a7cf9e6d0089cf50334f73e303219f328b8"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\phase_boundary_plus_minus_transition_matrix.png",
+      "size_bytes": 72484,
+      "sha256": "6a2920fe094a04bcd1c761947547148c4c8435f3b9e1605b84c5b3461f058208"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_aiota_minus0.08_changed_mask.png",
+      "size_bytes": 33874,
+      "sha256": "9b389be12b6f19a1fed3d90ac32f2cba3f07ba1bef3eed93e8ee2793172592bc"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_aiota_minus0.08_minus.png",
+      "size_bytes": 44997,
+      "sha256": "5f01ab97850728820a4a454ab8c6b75501f3bc7717f84a078fcf9ef1f8222cd1"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_aiota_minus0.08_plus.png",
+      "size_bytes": 44860,
+      "sha256": "04ce02c4911fcb8fcc76c0b5a7b051f437e0f0bd59a0cd9ddaaa4cad9545b4c9"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_aiota_minus0.20_changed_mask.png",
+      "size_bytes": 33729,
+      "sha256": "3fdbfd90e9343a8c0d9949701f9c253bd2c47723bab494552a55f5cb40eb8fce"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_aiota_minus0.20_minus.png",
+      "size_bytes": 44856,
+      "sha256": "a5ec511d2249986bef833ae78b99a306f608eca8b033e54efc9a7ee10116c087"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_aiota_minus0.20_plus.png",
+      "size_bytes": 44701,
+      "sha256": "fa8991ea567a38d4017a31484baed4a94ae404156bfba922938ea30f6c3adfd1"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_aiota_plus0.00_changed_mask.png",
+      "size_bytes": 34019,
+      "sha256": "a81422753d60c0599b22140ed557f55875b0cd0655f3ec7d8d6e31df3f51fba3"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_aiota_plus0.00_minus.png",
+      "size_bytes": 44821,
+      "sha256": "ad73eac6d21d72f3c6b05b685f93469bbe1bf4a3143d29da33a12e6cca3ee0c3"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_aiota_plus0.00_plus.png",
+      "size_bytes": 44702,
+      "sha256": "69c8acb271dd1c2e11086c429f27cf772249bcf77ae3ac8c6dafc2ff1a73a91a"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_aiota_plus0.10_changed_mask.png",
+      "size_bytes": 33772,
+      "sha256": "e7b83de6ca7d7fe4f8ed575cf422d4a257f319fed40821cb67170113b72d19c3"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_aiota_plus0.10_minus.png",
+      "size_bytes": 44562,
+      "sha256": "c90b59e5b358314186e8fddb8f1377cfea134b4be516cd1444a1ed2ef57bf9fd"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_aiota_plus0.10_plus.png",
+      "size_bytes": 44457,
+      "sha256": "0fc7a8def7fc3e50a15bf462eb0bcb5908d244d136eb2954389829071f24e376"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_aiota_plus0.20_changed_mask.png",
+      "size_bytes": 33966,
+      "sha256": "9d93d272637dff82e4281ef28979eb0258e6643755dac33f34906f576de5a5ba"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_aiota_plus0.20_minus.png",
+      "size_bytes": 44833,
+      "sha256": "c415170a3e70b747a3339ebf4ec5d208e6df8ed8fe335343313b6264cf2031b6"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_aiota_plus0.20_plus.png",
+      "size_bytes": 44725,
+      "sha256": "f02986311effefb292c5aaabc417eac03974338369c72ba475d2f9d1a0946db0"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_arho_minus0.08_changed_mask.png",
+      "size_bytes": 33926,
+      "sha256": "c58b8d5120bc1a440db6d30dc44fa285b8608a6ba712879509d35fe5d7880415"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_arho_minus0.08_minus.png",
+      "size_bytes": 44800,
+      "sha256": "5f06fd7d48c77d6e204785a6c6e57eeb694b7a7ed1543b838e82961ca038ba36"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_arho_minus0.08_plus.png",
+      "size_bytes": 44725,
+      "sha256": "a6f9514a2f0ebedf10eb97b5bd6d6c3ce73a028d7f74fdb0c4b7b62a9b97e103"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_arho_minus0.20_changed_mask.png",
+      "size_bytes": 33775,
+      "sha256": "b2df872a8220e10819378565b686761ca7c64dde8a6ca1c080835730f46a9827"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_arho_minus0.20_minus.png",
+      "size_bytes": 44684,
+      "sha256": "71e0079d157b6f61473c2c023043d6a2a985762153dd986392b02f13ba20aac7"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_arho_minus0.20_plus.png",
+      "size_bytes": 44565,
+      "sha256": "f2327a21ffafb8586d925c13fcd8afca4019048226e860789d235c8c32ed2b93"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_arho_plus0.00_changed_mask.png",
+      "size_bytes": 33847,
+      "sha256": "11ac7754bd48ef713cc058e44d499f1847d296a622884f225f353c2ed62831f5"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_arho_plus0.00_minus.png",
+      "size_bytes": 44593,
+      "sha256": "27a2c70d0439f6286cddac34c30a5211dd808d70ddb18c0d20eb9f457f31997b"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_arho_plus0.00_plus.png",
+      "size_bytes": 44529,
+      "sha256": "ca2be62f491fdeb9b7a86ad056b5158d63b54929fb3fd21b054a622e57e84cd3"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_arho_plus0.10_changed_mask.png",
+      "size_bytes": 33577,
+      "sha256": "c52b4a8ae29ffaa130c7dc82f12af0412d325aad2ae646b4b1e900286d51e562"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_arho_plus0.10_minus.png",
+      "size_bytes": 44312,
+      "sha256": "3097bdb6ed0a30440f56d2748edabcdc05066bee38b0e47f77bc678ad2bd5ba5"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_arho_plus0.10_plus.png",
+      "size_bytes": 44209,
+      "sha256": "d19e2a7b726ce250d7402942e50c63ba64db1bcafcbe9aa967097af4cadb5868"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_arho_plus0.20_changed_mask.png",
+      "size_bytes": 33683,
+      "sha256": "0cab657da0ece710630789afbc42b7304c938273c2e154010abec7364e3e64bc"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_arho_plus0.20_minus.png",
+      "size_bytes": 44730,
+      "sha256": "f207e67733d8939c2f6079c22b190a596f2ef5bbb1ed14d30315a078b58d5ee7"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_arho_plus0.20_plus.png",
+      "size_bytes": 44717,
+      "sha256": "aaddf33020085126cd17235db4f2a625ea934010db469ee1f1027469b6614428"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_c_minus0.05_changed_mask.png",
+      "size_bytes": 32932,
+      "sha256": "9bbc923706de09981ac40255667393f30cf377fdf03e84703b9343bef1547dab"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_c_minus0.05_minus.png",
+      "size_bytes": 43859,
+      "sha256": "7c2f38d662cc7af0582f616c0b86e0ef684bfad42a2f8249fd38891c87740cdc"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_c_minus0.05_plus.png",
+      "size_bytes": 43701,
+      "sha256": "b8daf4ad3f75f8f656e9d8eded6cf46fd51dc9d04f2f0248ce75e822e048a966"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_c_minus0.20_changed_mask.png",
+      "size_bytes": 33004,
+      "sha256": "82a45b6c1820797ebe2ec2d264c10e19a0f57f55e390cbe85b8a09d5d9c22e05"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_c_minus0.20_minus.png",
+      "size_bytes": 44056,
+      "sha256": "1d801106d2c9c73a04b3dc3cbdc538906e6fedf6b5f35f00acb757d459c4005c"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_c_minus0.20_plus.png",
+      "size_bytes": 43914,
+      "sha256": "100e76091035e36db9e2e79618e01d7379b00ac46c93e6c4ab6f7d14e03b3b39"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_c_plus0.00_changed_mask.png",
+      "size_bytes": 33303,
+      "sha256": "672c41928415d2b4b48c87df85c6adf3be395537d84aa5ce8102b2b8a61a4f83"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_c_plus0.00_minus.png",
+      "size_bytes": 43928,
+      "sha256": "ca2975a9a041e99f1ff254c13ca8bae5ec2b3c0596714156bd7fd591fa58ef33"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_c_plus0.00_plus.png",
+      "size_bytes": 43829,
+      "sha256": "7e9bdd6c29ce967c0cb44c1a561a73c1810ab82de475573b6eece8b8ad994016"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_c_plus0.10_changed_mask.png",
+      "size_bytes": 33068,
+      "sha256": "df5096d1100ad9632e72935ba7ccafb5d98a4808c23b4b6539f6edd0c22c4ffe"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_c_plus0.10_minus.png",
+      "size_bytes": 43769,
+      "sha256": "5cf841a60891ea18a2d2ab083f423cf56631056706f86f3e7d7ae13bc3f44d71"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_c_plus0.10_plus.png",
+      "size_bytes": 43652,
+      "sha256": "d3170e1928c1419a120ef8d83d616345e69da448e27a5e2f46581facc3786026"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_c_plus0.20_changed_mask.png",
+      "size_bytes": 33252,
+      "sha256": "9e43267bc3840c68e5007151cf9708566fc3f6ab1e3ab5e310d5b34153a93e54"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_c_plus0.20_minus.png",
+      "size_bytes": 44080,
+      "sha256": "193a1ee3f73deb08d7f2e14ff7560bcf0b235209219483085a300cd76a141be9"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_c_plus0.20_plus.png",
+      "size_bytes": 44003,
+      "sha256": "4594dcf9d551570fbc3971ca614f595133d3775558088dbb31b7245139a24aa5"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_minus0.08_aiota_minus0.08_c_minus0.05_changed_mask.png",
+      "size_bytes": 38375,
+      "sha256": "9c40051788e92bb37e9a8970919fad07dc0b26136c4dad0659b8f2e7dbbf10ab"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_minus0.08_aiota_minus0.08_c_minus0.05_minus.png",
+      "size_bytes": 49956,
+      "sha256": "aff75ed634d5f8b3fd76aea45d37f150409eb72c34174411b643aaff6f69844a"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_minus0.08_aiota_minus0.08_c_minus0.05_plus.png",
+      "size_bytes": 49842,
+      "sha256": "895d56e89b8b13d320ac1518e1364cc5885c23ff325f51f704693c91b0f38c0c"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_minus0.08_aiota_minus0.20_c_minus0.05_changed_mask.png",
+      "size_bytes": 38177,
+      "sha256": "b1f7b84ff4d28e50377689da6b5893966c2fa62cacca174d6e890d15d48286cd"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_minus0.08_aiota_minus0.20_c_minus0.05_minus.png",
+      "size_bytes": 49917,
+      "sha256": "12ff2a78dd3d360d0ad11dffd440a674a7859e6b7c7e1d4f7e8d8d7bd2d9de73"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_minus0.08_aiota_minus0.20_c_minus0.05_plus.png",
+      "size_bytes": 49790,
+      "sha256": "35fb41526273f7caa7eaa7bf4be8f909cd8d5ecda22de04b3c28714bf7e943a4"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_minus0.08_aiota_plus0.10_c_minus0.05_changed_mask.png",
+      "size_bytes": 38093,
+      "sha256": "c5649f5756c3250392259c90965014ce70bd43dff35041fae7e9c93c1771c128"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_minus0.08_aiota_plus0.10_c_minus0.05_minus.png",
+      "size_bytes": 49392,
+      "sha256": "6404439a1d08be163cc1a17300add5920a246490970009d1dd36587a17d64ff4"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_minus0.08_aiota_plus0.10_c_minus0.05_plus.png",
+      "size_bytes": 49280,
+      "sha256": "b7453c8d51879412b6636f75370650c4b90923b95f627a7db2659b4161764926"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_minus0.20_aiota_minus0.08_c_minus0.05_changed_mask.png",
+      "size_bytes": 38123,
+      "sha256": "70b186b120ccc1cdc59c075e9e7e29f79d6a77497bd27e5a6287c2c74c4e3617"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_minus0.20_aiota_minus0.08_c_minus0.05_minus.png",
+      "size_bytes": 49871,
+      "sha256": "e7dbe5edcb9a4e86e815fbeb1c235be800c7d0ac56b5ba3e71bd3e02ea9bbb8a"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_minus0.20_aiota_minus0.08_c_minus0.05_plus.png",
+      "size_bytes": 49749,
+      "sha256": "9b3aebcf8f7822be6f677a9e2e8d1bd7f1c2e30c4321f89054fc5670482e53c5"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_minus0.20_aiota_minus0.20_c_minus0.05_changed_mask.png",
+      "size_bytes": 38010,
+      "sha256": "edce6c4d08d4c169c3c6b90b7e2e0c887150be13e7f8c57beac1cf69714c799c"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_minus0.20_aiota_minus0.20_c_minus0.05_minus.png",
+      "size_bytes": 50460,
+      "sha256": "91986cbe61d61d4c9f945067861af3d53b875b27a95fb9ce4414b169bea35a03"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_minus0.20_aiota_minus0.20_c_minus0.05_plus.png",
+      "size_bytes": 50337,
+      "sha256": "8904678618382aaf08b0689ebf5acd718287ae06f6e9e44250bc4d9ceee96b99"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_minus0.20_aiota_plus0.10_c_minus0.05_changed_mask.png",
+      "size_bytes": 37943,
+      "sha256": "6fb5bbb8edb91bc12a7bbfbb1576cf4299f4837e228c2b1f9304a6b3377eaa69"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_minus0.20_aiota_plus0.10_c_minus0.05_minus.png",
+      "size_bytes": 49273,
+      "sha256": "4d35612a645928d489d50bc149e14e7739a246ef8257c1589c263da61e26f759"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_minus0.20_aiota_plus0.10_c_minus0.05_plus.png",
+      "size_bytes": 49155,
+      "sha256": "4385404ff40e979bb747f6593d20968949c2491c7dfdb298b6f59d3c4bc13491"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_plus0.10_aiota_minus0.08_c_minus0.05_changed_mask.png",
+      "size_bytes": 38307,
+      "sha256": "cdf3d378482d0b3c2d8d21f1c19b2ea777eaa2f923c5f27bc8108dbd8cdede32"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_plus0.10_aiota_minus0.08_c_minus0.05_minus.png",
+      "size_bytes": 49538,
+      "sha256": "e458c3eaadeac56edcb6d606a93dec6f331b8e51e83008f9fe4c6f983a5bf698"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_plus0.10_aiota_minus0.08_c_minus0.05_plus.png",
+      "size_bytes": 49533,
+      "sha256": "38e040432913fb7bcb00add799cf0a93b65b4762e1ea08c8439b04edff3cc5d7"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_plus0.10_aiota_minus0.20_c_minus0.05_changed_mask.png",
+      "size_bytes": 38159,
+      "sha256": "f8f2d1b4683feefef87e66bca54cf264d45c0559a3205089d75972e17df0431a"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_plus0.10_aiota_minus0.20_c_minus0.05_minus.png",
+      "size_bytes": 49422,
+      "sha256": "38bf0ff8b624e36fdae9fe38f6bc79b919d8d0a5d87bb86df108e0486afb8aca"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_plus0.10_aiota_minus0.20_c_minus0.05_plus.png",
+      "size_bytes": 49405,
+      "sha256": "93dd939a3ee0ea9282d8793d19c4670b33d79ed4101ac8d671baeba9977baf7a"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_plus0.10_aiota_plus0.10_c_minus0.05_changed_mask.png",
+      "size_bytes": 36367,
+      "sha256": "29b92f5b9d595c21f508a29c9d0adec69b187ddff97cff400007e3e56190deae"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_plus0.10_aiota_plus0.10_c_minus0.05_minus.png",
+      "size_bytes": 48742,
+      "sha256": "b495ad9c422ceee7c783d2af92083c27c86db4e0bcb542bd2440af9c7eca5f91"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\memory_sign_v0_6\\robustness_portal_grid_arho_plus0.10_aiota_plus0.10_c_minus0.05_plus.png",
+      "size_bytes": 48872,
+      "sha256": "5afa6ec524745641214fb5a9227d002fba24750bc7c76f7672d54d40643d6e50"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\exp_gap_atlas_class_map.png",
+      "size_bytes": 41445,
+      "sha256": "4130f0ca85954b383406585e8c5f73ce0eb9132d0b4ead05ef4d67b8b7073ee4"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\exp_gap_canonical_delta_heatmap.png",
+      "size_bytes": 41126,
+      "sha256": "f5e615b08f1ac7abd64e3132739143f6c6f49f18fdee918b88227495d5840fd9"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\exp_gap_det_health_mask.png",
+      "size_bytes": 34187,
+      "sha256": "8285b3eaeac509d9962a3351626d14d65b32aa34866a9a637a8c6a7bc8d8e8f5"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\exp_gap_mixed_conversion_mask.png",
+      "size_bytes": 36409,
+      "sha256": "741c9f27b91d10fa29775107ff11b9f4850d70811b1e560dec21196e6f62744c"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\exp_gap_objective_delta_heatmap.png",
+      "size_bytes": 33930,
+      "sha256": "c2abcfe49d0cdfe191f4bd557745a29f00871442b53e3aae29b81f5e33311fa8"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\exp_gap_phase_changed_mask_vs_local.png",
+      "size_bytes": 36082,
+      "sha256": "1bb81d9bece4c6e1e53c9d4ba4790d564bbccaa602953e620ea0d364bfb63278"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\exp_gap_phase_map.png",
+      "size_bytes": 34476,
+      "sha256": "955ff806af53f9dc1d76460f1c139930d37dde4940f1dd5a134d56d79d4f96e1"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\exp_gap_phi_heatmap.png",
+      "size_bytes": 27521,
+      "sha256": "721050bda170e5d7fff88da51c54e940488c735d851b86793902d8541c6ff2c7"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\exp_gap_phi_near_bound_mask.png",
+      "size_bytes": 35387,
+      "sha256": "ceddd2a7b651a2936c66c9f242bed51a9e1beaa8090d76ec010eb159c0998e0c"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\local_constant_atlas_class_map.png",
+      "size_bytes": 40702,
+      "sha256": "c1b1c9ffd6991f63c3ec7dd32cdb1cd5838d67a834ad9253a7e2d4f1a2cb8add"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\local_constant_canonical_delta_heatmap.png",
+      "size_bytes": 35925,
+      "sha256": "e782f0b401ee4a32613d95402ed285d8e5964d6d77c4fc5e66d75bdfeec3c696"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\local_constant_det_health_mask.png",
+      "size_bytes": 34689,
+      "sha256": "53b2ef8d3447cdc417be50df7e873f26351a2337f59356727c5a83250103fe77"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\local_constant_mixed_conversion_mask.png",
+      "size_bytes": 36535,
+      "sha256": "efcf319aad9201bf0ba117bac6f3ebc368df9d0e4c80708c3844cca93d4f3985"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\local_constant_objective_delta_heatmap.png",
+      "size_bytes": 36195,
+      "sha256": "20b078a72df49498f81283b3dccac28c34d42b9443aa76faf341875cf5266144"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\local_constant_phase_changed_mask_vs_local.png",
+      "size_bytes": 36448,
+      "sha256": "9512f8b593836b3fcb5f29d15133ab274eb7545da196f410cd6a939ae9db3476"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\local_constant_phase_map.png",
+      "size_bytes": 35493,
+      "sha256": "82c39d5af879dc017a9a1eda6695922821c9f961347771a3085a92d1580f235d"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\local_constant_phi_heatmap.png",
+      "size_bytes": 28058,
+      "sha256": "74e5723cd83c2042de87a992bdb9ff3aa1c1aefbb9f2aea5e66cc01dca62784d"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\local_constant_phi_near_bound_mask.png",
+      "size_bytes": 36090,
+      "sha256": "ae1a681c551e6b0874d056612c4fda7f63f07f3345f3813ced6af96c7ebe8496"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\single_pole_atlas_class_map.png",
+      "size_bytes": 41329,
+      "sha256": "a5dae245d3f2e5fec3cdc313546f817e0a841d45ccdd52c246660e7d3414c030"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\single_pole_canonical_delta_heatmap.png",
+      "size_bytes": 37689,
+      "sha256": "0db1db54849bf746ecfb465faa3e9e37fccb3a43a08e32a37a16aa2ef8086686"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\single_pole_det_health_mask.png",
+      "size_bytes": 34168,
+      "sha256": "b2a07fee296a9a79281baab77e1f6a65cea27b900b6df572b780df5c38592782"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\single_pole_mixed_conversion_mask.png",
+      "size_bytes": 36063,
+      "sha256": "5328247af596bb2c595750a0f05353572fd3b8ff822b4b76a99ec2142444f6ee"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\single_pole_objective_delta_heatmap.png",
+      "size_bytes": 40138,
+      "sha256": "d9626c385c8846febf3a10e7716690f64f2e07ca8de5cb17f2c5f9064fca6953"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\single_pole_phase_changed_mask_vs_local.png",
+      "size_bytes": 35393,
+      "sha256": "af8a2e40c18b8e2d98daa5f0c7099282d919e35b8914805c7f5db30059992a4b"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\single_pole_phase_map.png",
+      "size_bytes": 34798,
+      "sha256": "a35a087184e7bf92270dd28159705f6d07236920e5e99fe58e9319fd303be50b"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\single_pole_phi_heatmap.png",
+      "size_bytes": 27283,
+      "sha256": "8108c4761e9c42e98404cca0c5818454c937614f32b7923085d8e4bf89e9d4a4"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\single_pole_phi_near_bound_mask.png",
+      "size_bytes": 35050,
+      "sha256": "7513acd130b60ec11c5e5c8388a0431d5a903a46c1559cc22e40b0d8b18723fe"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\summary_boundary_caution_by_kernel.png",
+      "size_bytes": 26211,
+      "sha256": "47d7ea970b9f6dabf6f1d84c73a0e610a206ff5630dd3d48f13363fef7820f2d"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\summary_canonical_delta_by_kernel.png",
+      "size_bytes": 29210,
+      "sha256": "365ed70b3f359ed248971a7634e400d4efe29b42925e571236c59efb18ac36c2"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\summary_changed_phase_fraction_by_kernel.png",
+      "size_bytes": 26975,
+      "sha256": "4de43dcc056e2af8bb10d6f5dab02595d207aa981cad4be83b8bade428333124"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\summary_det_health_by_kernel.png",
+      "size_bytes": 25932,
+      "sha256": "a0db6bd5c15114027ac3867cfcb5eba63b1617b5e749e8bbc256bba5a0dfea10"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_cooperative_v0_9\\summary_mixed_fraction_by_kernel.png",
+      "size_bytes": 24550,
+      "sha256": "f88b314bfe3426200611f203712ada47ff06c93c3f348f291b55520cb7306565"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\baseline_mild_deformed_exp_gap_changed_mask_vs_local.png",
+      "size_bytes": 32581,
+      "sha256": "0c07d59beaab017accc0b89bde4c1d01e04131d2ed63babd697b0ac15c1d267c"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\baseline_mild_deformed_exp_gap_det_health_mask.png",
+      "size_bytes": 32260,
+      "sha256": "16d2ebf940567cb39dbdb566a45d6e0275c99bde3c03dac2204243203cf09e60"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\baseline_mild_deformed_exp_gap_phase_map.png",
+      "size_bytes": 47908,
+      "sha256": "00695ae45ad26102df09de842b3b5f9f8c6241d8181ab48d6407451434049196"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\baseline_mild_deformed_local_constant_changed_mask_vs_local.png",
+      "size_bytes": 32365,
+      "sha256": "aad7a3f6fa2b3d7e4a1e93a38f3999248374e5db4c9f9bd41695378de2b21e11"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\baseline_mild_deformed_local_constant_det_health_mask.png",
+      "size_bytes": 32324,
+      "sha256": "9b0302d2a98a9c2326358b5ecd375b5f7bdfb9eb21317f63ac54ff5ecd7b385a"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\baseline_mild_deformed_local_constant_phase_map.png",
+      "size_bytes": 48030,
+      "sha256": "d6d460ebdb9b7197c7497a7b6a83d24ea56955ae7a3bf473ca9b819c2e8cf65e"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\baseline_mild_deformed_single_pole_changed_mask_vs_local.png",
+      "size_bytes": 32735,
+      "sha256": "ba3a872ecff65cb688ed4f71561a2c2f9d9788c66d2789e13977e38b99a6482f"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\baseline_mild_deformed_single_pole_det_health_mask.png",
+      "size_bytes": 31985,
+      "sha256": "c0d19a3d3cbe68cba717231a8b4045185ad2b4f68f83504681c3b2e8535857d5"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\baseline_mild_deformed_single_pole_phase_map.png",
+      "size_bytes": 47775,
+      "sha256": "a00c7115ed831179a6d7763dac6c4cf2e330b505dbbfed143f6cc960d08ba173"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\cooperative_strongly_deformed_exp_gap_changed_mask_vs_local.png",
+      "size_bytes": 34601,
+      "sha256": "c91003f9a2d37067860e5e253344c751413dedf56c5a7db0eb2cc5d8b38a497c"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\cooperative_strongly_deformed_exp_gap_det_health_mask.png",
+      "size_bytes": 34071,
+      "sha256": "74d3e7840cd875db694b1831e8a1afe984db572d4330d713d6206e2db598054e"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\cooperative_strongly_deformed_exp_gap_phase_map.png",
+      "size_bytes": 49694,
+      "sha256": "33bbbb2741260e82802ae14d9fd16d31a1885b69e71cbb07b92adcf25803cb90"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\cooperative_strongly_deformed_local_constant_changed_mask_vs_local.png",
+      "size_bytes": 33901,
+      "sha256": "5da384dd2ea23d80feacee61195df17f200afd235c27228b98e00079f958fd98"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\cooperative_strongly_deformed_local_constant_det_health_mask.png",
+      "size_bytes": 34425,
+      "sha256": "fd352fd7b1cd979d85c09f1fa377c36351d0f6b9ed904c35839423bfa62833c2"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\cooperative_strongly_deformed_local_constant_phase_map.png",
+      "size_bytes": 50590,
+      "sha256": "93f4bdbb5daa1b9cdda890853fa6c69310e6dc20d20d724b94c17d226794bcf9"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\cooperative_strongly_deformed_single_pole_changed_mask_vs_local.png",
+      "size_bytes": 34848,
+      "sha256": "f0e27ebfd249bf24fdaa4f2b06660e1d146852633f64ffb63cbba15d9ba02aea"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\cooperative_strongly_deformed_single_pole_det_health_mask.png",
+      "size_bytes": 33989,
+      "sha256": "128955c1087fd5e7cc73fdf4df321103516030a715c31ed4f62a65d1f3793871"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\cooperative_strongly_deformed_single_pole_phase_map.png",
+      "size_bytes": 50071,
+      "sha256": "8bf628c8bc1d1ca4ee121430ffaee2be4283b7b9bc8775c36952cd7c4f046e34"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\kernels_iota_inverse_vs_q.png",
+      "size_bytes": 63304,
+      "sha256": "e5b0bbb995c7a59c1060f7d61e6fc40e7e30369636f9e090fc4659a8b03ab7a7"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\kernels_sigmaE_vs_q.png",
+      "size_bytes": 53197,
+      "sha256": "24c0a76a9dddbd8ce38b03db1200500948ee8c00de13e4b619f8f74da96ff314"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\preserved_c_plus_0_10_exp_gap_changed_mask_vs_local.png",
+      "size_bytes": 32429,
+      "sha256": "2f29e9972cd4af3973b035e533bcfa17c2b35b469d85506135a79bb89803aba2"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\preserved_c_plus_0_10_exp_gap_det_health_mask.png",
+      "size_bytes": 32458,
+      "sha256": "6faed116ea7ed48f4d4fa0629143398869d46f221e818e0134dcb5ddd77d59d0"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\preserved_c_plus_0_10_exp_gap_phase_map.png",
+      "size_bytes": 47594,
+      "sha256": "9d9d14af7fce5e816e39cf4022cc9579a989a97eb00944de88f1efb6ac78b2ea"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\preserved_c_plus_0_10_local_constant_changed_mask_vs_local.png",
+      "size_bytes": 32060,
+      "sha256": "fa17b635b70dc9fd775c79ba06a29cb22de9acb57b7ec24b0db9534bce7fa43b"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\preserved_c_plus_0_10_local_constant_det_health_mask.png",
+      "size_bytes": 32315,
+      "sha256": "29fc822e012d22f98bfe2fc0bae62b2640711c80e0c322a8ba96715407ea9f2a"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\preserved_c_plus_0_10_local_constant_phase_map.png",
+      "size_bytes": 48029,
+      "sha256": "e19c40d195e941e9caedde29d830cb883f7ec2a26ef5129b5df31500b3e8b635"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\preserved_c_plus_0_10_single_pole_changed_mask_vs_local.png",
+      "size_bytes": 32482,
+      "sha256": "9d0674dcbfc6ec9b8c2353305c88174afb86f84faa63035acaa2afefb6952762"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\preserved_c_plus_0_10_single_pole_det_health_mask.png",
+      "size_bytes": 32160,
+      "sha256": "562e3abaa42cd045f14098dc2279658786ca70aa2b7a07e62f3d5544b394f415"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\preserved_c_plus_0_10_single_pole_phase_map.png",
+      "size_bytes": 47480,
+      "sha256": "122e51b5250eaa617cb1253c80c54942cbeb7ac6d2f0aecad36ad471add7166e"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\summary_changed_fraction_by_kernel.png",
+      "size_bytes": 58768,
+      "sha256": "bd4a2be12e3d73659470489457adc519fe132949627135e8127bb53b83525880"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\summary_mixed_fraction_by_kernel.png",
+      "size_bytes": 53074,
+      "sha256": "1fa67a8def56cb032a3c4c6e6e9b26328505f2b2cebcd9e7e3e1d0dd70e94967"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_memory_v0_7\\summary_quadrant_agreement_by_kernel.png",
+      "size_bytes": 51263,
+      "sha256": "c64c7163cccd74ff94079effab4653cc03fa89f17b05c9f3a5ac4c644c83b2b0"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_exp_gap_delta_position_norm.png",
+      "size_bytes": 32269,
+      "sha256": "a13f6cf51fd8416d4099171d13b1df118e84eaa77d149726ede4226ddb925f46"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_exp_gap_det_health_mask.png",
+      "size_bytes": 35498,
+      "sha256": "f25f015fcb7ed56f344a9af684a8b9d10c09598db483c94e15c240664ded12d5"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_exp_gap_min_det_heatmap.png",
+      "size_bytes": 26533,
+      "sha256": "e75669f750e830636d2f3375c169205cd3dcf8de774ac4ee43424dc2658d10af"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_exp_gap_min_iota_inverse_heatmap.png",
+      "size_bytes": 30314,
+      "sha256": "2ffca72c7387dc1c53a4fde4d4bea8605bb13aeda72b2a8acd57b7c5395d64ae"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_exp_gap_nonlocal_phase_map.png",
+      "size_bytes": 38678,
+      "sha256": "1e192884b627b8746cdcf70865b42adc054a8bcb52f861e1f17f4f8ea68e39d3"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_exp_gap_phase_changed_mask.png",
+      "size_bytes": 29283,
+      "sha256": "860e3c083c3c0c710923a470ed9b30adcbef8c025f76a78f191749795fc71202"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_local_constant_delta_position_norm.png",
+      "size_bytes": 36943,
+      "sha256": "1a765335befa2b7e8b13ed2dbcdf6e14a18895be5b4ece54a272437c87e8a0a8"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_local_constant_det_health_mask.png",
+      "size_bytes": 29081,
+      "sha256": "24da84466429b03ae06da075058232cb9958b58c4026d3e81430799e26ccb7c0"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_local_constant_min_det_heatmap.png",
+      "size_bytes": 27791,
+      "sha256": "0399766709d930ab60e35331643c9bffcc1b5d9dc97be14941fe668908c984aa"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_local_constant_min_iota_inverse_heatmap.png",
+      "size_bytes": 27887,
+      "sha256": "7895df70c1cb9815a7212a5a43495277e59248360f059f34029e375bbfec4cda"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_local_constant_nonlocal_phase_map.png",
+      "size_bytes": 39227,
+      "sha256": "d33cb4d3b52f8985aa4686e3e01eecb9868b33c976467f375f34e7bfc3840fda"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_local_constant_phase_changed_mask.png",
+      "size_bytes": 36363,
+      "sha256": "59080fff9556009968064916d3d585c64f627d311c6baea57c5049b901bd4b3b"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_local_phase_map.png",
+      "size_bytes": 37044,
+      "sha256": "2aeb8d5ca56de92894f1d9ed3619b42c4ac2057703e71b9adc8ea3c7f587668a"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_single_pole_delta_position_norm.png",
+      "size_bytes": 31897,
+      "sha256": "ad207db12d684c23b511087875953e814175f8c5d8742f4a305adfc12aef4a85"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_single_pole_det_health_mask.png",
+      "size_bytes": 35503,
+      "sha256": "8b2fa1ce2df1e3b5e475d61d8c45fd0c1f727966fe8a696d5432755f3aef9198"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_single_pole_min_det_heatmap.png",
+      "size_bytes": 26713,
+      "sha256": "74fd4e50305be1522dfe14d607ee5d994c48e1f6ac65ebefce4b6ece41381bc8"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_single_pole_min_iota_inverse_heatmap.png",
+      "size_bytes": 30322,
+      "sha256": "d133e100b16f22e60744893ba3683f2be8cfd7c85db3feaf728e36d1ba5db98b"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_single_pole_nonlocal_phase_map.png",
+      "size_bytes": 38914,
+      "sha256": "950fa2c35e9eb5e67858aee55ab8ae7ca0824d4014a506c0364c853b3a8fb119"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\cooperative_single_pole_phase_changed_mask.png",
+      "size_bytes": 29064,
+      "sha256": "b2997c449d85e6d0a9f9ad4ba3d8b6e8ca1ae7ce42a610c7ea34c23f71cfd801"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\summary_avg_delta_position_by_kernel.png",
+      "size_bytes": 29351,
+      "sha256": "c909f668dd0cec0b7c6767e2154b1e5fd6eb8f46d96b2556859b862ea213ab62"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\summary_changed_phase_fraction_by_kernel.png",
+      "size_bytes": 29553,
+      "sha256": "58c03136d0f451eea72cdf6fc380f3a4af2188605bdc87fe1a7784ba7cf259a8"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8\\summary_det_health_by_kernel.png",
+      "size_bytes": 25035,
+      "sha256": "0166675231c0fa91e48c8637a47f712512c833bf81eb83393538b1df978fc5aa"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_exp_gap_canonical_delta_position_norm.png",
+      "size_bytes": 34094,
+      "sha256": "90c34f9292918def63df776b0e170fb20f9c5f68d4824c00a89a4638b702a8a3"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_exp_gap_changed_cells_scatter.png",
+      "size_bytes": 31702,
+      "sha256": "0056982886389bdbc5b015f733a3466c201cf3d44ae237fe4654e9c9485805d5"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_exp_gap_det_health_mask.png",
+      "size_bytes": 36920,
+      "sha256": "a089fae827497ec26ae05ae50ee5ae29dfc440662e25f409e7f97d9069f1d49b"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_exp_gap_min_det_heatmap.png",
+      "size_bytes": 28995,
+      "sha256": "54a424801713cba23e56d6be8241071202b1c730328c603072c5664bd5c08829"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_exp_gap_min_iota_inverse_heatmap.png",
+      "size_bytes": 32870,
+      "sha256": "403551e371a67e2ee4c36a458de178ac3fc1ef14b8d8944d3cc1e77f836c3bc1"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_exp_gap_phase_changed_mask.png",
+      "size_bytes": 31078,
+      "sha256": "e9b5a4b27be1e9e8a24eea0ba62aeb7c28d4788914c4f0890da9a8beb3419f74"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_exp_gap_raw_delta_position_norm.png",
+      "size_bytes": 33491,
+      "sha256": "1f9e73a9d706078ee446e09572e1fa08d06679f54dde573a347bc668486cb426"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_local_constant_canonical_delta_position_norm.png",
+      "size_bytes": 37875,
+      "sha256": "d3ac5b0ff0e46e397ef2f4f7555f2952e54bab9fee4501a00b73d31c5bb421be"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_local_constant_changed_cells_scatter.png",
+      "size_bytes": 24061,
+      "sha256": "3a1bab023bd0c70895c457b96258e0c202bfd4020d8abf3bd4af4af7cd0fe8e9"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_local_constant_det_health_mask.png",
+      "size_bytes": 30315,
+      "sha256": "0afc81e573b6d20ab82f214ce5e5eefc812ee6f4e9469463eb97f3796f680c72"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_local_constant_min_det_heatmap.png",
+      "size_bytes": 30030,
+      "sha256": "7a64cb4786ef281c2340f5981d9e759f8fc33e259180356c628edb9815c078a7"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_local_constant_min_iota_inverse_heatmap.png",
+      "size_bytes": 29952,
+      "sha256": "3b2d46cd00dd8b64dc9c8bd9be4d8125eadb829d0f91c367fac3f67cbd1b5f54"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_local_constant_phase_changed_mask.png",
+      "size_bytes": 38518,
+      "sha256": "f658165528284270510f2051d708866264384d0e58facb55633ec6659d05341c"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_local_constant_raw_delta_position_norm.png",
+      "size_bytes": 38078,
+      "sha256": "ce8b5fee186e532927f9651b9cfc9c2f3cb31ae23d837088195c1e0e7dcaf805"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_single_pole_canonical_delta_position_norm.png",
+      "size_bytes": 34128,
+      "sha256": "dddeba291532e68bae0cacc8f04e40d4ae2eeedb9fbe817264b00e312bb12f90"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_single_pole_changed_cells_scatter.png",
+      "size_bytes": 31350,
+      "sha256": "ccdf525af0e7aeb55850908dfbca9f28b542aa9f074c81cb7fde0f965900acf1"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_single_pole_det_health_mask.png",
+      "size_bytes": 37059,
+      "sha256": "aaa4b34f43e775752cc1acd4930b78e7518683adf70120fa6fa18eaf33efaf84"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_single_pole_min_det_heatmap.png",
+      "size_bytes": 29020,
+      "sha256": "2710205e1d6c8a1cb3e6db3bf94950611f4d76ed2e3e50dff40a2ca6f13ffc99"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_single_pole_min_iota_inverse_heatmap.png",
+      "size_bytes": 32524,
+      "sha256": "8e9325b4facc4d76ba2011dd716136fc5c1590acd5032cf489ddd6435fd69255"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_single_pole_phase_changed_mask.png",
+      "size_bytes": 30946,
+      "sha256": "17d6ed40e83cb1e3b048f7e73e806d999b87b718627781bb5aa66e57c8bb9529"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\runA_reproduce_single_pole_raw_delta_position_norm.png",
+      "size_bytes": 33707,
+      "sha256": "d3d1499f0e97fedf98d9b4aafcca1df3f7d78b3d4125af2721c0ba1ffc4e2e54"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\summary_changed_fraction_resolution_check.png",
+      "size_bytes": 39091,
+      "sha256": "bef36928758330a7ce3ede4f2631c680c0777444f1be66069128ea8e2e1ed8a5"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\summary_det_health_resolution_check.png",
+      "size_bytes": 35004,
+      "sha256": "afffaefe0d02b03468021b0756edc49f2118ff413e3493a773d0d322e9af70c5"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\nonlocal_micro_v0_8_1\\summary_raw_vs_canonical_delta_by_kernel.png",
+      "size_bytes": 40305,
+      "sha256": "a21b3843bd2cd75e116ecc1586ea409d693578011fe413df90b43181420d33bf"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\one_loop_v0_4\\baseline_mild_deformed_cw_instability_mask.png",
+      "size_bytes": 40989,
+      "sha256": "e65df21f592b0e01d26fe59dfd42bc83adf58cf2635006c978dbfd35e292ab40"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\one_loop_v0_4\\baseline_mild_deformed_cw_phase_map.png",
+      "size_bytes": 53144,
+      "sha256": "3119483adf89efa2eef27c21bc1e14f5988a1b6185439148eee0af4d13cf23e2"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\one_loop_v0_4\\baseline_mild_deformed_phase_changed_mask.png",
+      "size_bytes": 38227,
+      "sha256": "d7b40901dffa8895b501f2bdc6dbf76ea5abb3c67ba6e5e2cc51dc54955abab8"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\one_loop_v0_4\\baseline_mild_deformed_tree_phase_map.png",
+      "size_bytes": 51492,
+      "sha256": "6de7c30d6d064d008930b05437a18a10202fa0484287a6a05d9205bfcbd072eb"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\one_loop_v0_4\\cooperative_strongly_deformed_cw_instability_mask.png",
+      "size_bytes": 41203,
+      "sha256": "32173759f07b9c6686879360f4dda57324ef3f4d8ce025210136b7bec0bea8fc"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\one_loop_v0_4\\cooperative_strongly_deformed_cw_phase_map.png",
+      "size_bytes": 55803,
+      "sha256": "5b4a5d80a81dfa8bc829b58f004666c734c848e8f2fd23acba556fb7cd96e3d2"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\one_loop_v0_4\\cooperative_strongly_deformed_phase_changed_mask.png",
+      "size_bytes": 41185,
+      "sha256": "20fbb326f7f2136a5ed11cb57c67822d7e1ee49a596518613ceb7cb01a25acff"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\one_loop_v0_4\\cooperative_strongly_deformed_tree_phase_map.png",
+      "size_bytes": 54924,
+      "sha256": "3e4a917016b0aca08b2d32b97c2d678e2ef2ff6ffa7d48517ff3f374563e32e0"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\one_loop_v0_4\\positive_edge_deformed_cw_instability_mask.png",
+      "size_bytes": 41069,
+      "sha256": "cdfb014a0fcd73a0b29aee5b69b9cfb4fafa8ca48670ce3bec403b68fe9e06e5"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\one_loop_v0_4\\positive_edge_deformed_cw_phase_map.png",
+      "size_bytes": 54655,
+      "sha256": "782635c8c6cb2153fc801852fb68d9b921506a132a03461662cd4390554c745b"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\one_loop_v0_4\\positive_edge_deformed_phase_changed_mask.png",
+      "size_bytes": 39303,
+      "sha256": "843d764451f79cfdd968ea1edf06c2e14e823eb6b72ff1d15b8aa3034b93cd7f"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\one_loop_v0_4\\positive_edge_deformed_tree_phase_map.png",
+      "size_bytes": 52797,
+      "sha256": "2c42f7b57f117945c9eb91b17efd077a60e6c548197ecb5fd0b5935e923418af"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\one_loop_v0_4\\preserved_c_plus_0_10_cw_instability_mask.png",
+      "size_bytes": 41430,
+      "sha256": "fbd7a526a4606b2a4c36df2eacb265c87af4b63bd4055945bf25edbfd1454924"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\one_loop_v0_4\\preserved_c_plus_0_10_cw_phase_map.png",
+      "size_bytes": 54614,
+      "sha256": "1851afe606a9037fa05c50b3f11a2095500e828555913c05609d92c2a1b7e385"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\one_loop_v0_4\\preserved_c_plus_0_10_phase_changed_mask.png",
+      "size_bytes": 39208,
+      "sha256": "cd002f52c174b6495cc52ae4cc32fec96db13b71b4663c3433459b7e67a4ecb7"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\one_loop_v0_4\\preserved_c_plus_0_10_tree_phase_map.png",
+      "size_bytes": 52356,
+      "sha256": "03942c9fa77e961f141fbb877392cfbf51dcdcaaa77e10f0f4cc74eb95caf10b"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\aiota_+0.00.png",
+      "size_bytes": 64064,
+      "sha256": "b385273980df281c0fe5c936194d7b68567988916467249e0f12722bd035ce5f"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\aiota_+0.10.png",
+      "size_bytes": 63642,
+      "sha256": "8bf6afc91d3d67f7dc873649bd56d5502ba48a1a4132d085204e1f20f22919e3"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\aiota_+0.20.png",
+      "size_bytes": 63996,
+      "sha256": "d0988c0d5cf5523bed17fe792bbbcdaeb7340e710952e67ea28784af445fe8af"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\aiota_-0.08.png",
+      "size_bytes": 64257,
+      "sha256": "fe8782041c32484151cad34cde4127dbb4ce83cbd13bb8083f9a576f60c67f4a"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\aiota_-0.10.png",
+      "size_bytes": 63750,
+      "sha256": "071cf68ad177cb038e4b5f51e00f4279d76dfefdf3f520d67da6f2a27b7c4439"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\aiota_-0.20.png",
+      "size_bytes": 63856,
+      "sha256": "679876ddd5904cbfb7c6b80806419f70fdaebdb861049bba9169d0729272171c"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\arho_+0.00.png",
+      "size_bytes": 63840,
+      "sha256": "39ff0e72e6a1e7265b8729b4fb1df841d18d05ec9320d7ed8fb4a819d0f67ad3"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\arho_+0.10.png",
+      "size_bytes": 63377,
+      "sha256": "afc212142fd38aeb78ae743964c3e605c6d8d4325c8749352f2da73cd3220d5d"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\arho_+0.20.png",
+      "size_bytes": 63831,
+      "sha256": "0d67daa7b1c0e851707f361def0e56d83e3cacb385793528331548ca738c6fda"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\arho_-0.08.png",
+      "size_bytes": 64003,
+      "sha256": "ea4ae4bc8129bc07e4a7b22173f6989366cffce3f5c0f9a836e684e12a9d9a9e"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\arho_-0.10.png",
+      "size_bytes": 63604,
+      "sha256": "b6a106ef4eb9feeb74a93e4e817e2f0d2fab5f54fe861678618c7db1feb2622f"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\arho_-0.20.png",
+      "size_bytes": 64111,
+      "sha256": "9a469a08a50725a38da13c73a50213d982d0ab7fb63ab2a025cefe05f1e5d503"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\c_+0.00.png",
+      "size_bytes": 62713,
+      "sha256": "f984aad9be3840a098d65886682a58d95009550d9703c901acf0272fb86a21d2"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\c_+0.10.png",
+      "size_bytes": 63041,
+      "sha256": "082f21162616bd7191764ef1ed569acfa4e1c8fdc17e18c003a8edac3b63a7dc"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\c_+0.20.png",
+      "size_bytes": 63152,
+      "sha256": "34c176561b0990cdb29860cd3878943956313caa7393e75cb3d2a55c7a649c07"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\c_-0.05.png",
+      "size_bytes": 62797,
+      "sha256": "05cdff2727bc512556e46fc9c7667811a958edcb005018cde5d57db8f8b37e82"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\c_-0.10.png",
+      "size_bytes": 62464,
+      "sha256": "c32ccb41e914ef719b13064aaa5047427c62ce0e6e86b2586401cd41f46441f1"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\c_-0.20.png",
+      "size_bytes": 63172,
+      "sha256": "cc628419380b2736abf366406623b4bbbea2155216a470fd65fc28155dcc5f01"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\portal_grid_arho_+0.10_aiota_+0.10_c_-0.05.png",
+      "size_bytes": 67741,
+      "sha256": "ceb048281a19d2bb2357c879de866a80bd4b0e8ac67254eeff4f82284cd4d3af"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\portal_grid_arho_+0.10_aiota_-0.08_c_-0.05.png",
+      "size_bytes": 66685,
+      "sha256": "ec17cfb1d81afe92d758397cf3067b53e3bc1f1e93467d0b4b89a98d66f92a7d"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\portal_grid_arho_+0.10_aiota_-0.20_c_-0.05.png",
+      "size_bytes": 66838,
+      "sha256": "ba8f2296c98b82defece78f34a538c02aceacbd4066945b43cd451d7dd725726"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\portal_grid_arho_-0.08_aiota_+0.10_c_-0.05.png",
+      "size_bytes": 67529,
+      "sha256": "39c7e8e39a6f8df6d3f9f8acb24bb87632a403cd757ab6b40ea860768a4c6d19"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\portal_grid_arho_-0.08_aiota_-0.08_c_-0.05.png",
+      "size_bytes": 67298,
+      "sha256": "3657ec3d669593bb4293ea50e926dd2443c0ee7bf5f664e929567ab3265d53d5"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\portal_grid_arho_-0.08_aiota_-0.20_c_-0.05.png",
+      "size_bytes": 67086,
+      "sha256": "78b9d7705dcadb3968c90759844335482e28022dbb55fb9f531d64f7345518ae"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\portal_grid_arho_-0.20_aiota_+0.10_c_-0.05.png",
+      "size_bytes": 67023,
+      "sha256": "0f6c1771edee2804c25e00059f6b5c2c37a344ed2cad8e5f0e8f8ec13c01fc15"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\portal_grid_arho_-0.20_aiota_-0.08_c_-0.05.png",
+      "size_bytes": 67254,
+      "sha256": "83b56c4f931fa6ad645b837457b764b0700f198ffdaf2137a77e92f71c83ffca"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\plots\\robustness_v0_3\\portal_grid_arho_-0.20_aiota_-0.20_c_-0.05.png",
+      "size_bytes": 67367,
+      "sha256": "eae7756f0a37697b56cb91b9894b435c6661d9007a8141df845a2979a06ce5ee"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\reports\\PQT_QG_Benchmark_Report_v0_1.md",
+      "size_bytes": 11969,
+      "sha256": "812aa284837a07205782b96a7c88d77b058986f606cba10253d6c23bdcd2b630"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\reports\\PQT_QG_Field_Bound_Stress_Report_v0_8_2.md",
+      "size_bytes": 6364,
+      "sha256": "155070f3d92410468665ca1cc201a633f6f2e9afb0caa6fd54e96ded9034f84a"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\reports\\PQT_QG_Loop_Scale_Continuation_Report_v0_5.md",
+      "size_bytes": 8237,
+      "sha256": "dae76ce9d377a1911fe4f74a1e25444336b7f3649ef56c2743d323198ae463ca"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\reports\\PQT_QG_Memory_Sign_Reconciliation_Report_v0_6.md",
+      "size_bytes": 8933,
+      "sha256": "c3c7906fd78c760a84313e1ab60ad37aeb95071fad4962f4fabe928ecffea5b2"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\reports\\PQT_QG_Nonlocal_Cooperative_Atlas_Report_v0_9.md",
+      "size_bytes": 3445,
+      "sha256": "045c0e442cb941c0fe940e6f8ce4a1922d1a81fc3c739868123ada720d5f445f"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\reports\\PQT_QG_Nonlocal_Memory_Benchmark_Report_v0_7.md",
+      "size_bytes": 3942,
+      "sha256": "523248fff0d6a6ed84c5de9b5b5f3595b61ab0e28bb0d41d298e86beccaa4078"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\reports\\PQT_QG_Nonlocal_Micro_Scan_Report_v0_8.md",
+      "size_bytes": 7248,
+      "sha256": "9b8451481f2f17900fc604b56518759c7967b120e27fceccff769a71046bc09a"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\reports\\PQT_QG_Nonlocal_Micro_Validation_Report_v0_8_1.md",
+      "size_bytes": 4355,
+      "sha256": "7f5eae54a3dfdd339e7a241bcce59da33ee4055a235ac52c9d2ef42626a10c5d"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\reports\\PQT_QG_One_Loop_Benchmark_Report_v0_4.md",
+      "size_bytes": 4043,
+      "sha256": "469a3525e35a776a899540a78a970a9fcacb233e22eba1a9a54476bec51cd3bb"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\reports\\PQT_QG_Phase_Boundary_Report_v0_2.md",
+      "size_bytes": 1676,
+      "sha256": "7d854e66bc6736a1d5db76aab127b185b4ed725d4d4baf8e97610db0aaf96c97"
+    },
+    {
+      "path": "eft-pqt-qg\\outputs\\reports\\PQT_QG_Robustness_Atlas_Report_v0_3.md",
+      "size_bytes": 12487,
+      "sha256": "97ce8b1080244d2aa4fb580622e8f6e9663343b0951daf4e0feef45348af82dc"
+    },
+    {
+      "path": "eft-pqt-qg\\patches\\PROPOSED_nonlocal_memory_health.patch",
+      "size_bytes": 1719,
+      "sha256": "b2ad14fc2ac1a6def667c9199758eef7e2e31c949410692dfcee542c3b7009ed"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__init__.py",
+      "size_bytes": 424,
+      "sha256": "9f65d5a97e59eea4302f8bff5cefb89c3f8207199c9e00afcb437cdb687c7821"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\classify.py",
+      "size_bytes": 2283,
+      "sha256": "8d757ce3322fa66a4a2243b1b0f79d6df0fb76b0feb0c5b2384390892cc2b24e"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\field_bound_stress.py",
+      "size_bytes": 18651,
+      "sha256": "838efebf55508c1fead717bda126dabf42dd68b144c085e6b0efaa763e672155"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\loop_continuation.py",
+      "size_bytes": 16362,
+      "sha256": "a03ab205d6d250aaeb4bed44347643e29a84f8b496538c8b5148ee25accb8d7d"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\memory_sign.py",
+      "size_bytes": 25632,
+      "sha256": "bd54516b6bdb0cc2f7282c2bc3f81fdae43a71e418c55283fe04fcfa6456170f"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\nonlocal_cooperative_atlas.py",
+      "size_bytes": 18469,
+      "sha256": "ac70757068cc789c6d53efb35159f9aa77a7a18ecead58bbfbdaf78005d234dd"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\nonlocal_memory.py",
+      "size_bytes": 6758,
+      "sha256": "5c644b102afa3ad7eea3dbe96cfd11b46fbbde81dafd1bda489d6e0da3a98763"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\nonlocal_minimize.py",
+      "size_bytes": 20456,
+      "sha256": "3ba3dc27abaaf3e46bfe28f398b4bd114486140740e332855cd89bc9b29b6d6d"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\nonlocal_scan.py",
+      "size_bytes": 19545,
+      "sha256": "70ed2497d2375468e05fb17d3f6d6b710e80cad0b5a9c5a131e5a9386fec39e7"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\nonlocal_validation.py",
+      "size_bytes": 15796,
+      "sha256": "536a979515cf84ed74b5c010ccde89ed43abc054ae63725c12dff25f5e361371"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\one_loop.py",
+      "size_bytes": 3865,
+      "sha256": "29be1bca68c63fbb94df15620b7ac9ae8f825abe9a3546f99a640d1d7a99d1fa"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\one_loop_scan.py",
+      "size_bytes": 18971,
+      "sha256": "ecba60d00e83c3ba49cbec64609c3aac8493a7c76339871af5806b1c0b67e1f7"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\phase_boundary.py",
+      "size_bytes": 9531,
+      "sha256": "7d4eeb1066c1f46c3f80fcdd4c518d8b3a478f030bb51980288b04c5c6f1eda1"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\plot.py",
+      "size_bytes": 3543,
+      "sha256": "1829ad5d8dd71e19b5884eddf761666d894dbb6dfafda9eef03c339013cc174a"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\potential.py",
+      "size_bytes": 3057,
+      "sha256": "a638737512187681172fe976b39b08e21ed77f2f667b4b90bb8fdf920550393f"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\report.py",
+      "size_bytes": 4210,
+      "sha256": "efc3fbe002fafb42c28b2c2bad5e6025c7f1384ee76c5c0395fff7c721faef85"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\robustness.py",
+      "size_bytes": 22779,
+      "sha256": "044bba4b12344b5c7fe9535750c2a1cffa023f7da05ae9666261c9beb8cc9194"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\scan.py",
+      "size_bytes": 9918,
+      "sha256": "5db0d327efd2963cb68e0857014d1ca1ee21eaf33daa34f725254edc830b6330"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 549,
+      "sha256": "983d8d80bbbb9e178a51541d9c7b214ccacd926ff2baee398976246d4c1ddd5b"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__pycache__\\classify.cpython-314.pyc",
+      "size_bytes": 4162,
+      "sha256": "6150a3a52ae1eb281a2545d3e44598707d29bb2bff96ffde02ecb0d34e46a7a6"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__pycache__\\field_bound_stress.cpython-314.pyc",
+      "size_bytes": 35654,
+      "sha256": "efa406d004b0a5703621a2f429f23f3fdb8ab231b28e3fed641f7ebd183ff72f"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__pycache__\\loop_continuation.cpython-314.pyc",
+      "size_bytes": 25369,
+      "sha256": "13a96637a96727d62538abdf31d4f0f29a1160920e84f24131181271f0bac814"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__pycache__\\memory_sign.cpython-314.pyc",
+      "size_bytes": 41228,
+      "sha256": "4e3f57f693164b33e47043bb76fa16cd866cd002212974942d6fa60acb546e67"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__pycache__\\nonlocal_cooperative_atlas.cpython-314.pyc",
+      "size_bytes": 31768,
+      "sha256": "0be296c5ffc50ab478479072640f0c10b44e0df888df75d8d01e3e89d48c4d83"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__pycache__\\nonlocal_memory.cpython-314.pyc",
+      "size_bytes": 15334,
+      "sha256": "62be6f40fe18c04566c24235aed2a877fc8565740ead482180c41cada55708b2"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__pycache__\\nonlocal_minimize.cpython-314.pyc",
+      "size_bytes": 33978,
+      "sha256": "3f38799d9813e0033ecb552d479d527d93f87fdfaa535abbf5627be7f66b47b3"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__pycache__\\nonlocal_scan.cpython-314.pyc",
+      "size_bytes": 31352,
+      "sha256": "380d29f0420f84a49c459924ea2ef108bd658409abd08a2369e4be1b2ae5e37e"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__pycache__\\nonlocal_validation.cpython-314.pyc",
+      "size_bytes": 26030,
+      "sha256": "15ce08ad74a8f9dac0d2e469bd63987bc6a4d9e4fb100e2fcd95cec2992a21b2"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__pycache__\\one_loop.cpython-314.pyc",
+      "size_bytes": 7704,
+      "sha256": "f479b963e536f626665fd43f9e6c0edbb6a8ab0bf82b60a532ef65124c78daac"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__pycache__\\one_loop_scan.cpython-314.pyc",
+      "size_bytes": 28897,
+      "sha256": "c72aa971db15f0a40354e82e0b0ed11bb27380ab6d2a8a108db5f8f983caada0"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__pycache__\\phase_boundary.cpython-314.pyc",
+      "size_bytes": 14515,
+      "sha256": "635275b3d9bfc5a3d5c216a83dd784cb0f018a0a44cf62959393e5d52cd8bbf8"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__pycache__\\plot.cpython-314.pyc",
+      "size_bytes": 7124,
+      "sha256": "a69447f66abd41bb2c65c4c3fae9a1dec50633aa2cfa4642a0f12ddd13188bc8"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__pycache__\\potential.cpython-314.pyc",
+      "size_bytes": 6983,
+      "sha256": "a08b57f7148866d2ead4d1da0abcad146f7798e5cb3a0bf25e771355adb393e2"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__pycache__\\report.cpython-314.pyc",
+      "size_bytes": 7656,
+      "sha256": "a0016c74336f7166f3f9f95d449a98700ccf96285329eeaa8335fc6e55433f34"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__pycache__\\robustness.cpython-314.pyc",
+      "size_bytes": 32890,
+      "sha256": "4c5fafee59346409799668f8159176bf2910b1bde744db97503bc3424fbea134"
+    },
+    {
+      "path": "eft-pqt-qg\\pqt_qg\\__pycache__\\scan.cpython-314.pyc",
+      "size_bytes": 16985,
+      "sha256": "9524dd4b8e2c490b584743bc4d123f890d01aa23268d6af3695fa6cc40843aac"
+    },
+    {
+      "path": "eft-pqt-qg\\__pycache__\\run_benchmarks.cpython-314.pyc",
+      "size_bytes": 5866,
+      "sha256": "6b53836fd54639b78ff0fc9e600b20e3693f8dd346ac175e462997674d717457"
+    },
+    {
+      "path": "eft-pqt-qg\\__pycache__\\run_field_bound_stress.cpython-314.pyc",
+      "size_bytes": 2644,
+      "sha256": "4974e6a2a03b8d2779086e3c6214d9fd482973464558d1d9403a068bc92e7863"
+    },
+    {
+      "path": "eft-pqt-qg\\__pycache__\\run_loop_scale_continuation.cpython-314.pyc",
+      "size_bytes": 2537,
+      "sha256": "c443e34677b6454b1823196cbb2df186e5cbebd49ef3f890c97f8d06061dde32"
+    },
+    {
+      "path": "eft-pqt-qg\\__pycache__\\run_memory_sign_reconciliation.cpython-314.pyc",
+      "size_bytes": 2232,
+      "sha256": "6dec38cd1689e7ff8f124177f7e375a968b77f10815d2c39abd323caea1eb062"
+    },
+    {
+      "path": "eft-pqt-qg\\__pycache__\\run_nonlocal_cooperative_atlas.cpython-314.pyc",
+      "size_bytes": 2915,
+      "sha256": "e24d2a97e857d04d8421d51810e2382def7483f5dd009febf5a9422195750192"
+    },
+    {
+      "path": "eft-pqt-qg\\__pycache__\\run_nonlocal_memory_benchmark.cpython-314.pyc",
+      "size_bytes": 2830,
+      "sha256": "ca837dadfafd00ea625f19841021998eb849dfcb192c57176132837e00b978ed"
+    },
+    {
+      "path": "eft-pqt-qg\\__pycache__\\run_nonlocal_micro_scan.cpython-314.pyc",
+      "size_bytes": 2972,
+      "sha256": "9cff6f9ff238268057d9b2e17986a51817a14b40124823e20a10461e0c035351"
+    },
+    {
+      "path": "eft-pqt-qg\\__pycache__\\run_nonlocal_micro_validation.cpython-314.pyc",
+      "size_bytes": 2720,
+      "sha256": "007d13ea47e377ef65c57140fcedb30d8ea1640da2effcbd64302bf9556a0ed8"
+    },
+    {
+      "path": "eft-pqt-qg\\__pycache__\\run_one_loop_benchmark.cpython-314.pyc",
+      "size_bytes": 1670,
+      "sha256": "8531582ed59511730d519fcc791ce2f410b67194b5b35f2c42b4d9fe0aec7255"
+    },
+    {
+      "path": "eft-pqt-qg\\__pycache__\\run_phase_boundary_scan.cpython-314.pyc",
+      "size_bytes": 2347,
+      "sha256": "b543b86916a75b8004eed0145a60cbeb73db8d76a922c98400df53a678829e17"
+    },
+    {
+      "path": "eft-pqt-qg\\__pycache__\\run_robustness_atlas.cpython-314.pyc",
+      "size_bytes": 1000,
+      "sha256": "7ecda4edbf8169c9dabb041dfebba9df1acf91361534ccad298ca2e39cb7977a"
+    },
+    {
+      "path": "epistemic-ai\\CHANGELOG_P0_V4_1.md",
+      "size_bytes": 3726,
+      "sha256": "d3210e31360c7fc92e8e65ed39f5a71ae42708cb1dbc7e59d646a113e59c6e84"
+    },
+    {
+      "path": "epistemic-ai\\QVCH_v3_IMPLEMENTATION_REPORT.md",
+      "size_bytes": 6577,
+      "sha256": "ad66d34f4404c59ad0a5863689c526ed19ae75596ef4d0b557e057dd6d22805c"
+    },
+    {
+      "path": "epistemic-ai\\README.md",
+      "size_bytes": 752,
+      "sha256": "e7b795ccf454ea1ab420b4669878dcde1b2beea6e599fc59d29c674a45ce90d9"
+    },
+    {
+      "path": "epistemic-ai\\pyproject.toml",
+      "size_bytes": 918,
+      "sha256": "9ef22f23c59d27a179a37d2285880f6fb00517cad33339f0cf02b494118d8fa9"
+    },
+    {
+      "path": "epistemic-ai\\pytest.ini",
+      "size_bytes": 43,
+      "sha256": "97b00b3f9c1878e6b01613752bb44e77c857cd5185fdd9ca8e43507a6aa378d5"
+    },
+    {
+      "path": "epistemic-ai\\.pytest_cache\\.gitignore",
+      "size_bytes": 39,
+      "sha256": "e7c6bb30148cf667606dcd63e7ca77acaa3cfb0c8303bf09e6419e1e1669dc6d"
+    },
+    {
+      "path": "epistemic-ai\\.pytest_cache\\CACHEDIR.TAG",
+      "size_bytes": 191,
+      "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4"
+    },
+    {
+      "path": "epistemic-ai\\.pytest_cache\\README.md",
+      "size_bytes": 310,
+      "sha256": "420e808d79a6c25d3cda0af33bc4782314a14949866682c68ce8149e89b66b70"
+    },
+    {
+      "path": "epistemic-ai\\.pytest_cache\\v\\cache\\nodeids",
+      "size_bytes": 627,
+      "sha256": "67cfed36cc16d06d4725ad6da111edf543e1665b5430cdfc1288a45d1a50d8bd"
+    },
+    {
+      "path": "epistemic-ai\\.pytest_cache\\v\\cache\\stepwise",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "epistemic-ai\\apps\\qvch_studio\\__init__.py",
+      "size_bytes": 33,
+      "sha256": "1d11496dda7bfe6acc322937f4849f72e68acab21c8a9d6d01fc4850d6cfd717"
+    },
+    {
+      "path": "epistemic-ai\\apps\\qvch_studio\\server.py",
+      "size_bytes": 19379,
+      "sha256": "35925a54fbc446d272adec4c00ccb3a210c09df4aed0c9e3678ef2b1ed5bdd7f"
+    },
+    {
+      "path": "epistemic-ai\\apps\\qvch_studio\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 205,
+      "sha256": "9eba0b7fe06c6ae059c1f96066e4be67e1eb69a3a2004a6a284fe7958609a36e"
+    },
+    {
+      "path": "epistemic-ai\\apps\\qvch_studio\\__pycache__\\server.cpython-314.pyc",
+      "size_bytes": 34670,
+      "sha256": "c6bde8a2694a3c3062b94683556edf27fd4e3936eaf90d72d84bb51743eda59d"
+    },
+    {
+      "path": "epistemic-ai\\BREAF\\BRIEF_P8_G0_Causal_Weight_Grafting_and_Capacity_Expansion.md",
+      "size_bytes": 9839,
+      "sha256": "6f576656d43da371af2fc786287537b4559db6bf09cea8e19f28cae558e17e5a"
+    },
+    {
+      "path": "epistemic-ai\\BREAF\\BRIEF_QVCH_P0_V4_1_R3_FINAL_TRUST_AND_INGEST_CLOSURE.md",
+      "size_bytes": 12577,
+      "sha256": "b4935c00aa350e7fb933fc831e4ed923b2a73d65b09aa5f4d9dfee2f4b2fe239"
+    },
+    {
+      "path": "epistemic-ai\\BREAF\\test_qvch_v4_1_r3_regressions.py",
+      "size_bytes": 11042,
+      "sha256": "f41c02450bde5895754ac78ae5f8b263aac8ca1e606b4ae9d5f6f192d6bcb455"
+    },
+    {
+      "path": "epistemic-ai\\BREAF\\__pycache__\\test_qvch_v4_1_r3_regressions.cpython-314.pyc",
+      "size_bytes": 16677,
+      "sha256": "0af59b50f657f2ae025fbd45c9366e391de6aae35c1831b643fb19dc3ce1cd83"
+    },
+    {
+      "path": "epistemic-ai\\docs\\ARCHITECTURE.md",
+      "size_bytes": 367,
+      "sha256": "171aa0343202487e7089105d0e426374f3303b0b22088051bac58514c53440bf"
+    },
+    {
+      "path": "epistemic-ai\\docs\\BASELINE_TEST_REPORT.md",
+      "size_bytes": 2506,
+      "sha256": "2223b61fbfd503f9704a9fac2ea75469ede0945b559ed1435b76e2651d107d19"
+    },
+    {
+      "path": "epistemic-ai\\docs\\DONOR_POLICY.md",
+      "size_bytes": 192,
+      "sha256": "48deb42eba2e0e15618c550cee9fa772b0a9d30675bb476c4688608b5a9678d8"
+    },
+    {
+      "path": "epistemic-ai\\docs\\GLOSSARY.md",
+      "size_bytes": 526,
+      "sha256": "6f7f1f19ab51c88bfb557c94a13e867c9802e7f42bb3a6eed28af3766ba9ada0"
+    },
+    {
+      "path": "epistemic-ai\\docs\\MIGRATION_V3_TO_V4.md",
+      "size_bytes": 2577,
+      "sha256": "1ea4270f6b9a011c28129b957f41e23531891b589d08132a7c322b367fafbbf4"
+    },
+    {
+      "path": "epistemic-ai\\docs\\NO_DIRECT_DB_WRITE.md",
+      "size_bytes": 245,
+      "sha256": "a4ca25ae91ec968bcd2ccee4f5535b43e3e489ed85083ae4cfb7c66e7a21ef9a"
+    },
+    {
+      "path": "epistemic-ai\\docs\\QNUF_FORGE_V2_2_CONTRACT.md",
+      "size_bytes": 2086,
+      "sha256": "30a1ff6f2b2d432b0cb029fc219a2b72ef4611b870a78ce802745c5c185920f3"
+    },
+    {
+      "path": "epistemic-ai\\docs\\QVCH_V4_ARCHITECTURE.md",
+      "size_bytes": 4298,
+      "sha256": "18b2a8afef796b1723eb9ac5a99f9412e6962b1fe0ff3b99ba091b945bdf3901"
+    },
+    {
+      "path": "epistemic-ai\\docs\\QVCH_V4_SCHEMA.md",
+      "size_bytes": 5198,
+      "sha256": "08751cef1fb9a5bd26cad2242561e3b523a54229996434827b84bf58719273eb"
+    },
+    {
+      "path": "epistemic-ai\\docs\\QVCH_V4_SECURITY_MODEL.md",
+      "size_bytes": 4972,
+      "sha256": "0ea963fa831cdb03b35f9be2d4064e95e0182605f8a58deedfba0c81748a6f77"
+    },
+    {
+      "path": "epistemic-ai\\docs\\QVCH_V4_STATE_MACHINES.md",
+      "size_bytes": 3879,
+      "sha256": "54d774d5936af3febf619638fb6d5d0bbe82e32dd9ce79767f19fdd19378c37c"
+    },
+    {
+      "path": "epistemic-ai\\docs\\RESIDUAL_RISKS.md",
+      "size_bytes": 3317,
+      "sha256": "7e58fa40b4169acde344b302f8a21a4bdf2e8df720ed18433fb348aacc3d19ae"
+    },
+    {
+      "path": "epistemic-ai\\docs\\TEST_REPORT_P0_V4_1.md",
+      "size_bytes": 5344,
+      "sha256": "c8e06d04214e589b98edbd14b4e75ce30e2a9f04394ea1c4106e2906af544d46"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\__init__.py",
+      "size_bytes": 96,
+      "sha256": "40a4285b0d97b4a60fd6c19d70276451fc0529d27118f57b6ae87de31f3e4257"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\contracts\\__init__.py",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\contracts\\models.py",
+      "size_bytes": 5749,
+      "sha256": "13b2c6c404bab8ac99b51db5dfad25c1fc33e5001631085dd728aaa2d30860f9"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\contracts\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 166,
+      "sha256": "4c833497e4ea3b28ec5317bc28e40a2848dd7edd23f9d9718e3afd8222fa46eb"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\contracts\\__pycache__\\models.cpython-314.pyc",
+      "size_bytes": 11712,
+      "sha256": "48bd87153ffa3e61ae95e59493cc41419ca7e9f8f4f79b4ccef93dbf8bcc945f"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\core\\__init__.py",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\core\\normalizer.py",
+      "size_bytes": 568,
+      "sha256": "dbffd1e30ffce5d1f2315b875bdf27039d0c20b860c8b5dd9f836f1b50b8e9f6"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\core\\noumenon.py",
+      "size_bytes": 2524,
+      "sha256": "bd2c7aaa0bcf9d9492cd80a663f1175f601512e1f02296d0a5edb352fef21cc0"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\core\\planner.py",
+      "size_bytes": 3002,
+      "sha256": "78d26524e8044f1ed16da40a52cd1d4eae4cf3c9602d2b8593d6121506453675"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\core\\structurer.py",
+      "size_bytes": 1021,
+      "sha256": "71df96b56f2f9917cd6751c327267ee84cba7b4a63424d02d15c2a7cc5731968"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\core\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 161,
+      "sha256": "a47f7b40eeeb7dd5563051c24e4154d26037e91e6c88896267212dfd07105f6e"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\core\\__pycache__\\normalizer.cpython-314.pyc",
+      "size_bytes": 1360,
+      "sha256": "154a1e15f074e81d2bb024a94e059c4c1cf25774bcd4120177784a580fb7fa9c"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\core\\__pycache__\\noumenon.cpython-314.pyc",
+      "size_bytes": 4712,
+      "sha256": "aa8f7ebd70c60a95065bccb680b4ea9f6d30d00e4c44d017a3133ece012d91ea"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\core\\__pycache__\\planner.cpython-314.pyc",
+      "size_bytes": 4585,
+      "sha256": "579f83af79e233c898f3da257f2daaa0d031e66352a0a75a72d086224ae8a243"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\core\\__pycache__\\structurer.cpython-314.pyc",
+      "size_bytes": 1841,
+      "sha256": "fc7235b478592548084e26b36247ac5f9c1df12e2d1f36694dff4d36da7c2a7e"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\life1\\__init__.py",
+      "size_bytes": 286,
+      "sha256": "394d3636acc16c70bb2d9392b30eabc405c625a7b44f96d7a4c093d77838c2e4"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\life1\\constants.py",
+      "size_bytes": 924,
+      "sha256": "58b2c31b5a632c1367b60035ecbc97158d85dc7bc76689bcb3e95912111cdbb9"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\life1\\labels.py",
+      "size_bytes": 4285,
+      "sha256": "b4f1c15f13dc466acc13a8b77ef9868d648d9760b7e369237b8eeb70c71ebf11"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\life1\\probes.py",
+      "size_bytes": 4296,
+      "sha256": "480d1a969aefcbbcf23b19fd1de095369d5b9780fa52f3e712c0aa2416f72988"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\life1\\recorder.py",
+      "size_bytes": 12539,
+      "sha256": "20f73da37df6391005f6a66609710c1bdc381bc4a76226d0b5c9a42ece168885"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\life1\\stage2_runner.py",
+      "size_bytes": 18538,
+      "sha256": "97cc5be71c0c90f5a80bc3577ca8da7084d57d0213e0104dbf8febfcadae87c0"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\life1\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 417,
+      "sha256": "546d6b809489762d35dabfaac0ea601fc388b8822eec56700cd2f9611341401e"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\life1\\__pycache__\\constants.cpython-314.pyc",
+      "size_bytes": 1030,
+      "sha256": "09d98305baaccbc4da4a8d9cb3eb81747b48c1a948da710b602831e50125093e"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\life1\\__pycache__\\labels.cpython-314.pyc",
+      "size_bytes": 6071,
+      "sha256": "5e376a28bbc1ca45439fae72a3bd0320f8f4640bb2b36a23e9f6800f816ed65f"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\life1\\__pycache__\\probes.cpython-314.pyc",
+      "size_bytes": 7141,
+      "sha256": "4a1a85625475c1e5edf6a6ce17b002f38e6ee6d85c8ed9bb9bec802f5105046d"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\life1\\__pycache__\\recorder.cpython-314.pyc",
+      "size_bytes": 17672,
+      "sha256": "b20049bf9c438362a9d06a684a4b1c131dab309f3b5a21497dd18116530a3dc3"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\life1\\__pycache__\\stage2_runner.cpython-314.pyc",
+      "size_bytes": 25787,
+      "sha256": "7b4be8649d34bb2b5cf7fb80bc47b39d39a4ff25359303e980624443f7af075f"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\__init__.py",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\conflict.py",
+      "size_bytes": 1992,
+      "sha256": "2138839d4d824a5321cf6cb83abb596a26fb4e33efdec883434ee73681f20c81"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\review.py",
+      "size_bytes": 748,
+      "sha256": "b018bec9bbaea81cb3005314445d998fb597c514015f9c31ff9362bd1d69503d"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\validation.py",
+      "size_bytes": 801,
+      "sha256": "3970806399bdc819baa118ff0b794e85376f2415f7912628a0c411875c390b84"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\__init__.py",
+      "size_bytes": 329,
+      "sha256": "e99750dd69ac285f729127941d89219d94fa46443c923496f8ba349861f59ba0"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\constants.py",
+      "size_bytes": 1937,
+      "sha256": "ab6c73e15bb59f267d7031e29e106e473733642592b875abc0a99323697904e0"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\contracts.py",
+      "size_bytes": 858,
+      "sha256": "42a7d04e638984802a9de7969ac8a4769d514cf4964f1e6995532e4d11c23561"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\ext1_dry_runner.py",
+      "size_bytes": 9611,
+      "sha256": "bc0f3bb699decaea5788d7d92c63d7fd97f77d10dbc37ac3254deb68625e1465"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\ext1_encoder.py",
+      "size_bytes": 10830,
+      "sha256": "c765b16c12b704b232d943b838c730ac9d01156e5fc0f51cbbf56a809b625216"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\ext1_encoder_contract.json",
+      "size_bytes": 13258,
+      "sha256": "15e0559409ffca86c9e92f6baceff2f2e5882ff701007b34a57c91c434f1e762"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\ext1_label_extraction.py",
+      "size_bytes": 6015,
+      "sha256": "f87e695ec54130e5785e0d8a019a371ba44d1568364929183b1fa0d198b301a1"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\ext1_surrogates.py",
+      "size_bytes": 3866,
+      "sha256": "9c54b5b4d92488a3f34ede0c11c627439d5c4988f1910fb8e662a9e5d00f11bf"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\ext1_witness_sidecar.py",
+      "size_bytes": 2293,
+      "sha256": "23b601a1fe9da8dd333136f13e9ab26cfd8b6892b87cedcf6ba8023fbacbdbb7"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\firewall.py",
+      "size_bytes": 4903,
+      "sha256": "6cbb6cf7ba976ccf9bb8246eb096927184ea48c186115b43a38b8b97daf4b72f"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\readonly_sources.py",
+      "size_bytes": 5463,
+      "sha256": "b1b68d684d246065d92bcf28bcb872757df6e9a7bd00fe1b59a690b7fba9b20c"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 525,
+      "sha256": "5b37ca6e326ef1befe4152aa6fffe9a4341407bdf132532724d52e33b10b05df"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\__pycache__\\constants.cpython-314.pyc",
+      "size_bytes": 2149,
+      "sha256": "29e68b4bb88f1dca8f478003a14bf12e096812c16307f4e0a77d316062e62a68"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\__pycache__\\contracts.cpython-314.pyc",
+      "size_bytes": 1923,
+      "sha256": "0f0c5f36bdbabcdca86446cd0cc9687bb92c60d93320acbf3f7548bd2f96e75e"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\__pycache__\\ext1_dry_runner.cpython-314.pyc",
+      "size_bytes": 13027,
+      "sha256": "d5e67c870dc40898c0545dc199c2140aec073149778bfe59f03bc9aa9d7fbde1"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\__pycache__\\ext1_encoder.cpython-314.pyc",
+      "size_bytes": 23470,
+      "sha256": "c8b3ae73deda3b1e69871c0914d3d25c6c51007465557f68f88ed8dd2c86effb"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\__pycache__\\ext1_label_extraction.cpython-314.pyc",
+      "size_bytes": 9593,
+      "sha256": "e2179d610d544d5772e5e5bd8bb632589babe6b787d37b40b72e77e0643e37a2"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\__pycache__\\ext1_surrogates.cpython-314.pyc",
+      "size_bytes": 7045,
+      "sha256": "40931c4c80dacde51ea75cd2f7685573de6ab43f24f4b4150d9e8b72df70e466"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\__pycache__\\ext1_witness_sidecar.cpython-314.pyc",
+      "size_bytes": 5138,
+      "sha256": "e304a0da205ff32959e3b2a4d4068879a44fb67f50fa879cc6079ee957cad3cb"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\__pycache__\\firewall.cpython-314.pyc",
+      "size_bytes": 8681,
+      "sha256": "716fc1b769ed5606c8abe46e5fefaa25864b8f4867440edce1dfcd8bc461c090"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\ext1\\__pycache__\\readonly_sources.cpython-314.pyc",
+      "size_bytes": 11182,
+      "sha256": "d2de2bdd609e2816a361ed733e7e7f03ac30e4e3b6f9905eaf22fca3e994aa2c"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 162,
+      "sha256": "83a513c602d4dee8e3f09e37439fb9091d81e46a7f4c87ddbd0e6f5564f5623a"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\__pycache__\\conflict.cpython-314.pyc",
+      "size_bytes": 3324,
+      "sha256": "1245d6712713f5e2cd00d6a912c068833af7a365bd9f0565862947fd6e2b495c"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\__pycache__\\review.cpython-314.pyc",
+      "size_bytes": 1432,
+      "sha256": "09f3ca4708ba31dcf441d442ab0fbabb584116253cbdc134426479343c71d8c7"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\manas\\__pycache__\\validation.cpython-314.pyc",
+      "size_bytes": 1568,
+      "sha256": "d36dc5aaf5397fa87eae0917086f74478e147d994ddcdaea7296cfad71579439"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\monitor\\__init__.py",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\monitor\\health.py",
+      "size_bytes": 995,
+      "sha256": "c526809d2be0ea5e3fdd94f3c7edb2205ab7d1f6482d7ff341d39c1adc37dfda"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\monitor\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 164,
+      "sha256": "278ab2ee6a84f07a5fe5140113c9b049234d0dc2a2f2e8486096163bacbd9674"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\monitor\\__pycache__\\health.cpython-314.pyc",
+      "size_bytes": 2014,
+      "sha256": "38edc9dbabeed4403846a1cf80aaf8b8ec249427c4af685d14af6a33b212e403"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\retrieval\\__init__.py",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\retrieval\\probe.py",
+      "size_bytes": 1128,
+      "sha256": "ac02f6da39f92575a3b430d5074af4107b03c5e3193fa590eedfd08db3978d70"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\retrieval\\search.py",
+      "size_bytes": 1792,
+      "sha256": "4dff1b4cc8f09e847b061a7c02db57b214f77cbb9f863afad2d226be96c794ba"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\retrieval\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 166,
+      "sha256": "58ef528a9bd78e8dec7028c650c34a573aadb0263ea7ff4434af98ae510318d0"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\retrieval\\__pycache__\\probe.cpython-314.pyc",
+      "size_bytes": 2578,
+      "sha256": "51568cd6e8e388dd741b329e8d3de0b77349d210f1dee2dd320538b0a4131255"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\retrieval\\__pycache__\\search.cpython-314.pyc",
+      "size_bytes": 2884,
+      "sha256": "13da1248621898b39c033e29d5c1ac530d4b26b94a3bc400387b44992c46a0ca"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\safety\\__init__.py",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\safety\\scanner.py",
+      "size_bytes": 973,
+      "sha256": "8d8d24dbd722779b7816c7f9f7e1b6d71fee7bc54ac0900110832ee38d65c048"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\safety\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 163,
+      "sha256": "64d75da8997794de37c772b0ef2e45a27179f91b9378bc286562c57cbb67db13"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\safety\\__pycache__\\scanner.cpython-314.pyc",
+      "size_bytes": 2091,
+      "sha256": "b1ee46be9a5a8568e4db3dd4d54e78de40f880c9893190538977bdfc2e801c35"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\storage\\__init__.py",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\storage\\db.py",
+      "size_bytes": 5361,
+      "sha256": "a89e08a8189465bde914c48ed174ddca4ca79e3720cf0582471227233c12f92c"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\storage\\gateway.py",
+      "size_bytes": 13277,
+      "sha256": "f3b106a33862fd4966e81ba3b44ef8eebdea0395d274dc6c3a77aecd63592dbb"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\storage\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 164,
+      "sha256": "2770e944916ffeb15a2b878059441bf2adcde76457eb8b7be1787c6afb04bc3e"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\storage\\__pycache__\\db.cpython-314.pyc",
+      "size_bytes": 10366,
+      "sha256": "c45bd5e36ef0c4b932508ad0c23cd20789f3d12fbf332308dad7c74a5491cd1d"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\storage\\__pycache__\\gateway.cpython-314.pyc",
+      "size_bytes": 20644,
+      "sha256": "d3cd618811bdf649e59143a92a7c1ae881a5f81aad126a409a8b8f9fe8579d11"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v3\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 266,
+      "sha256": "c0325335744e037660f0154ef276283aa0d8b6dda0aa953df0d0c226f60ce437"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\__init__.py",
+      "size_bytes": 297,
+      "sha256": "5dae8d97e4d9433df164f3ad75c8548d1417a51b4e091bb7de30f6187e72a46b"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\cli.py",
+      "size_bytes": 5250,
+      "sha256": "54ad597048e1c2d22bdc739072f4af156727fe5b4e86dce07c92e0eeca123487"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\applicability\\__init__.py",
+      "size_bytes": 695,
+      "sha256": "b9a3add5c2ae7b05bb9b09e30eff4b0bedfa115166fa188f247b0fd85852119c"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\applicability\\gate.py",
+      "size_bytes": 11411,
+      "sha256": "ae59b05e34e39ada4747d78ed7aca3bb579bc552925c9f2bf3e538d06c50eacf"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\applicability\\matcher.py",
+      "size_bytes": 5293,
+      "sha256": "3f372fe98488199134ef59809a6ffb1f89885e97e44c92333e9c2d85737f18db"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\applicability\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 727,
+      "sha256": "7478fa683ac6518f74090294298a34982d5d08f45023e229ca9fb40b41d54974"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\applicability\\__pycache__\\gate.cpython-314.pyc",
+      "size_bytes": 16352,
+      "sha256": "1bac6a3f465085ddd1ae9ed8e02851dc1d8d61b35e3f746cdf210e55128ca8b0"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\applicability\\__pycache__\\matcher.cpython-314.pyc",
+      "size_bytes": 8629,
+      "sha256": "48bce86cc139606cff5a645eeadf6ac01f630474aa836bc48e572aaf63e21403"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\contracts\\__init__.py",
+      "size_bytes": 99,
+      "sha256": "87e55e8c2072647f8e72fd20459d687c2e878d9dd82ebbee88bed243e9ccef51"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\contracts\\canonical.py",
+      "size_bytes": 1068,
+      "sha256": "0aaa76d68a38c40d1f2ae4a819eef079cc899c4a8e92742a3a6091b5a80027d0"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\contracts\\enums.py",
+      "size_bytes": 3786,
+      "sha256": "a897ca053d66ab392f71987c46d6dd1116c03b0023f9c46931ebce31dcb6cfad"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\contracts\\models.py",
+      "size_bytes": 9390,
+      "sha256": "bb41f9b283031eb29ede4c10b7e5f33bdfa2825b2179c4f88d437a84c324cb8f"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\contracts\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 278,
+      "sha256": "42db77cd7b00f6abea24ac7be264889aa65872e54b5001658697da8420d633ba"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\contracts\\__pycache__\\canonical.cpython-314.pyc",
+      "size_bytes": 2675,
+      "sha256": "45ccfa09d9bdac46fa16c331904f5876041589613670973c622c026fbf56c62e"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\contracts\\__pycache__\\enums.cpython-314.pyc",
+      "size_bytes": 5701,
+      "sha256": "49ad0cc753a7ef507f628a1d4308cd7c3799e30e255aeb2af18a91ee5f6d0fc4"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\contracts\\__pycache__\\models.cpython-314.pyc",
+      "size_bytes": 14727,
+      "sha256": "17168afa8bff729a03ae5daed239dbee2a573e48cd69d1fc85a3731a3eabdad9"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\cvl\\__init__.py",
+      "size_bytes": 339,
+      "sha256": "94d7952ef6e07f6a792bf495e5e25d8b1113b03edd5ac28f6dc88206e9d15fa5"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\cvl\\claim_extractor.py",
+      "size_bytes": 2700,
+      "sha256": "670a671e85faf07ef7466c3195b811abdf6ba718e3e37e81d7b95fba16b976f5"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\cvl\\evidence_builder.py",
+      "size_bytes": 3265,
+      "sha256": "50630a6de7dc339d0ec39984e6239bdc4e24d52d1e2dfc0dfd471f277e1fd028"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\cvl\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 495,
+      "sha256": "1f4862fdf85aa3bbb4fccc3c17c5e9d824b3645622950f36f40ca43c792ae4ba"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\cvl\\__pycache__\\claim_extractor.cpython-314.pyc",
+      "size_bytes": 4248,
+      "sha256": "869725c7314b22a0e4f9b911f53ebfa6d3e44f34c8d23dd7ed9048180871247c"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\cvl\\__pycache__\\evidence_builder.cpython-314.pyc",
+      "size_bytes": 4811,
+      "sha256": "0ae11aed67f055b2902a7c236e2288b5c7732f89d84d66693f4791bc3e314f04"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\forge\\__init__.py",
+      "size_bytes": 360,
+      "sha256": "c3bfe35c581fc9622ea5b097302f3132a1782732a6db2fcfeb0283df6e623179"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\forge\\anchor_verifier.py",
+      "size_bytes": 1171,
+      "sha256": "9447fdadcda0604c31d296991cf374fcf31eade34305e26ffd0084e29d9a445a"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\forge\\qnuf_forge.py",
+      "size_bytes": 8447,
+      "sha256": "43746d4764f46d91c7c34ecfe26cddf3310d99e1f54f210e67cd8ef4ecc176fb"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\forge\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 470,
+      "sha256": "d03e96243fcd8db548238ce4ddaaf470086ff0036a329d7d49b606ac7f895b25"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\forge\\__pycache__\\anchor_verifier.cpython-314.pyc",
+      "size_bytes": 2228,
+      "sha256": "8545321e5fd4cac5e8375d2fb05ddfb0032774d50d282f2e4123ab335ad0df2b"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\forge\\__pycache__\\qnuf_forge.cpython-314.pyc",
+      "size_bytes": 12494,
+      "sha256": "c76583c4f9dd64996d75e5de919b480c0a1b3bf0a1bbabe621f03540f61ba807"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\manas\\__init__.py",
+      "size_bytes": 728,
+      "sha256": "88b0bcb31ffa58ecce6a3d2932bba54828dbf0a95bd9c76c8d99ab2ccd54ece8"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\manas\\authority.py",
+      "size_bytes": 7680,
+      "sha256": "860461b5f8de652f36951bbad16c3bcfc27bde74a60a36d7f0a085dad97ebbd9"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\manas\\envelope.py",
+      "size_bytes": 3442,
+      "sha256": "35af13a664a5bcdfd1580096ec67a6eb28b20ed9123e143168b40b201e6719a5"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\manas\\service.py",
+      "size_bytes": 14979,
+      "sha256": "a0c420ff8510f3b623b134d132703ccc815020b3f2373b5d5ec8bac9c639daea"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\manas\\signer.py",
+      "size_bytes": 2113,
+      "sha256": "02424c8acff25977f4dfa052b7bc89bd51a47c38a8ff145c74a1a8dd9eca51ef"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\manas\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 784,
+      "sha256": "0b8ba49231e525f414d70eeba724152409028541e48e58b8400e8ac3bd5ba120"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\manas\\__pycache__\\authority.cpython-314.pyc",
+      "size_bytes": 10994,
+      "sha256": "345a84fad4c8f901e18bc9613909ef16e223cce83bc2d7512af90c8927bf3924"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\manas\\__pycache__\\envelope.cpython-314.pyc",
+      "size_bytes": 5876,
+      "sha256": "f916244aba8c3570b781f77d06b43a25a1299cb8058e4640fb84cad871c534ec"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\manas\\__pycache__\\service.cpython-314.pyc",
+      "size_bytes": 18011,
+      "sha256": "5531edbafee372307db34511180ce528e0dd62cda4d8eeb6daaa2310b5772860"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\manas\\__pycache__\\signer.cpython-314.pyc",
+      "size_bytes": 4716,
+      "sha256": "5b26721588534cd2fb6b944f91eeabb8c645ace2662716747a4e8e30358ee292"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\migration\\__init__.py",
+      "size_bytes": 391,
+      "sha256": "a8fd4c4b0ec22e89a869f42fbee2a1500b1d39d2b3b98b1f425eabe0c663ec4c"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\migration\\legacy_seed.py",
+      "size_bytes": 5738,
+      "sha256": "82a13c0e59d6efe514cabc5009fb5b44adc302c72c56cca3d3dd1658db63241d"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\migration\\migrator.py",
+      "size_bytes": 25758,
+      "sha256": "90f021a8813ba2bcd248f458d41654216b83720b15e7011e70162e100dcbdf35"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\migration\\reconciliation.py",
+      "size_bytes": 4598,
+      "sha256": "318893c631503d61e4d08531c4704b45a51cb8bc5d470cd085a7b9468c2f993b"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\migration\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 539,
+      "sha256": "1912a9ed3108d9cf435fbcbc24a509615a34c63ad66e8a22cf71e9daae60d81b"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\migration\\__pycache__\\legacy_seed.cpython-314.pyc",
+      "size_bytes": 6413,
+      "sha256": "61c57e3ef51a7a17e4114fbbc40bbd54a8bab044c7e83d9b230e0bb6afa91a05"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\migration\\__pycache__\\migrator.cpython-314.pyc",
+      "size_bytes": 31614,
+      "sha256": "871b9cae1549f6091765f2180ec3632d45fc5b1d892a0e2976eb6982205e2d2c"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\migration\\__pycache__\\reconciliation.cpython-314.pyc",
+      "size_bytes": 7099,
+      "sha256": "e7828854ecb2b72d7f08af8798f22dbd3dbd142a5ce8e84012fff64503eae2e3"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\policy\\__init__.py",
+      "size_bytes": 443,
+      "sha256": "f962a4c0f9e668e81d1ecc00303bd45056b49435576ec071901da546734fff47"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\policy\\frozen.py",
+      "size_bytes": 4044,
+      "sha256": "a3de7a302308e725d14091e3e7d53afb287615589f3f0231dcb3e986da331c50"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\policy\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 633,
+      "sha256": "a41d09195633d1a6699089c4ca28f58df435882b4815f65f23219b19fc387ac7"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\policy\\__pycache__\\frozen.cpython-314.pyc",
+      "size_bytes": 5172,
+      "sha256": "ddaeec4a00a4918720fd1a2775bb6f9b8cbd4c673342e754db0f9fa5e66c06a4"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\pramana\\__init__.py",
+      "size_bytes": 720,
+      "sha256": "72a1d0598c42460269e5132fb306996b5cfdf5d7913e82a2f41465d5f0390a6e"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\pramana\\conflicts.py",
+      "size_bytes": 5871,
+      "sha256": "17405e0111446bdd2c2c9139dede06899f816592ba975de1a0b5bc0ff31b8be7"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\pramana\\pramana.py",
+      "size_bytes": 5292,
+      "sha256": "f354910459b123193a17d821d5f3777315e2af68c0eec283c6d5bdb0d0bf910b"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\pramana\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 733,
+      "sha256": "d6074b8aa7f5e60c901187019a6ac3d2173228a74edc0a9ed08ab42aa557b537"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\pramana\\__pycache__\\conflicts.cpython-314.pyc",
+      "size_bytes": 7178,
+      "sha256": "7e3db827a8a6adf805edfbebc6bd440311a8f23a98dc13150814b40d63baee9b"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\pramana\\__pycache__\\pramana.cpython-314.pyc",
+      "size_bytes": 7401,
+      "sha256": "f76e5921c891a13f55fe48d4b106bc98290c13c92908e240df6286eb57c924df"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\probes\\__init__.py",
+      "size_bytes": 306,
+      "sha256": "251142aebeb7357e3cd2eceb54edb17ee5c3e76fba1418598e860bfbfa86e693"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\probes\\executor.py",
+      "size_bytes": 10441,
+      "sha256": "8534dccdcc07fff8da6b3701a2bd7315f5b8d0d9ef70cf2f890c953b43d9dd16"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\probes\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 438,
+      "sha256": "76507b801c1a3e8a6e44ba1df87fe309e3bc89bad34d8725d1087a791879e965"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\probes\\__pycache__\\executor.cpython-314.pyc",
+      "size_bytes": 14328,
+      "sha256": "cc3f7446852be28661f3fc09de4b708ed4db09d103226af7934f951248efccb7"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\reduction\\__init__.py",
+      "size_bytes": 498,
+      "sha256": "df218f07d08b4934798bd461eef266923c1075d763667875ce263ab97181823c"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\reduction\\verifier.py",
+      "size_bytes": 12211,
+      "sha256": "4856d87703e9a374af4dd95f5fd9a9ffc49d740da9141aefa6dfea88d2990dbb"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\reduction\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 576,
+      "sha256": "96d229c5167a3a93a9b14d0c60ef6db6d3abd45ecf8267e2e544ae15c8b05182"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\reduction\\__pycache__\\verifier.cpython-314.pyc",
+      "size_bytes": 16979,
+      "sha256": "ad2125ba8fe5a4892f2057bcf49a35d97716ff357f38edc1856135856dfb9ca7"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\retrieval\\__init__.py",
+      "size_bytes": 514,
+      "sha256": "33a826ff5af0ee16624993f55b9bd5d92942f8e08508c62d018677420d9eb746"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\retrieval\\engine.py",
+      "size_bytes": 8394,
+      "sha256": "69cbd55efdb0137ab162b5d0d79c669b78d9044a9516804f289631b91a8b5ea6"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\retrieval\\scoring.py",
+      "size_bytes": 4507,
+      "sha256": "f355e75d644040768d0701c8884a5d4fdc4822d9342d5758e09e179a1ec1f6c9"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\retrieval\\search.py",
+      "size_bytes": 3632,
+      "sha256": "913ec881f932bccb57b2b0538e42c17c8007eeadfca06ee16e43f54b63ce4184"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\retrieval\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 616,
+      "sha256": "2515d6a3b708866f412e0fc67a6f52e94a44132a56f9d797c72a25f48ffc436f"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\retrieval\\__pycache__\\engine.cpython-314.pyc",
+      "size_bytes": 11787,
+      "sha256": "2ee264a3441abd820ea4e3f5d01117e0dc5989cd4b8e4f9fd0dbade225d63222"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\retrieval\\__pycache__\\scoring.cpython-314.pyc",
+      "size_bytes": 6301,
+      "sha256": "05137b8120ec2d8bbdb8142f7ff4703c060841275e65c3b62f377463f08ac243"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\retrieval\\__pycache__\\search.cpython-314.pyc",
+      "size_bytes": 6433,
+      "sha256": "eacd1ce3e9e4fc2b60c6d48afb18a6071ee9cdbae2a411e43f11661f3f0f9343"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\safety\\__init__.py",
+      "size_bytes": 814,
+      "sha256": "65d0f4c004f2c875a3eab73c1b58e79b9f2b907274705031c0130f63fda47172"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\safety\\materiality.py",
+      "size_bytes": 3577,
+      "sha256": "4fd89301b8f50dfa0cf225f54e6295ab15f4ea0f99e25e893fecf1668804a0d0"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\safety\\sanitizer.py",
+      "size_bytes": 4814,
+      "sha256": "8be92159439c438764fb845b7958b2a4f91647cb8908b1e7e2bc3bc4db87a694"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\safety\\secret_scanner.py",
+      "size_bytes": 4939,
+      "sha256": "b909ae36af69162b6f2da9ada3ad06174c16ed7833a101397de529cbddf3d218"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\safety\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 938,
+      "sha256": "accfa33e4fe6b0913b4d45251b4a91baa6d46db6bdd1fc124c4dee20cee31635"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\safety\\__pycache__\\materiality.cpython-314.pyc",
+      "size_bytes": 5784,
+      "sha256": "1e31d443763b1114d185599131cb966c8c6c091b90ba836076131465dad62e24"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\safety\\__pycache__\\sanitizer.cpython-314.pyc",
+      "size_bytes": 8989,
+      "sha256": "37ac2174d644ba8de1f16c34109bec95a60eb3378a045c35fbf1974aabf078ca"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\safety\\__pycache__\\secret_scanner.cpython-314.pyc",
+      "size_bytes": 7661,
+      "sha256": "2ccb6a39dec549baa52141edfa4803e9405e7c3e56f7c27d90f97e5663ce0b74"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\spanda\\__init__.py",
+      "size_bytes": 602,
+      "sha256": "6feaa19d8e90beec99ecbb95986df8dc588ab5c8e72505639e7863c320696bc2"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\spanda\\engine.py",
+      "size_bytes": 13170,
+      "sha256": "2716586ac89d64b207544db3907a46b545e1158e031a64dd5f8468ebc10b5438"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\spanda\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 766,
+      "sha256": "b88d107990bb52e7018e3fd08859b826e3bb99f45dfdd1fde3787ec949a9513b"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\spanda\\__pycache__\\engine.cpython-314.pyc",
+      "size_bytes": 17515,
+      "sha256": "9298b1ebcd385b5314750f1a86a366956d78a54385fb9ee608bfa06fb8ef3f4c"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\storage\\__init__.py",
+      "size_bytes": 197,
+      "sha256": "44e49ea913bba0d48f0bf689ca6e04bcba7df8e22b83626c54a8650acddb248e"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\storage\\repository.py",
+      "size_bytes": 41278,
+      "sha256": "facf63419b901e5ff42baee6008f8ca07fa25d52f3bae9b319b565e4cdee1026"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\storage\\schema.py",
+      "size_bytes": 15752,
+      "sha256": "91f3778c6bd6f71876e51a20db55c989b24510f1eec8995a554bf4064d122cf5"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\storage\\store.py",
+      "size_bytes": 7222,
+      "sha256": "42345447eee66d65ce8455a2a2816b5b35a3f6413cc69c5b4fdc67fc1d3a50c7"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\storage\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 385,
+      "sha256": "f6fddca3f3f02bed855d1be7a63b4d8468a093d3e330fcbab0caf515941a2a00"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\storage\\__pycache__\\repository.cpython-314.pyc",
+      "size_bytes": 56662,
+      "sha256": "727c840651382b313db423457cd8d4f2c90ea0ca5073deddd06dbdfe7f050116"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\storage\\__pycache__\\schema.cpython-314.pyc",
+      "size_bytes": 15215,
+      "sha256": "cdce2b5dd528b11c46cc6b2324ceaec8977117caf4478eb87adaaa362216ebb0"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\storage\\__pycache__\\store.cpython-314.pyc",
+      "size_bytes": 11819,
+      "sha256": "656071aa06baf6d9fc65cdf5c78e23b2474cbd0992e9760c453c44e71ed376d1"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\studio\\__init__.py",
+      "size_bytes": 921,
+      "sha256": "3723667ee4990611bf27a41dd242a269f3ac083e3ffae09631c88bfca247b121"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\studio\\api.py",
+      "size_bytes": 23051,
+      "sha256": "66c78b683aa90108e7d08ecf9e7d20a9e38b635adb7641d9019a5981bf02f7da"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\studio\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 1115,
+      "sha256": "30bd57c82c1b1c5705ae76bbb5fbc5540d9f68449983e6c0c39aeacefded625a"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\studio\\__pycache__\\api.cpython-314.pyc",
+      "size_bytes": 28622,
+      "sha256": "3cc1b6896664d805cd7fc502c0fe76599bddb0b6791823215188c9af3eceece1"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\vinasha\\__init__.py",
+      "size_bytes": 475,
+      "sha256": "16eece0ed22f475fb025ad38fda94d0ac891cf75b5bc0187be6410bd754ca545"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\vinasha\\engine.py",
+      "size_bytes": 6416,
+      "sha256": "7a00a5d026719e3895687fe93dddfab33fe9b7bbe8a493fd6505435ef472f670"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\vinasha\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 651,
+      "sha256": "b90ec3198ad04eff0864383facfc3b1e99088a73e74fe85dfa39dc805f5c5f96"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\vinasha\\__pycache__\\engine.cpython-314.pyc",
+      "size_bytes": 9612,
+      "sha256": "6dbe314e0fa3e5bf423c62ed2e7b02c02828f065f575a261248cc1a963e61ad8"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 474,
+      "sha256": "9c0e9737f6c3575b8e7b3b1147febbc6360f669c73b8cd8539c1c713a9c08bf7"
+    },
+    {
+      "path": "epistemic-ai\\qvch_v4\\__pycache__\\cli.cpython-314.pyc",
+      "size_bytes": 9493,
+      "sha256": "f64aaae893923218cb223536c02271269b2a02ea73af53430951ee26cf9a0e08"
+    },
+    {
+      "path": "epistemic-ai\\scripts\\e2e_demo.py",
+      "size_bytes": 2621,
+      "sha256": "60dbb3b5c5381fcb1103b615b2266b669e603bfa4b9fca3293b45b0d4160792c"
+    },
+    {
+      "path": "epistemic-ai\\scripts\\e2e_v4_demo.py",
+      "size_bytes": 28438,
+      "sha256": "8522476be08ed437231f626a23257e4334f13ac2f37e2cb381bc1f4c97327d0f"
+    },
+    {
+      "path": "epistemic-ai\\scripts\\run_qvch_studio.py",
+      "size_bytes": 692,
+      "sha256": "5be923fdc384cb36992a65a29c9a14cbeed35cf8c0e2bffed2763e6948713463"
+    },
+    {
+      "path": "epistemic-ai\\scripts\\__pycache__\\e2e_demo.cpython-314.pyc",
+      "size_bytes": 4352,
+      "sha256": "7e214c3cf43830236f854a4e7ae7afb36fadd839f596716f05dea2fab5f13df5"
+    },
+    {
+      "path": "epistemic-ai\\scripts\\__pycache__\\e2e_v4_demo.cpython-314.pyc",
+      "size_bytes": 35576,
+      "sha256": "f697fc61552ef39960a2585c97ff5729d5032eb4014c394a8c164edd5ceebaf3"
+    },
+    {
+      "path": "epistemic-ai\\scripts\\__pycache__\\run_qvch_studio.cpython-314.pyc",
+      "size_bytes": 1697,
+      "sha256": "11af8039526c3d3a2fb09bc003169c661c385b713b6b7f9e015ca8d0e551c4e3"
+    },
+    {
+      "path": "epistemic-ai\\tests\\test_ext1_dry.py",
+      "size_bytes": 10056,
+      "sha256": "2756b682f8fddde5f13aea65e3ce9f928c54ea529c9fa6d05082c2241f2a8743"
+    },
+    {
+      "path": "epistemic-ai\\tests\\test_life1_stage2.py",
+      "size_bytes": 8751,
+      "sha256": "bb1c5ea890378f97b4c95fae92ba0cb1bf4e894fe1cb59bf9b20d5e2305b9c7d"
+    },
+    {
+      "path": "epistemic-ai\\tests\\test_mvp.py",
+      "size_bytes": 13186,
+      "sha256": "76aac6d018f16bf2656ce8cf186c2cc3b30f688af4f0cb210e1a7f397e4e3fd1"
+    },
+    {
+      "path": "epistemic-ai\\tests\\test_qvch_studio.py",
+      "size_bytes": 7945,
+      "sha256": "135de895e45b1ba4248ccc72a7d4b6cd8728131c4a84d43b846be530f25151d7"
+    },
+    {
+      "path": "epistemic-ai\\tests\\test_v4_a.py",
+      "size_bytes": 5785,
+      "sha256": "cae5c6a254be2963feea71016cfd1c77ff3c24da52062da6b0f42693f75e6875"
+    },
+    {
+      "path": "epistemic-ai\\tests\\test_v4_b.py",
+      "size_bytes": 5326,
+      "sha256": "df4844f7138320028c1eb242cf6973ad383608aa38cd441eaf6b86074eb375b6"
+    },
+    {
+      "path": "epistemic-ai\\tests\\test_v4_c.py",
+      "size_bytes": 6175,
+      "sha256": "8b85930bcabc1593587af5691949b42e40725de696c0c870d0857d7689945f70"
+    },
+    {
+      "path": "epistemic-ai\\tests\\test_v4_d.py",
+      "size_bytes": 4404,
+      "sha256": "e62c47b69912db7d9567a305d15f549a9b7726437251a364d055bb405a114aad"
+    },
+    {
+      "path": "epistemic-ai\\tests\\test_v4_e.py",
+      "size_bytes": 9089,
+      "sha256": "52bd3e812d876be597a89f075b761a898e0b8b2e681b3bb0c7dace67a8b60b9e"
+    },
+    {
+      "path": "epistemic-ai\\tests\\test_v4_e2e.py",
+      "size_bytes": 1049,
+      "sha256": "221fdbff5f8cbf0803319ec798c847331a87ae1048d4846f4f22c036d6d18cf8"
+    },
+    {
+      "path": "epistemic-ai\\tests\\test_v4_f.py",
+      "size_bytes": 6364,
+      "sha256": "a9963f2c9822592674d05d02db8f2c963137de6e385591f90822f3e19948ba7b"
+    },
+    {
+      "path": "epistemic-ai\\tests\\test_v4_g.py",
+      "size_bytes": 5360,
+      "sha256": "17683b2cf6bfb79f586b40094416b20ed49dae5d763a8d1e0b1a3b32eb6f4691"
+    },
+    {
+      "path": "epistemic-ai\\tests\\test_v4_h.py",
+      "size_bytes": 8126,
+      "sha256": "1331a3b6b747df11feba303669b787d70c8114a4a00555c7fa37fca63b829acd"
+    },
+    {
+      "path": "epistemic-ai\\tests\\test_v4_i.py",
+      "size_bytes": 9631,
+      "sha256": "e063806bbaae91d08057ba6406cd8373a5a5d2a3c4c5946d58ad00b991b4c6f1"
+    },
+    {
+      "path": "epistemic-ai\\tests\\test_v4_j.py",
+      "size_bytes": 9930,
+      "sha256": "992854e3dd30b4ec81f06d5aae970440eba82727e0d28791f60c7a21b2d84068"
+    },
+    {
+      "path": "epistemic-ai\\tests\\test_v4_r2_extra.py",
+      "size_bytes": 16845,
+      "sha256": "3645edf992733275c0e855e16d694ad8d7c7370c16ce4c4d3d164d16ba1f0218"
+    },
+    {
+      "path": "epistemic-ai\\tests\\test_v4_studio.py",
+      "size_bytes": 6375,
+      "sha256": "5e6923744f037990acef2deb18995233ee068272e74fe6776aa54a306e0f247e"
+    },
+    {
+      "path": "epistemic-ai\\tests\\__pycache__\\test_ext1_dry.cpython-314.pyc",
+      "size_bytes": 14788,
+      "sha256": "715fee1bbaf6ab10ea96fb3c14d007f75f86d22bfbe698a022a0be6cf5658adc"
+    },
+    {
+      "path": "epistemic-ai\\tests\\__pycache__\\test_life1_stage2.cpython-314.pyc",
+      "size_bytes": 12792,
+      "sha256": "94093e667edea0c3191dc65610296c8b1934f9991460be193b8422fe1d6b0bd6"
+    },
+    {
+      "path": "epistemic-ai\\tests\\__pycache__\\test_mvp.cpython-314.pyc",
+      "size_bytes": 20716,
+      "sha256": "facf53e0f66d7ebbf4df6c1e30a5f37a7723ff81d2d6333b6dbb92f6516a7a60"
+    },
+    {
+      "path": "epistemic-ai\\tests\\__pycache__\\test_qvch_studio.cpython-314.pyc",
+      "size_bytes": 13795,
+      "sha256": "fb54c280dc293d07b7952eed3b72e5e6a7cfe6708ef680bf84044ae1b6be241e"
+    },
+    {
+      "path": "epistemic-ai\\tests\\__pycache__\\test_v4_a.cpython-314.pyc",
+      "size_bytes": 8149,
+      "sha256": "c2c0c6e7711df245095db1e9fe1327aa8c441201352b9044f185cbd58e9c897a"
+    },
+    {
+      "path": "epistemic-ai\\tests\\__pycache__\\test_v4_b.cpython-314-pytest-7.4.0.pyc",
+      "size_bytes": 22428,
+      "sha256": "ad9d1faf7bee026d1d288abdca15d292ad15007721d955f1f53ba0cf600c96fa"
+    },
+    {
+      "path": "epistemic-ai\\tests\\__pycache__\\test_v4_b.cpython-314.pyc",
+      "size_bytes": 7113,
+      "sha256": "732319e769bed675ec46940eea2acaac2ab48ac933896fe83801aa2d865d14bf"
+    },
+    {
+      "path": "epistemic-ai\\tests\\__pycache__\\test_v4_c.cpython-314.pyc",
+      "size_bytes": 9011,
+      "sha256": "1846be30940000aae8d4d55aa30e4d5837fd7986efdb3caf3dbbb1891e8f8986"
+    },
+    {
+      "path": "epistemic-ai\\tests\\__pycache__\\test_v4_d.cpython-314.pyc",
+      "size_bytes": 6455,
+      "sha256": "e2ddbc90b16d96dcdd3b051740eda6eb033fe8a03e9d856feebf1361997ba6ee"
+    },
+    {
+      "path": "epistemic-ai\\tests\\__pycache__\\test_v4_e.cpython-314.pyc",
+      "size_bytes": 13019,
+      "sha256": "ef1820eea25b8b7b5b8efac2e9f8626adc1e2244f67abb64f52530cac0b43156"
+    },
+    {
+      "path": "epistemic-ai\\tests\\__pycache__\\test_v4_e2e.cpython-314.pyc",
+      "size_bytes": 1751,
+      "sha256": "a169303f215b2b80570b005414001831ed81949af94d59fd284e2ff3dcce16db"
+    },
+    {
+      "path": "epistemic-ai\\tests\\__pycache__\\test_v4_f.cpython-314.pyc",
+      "size_bytes": 9742,
+      "sha256": "319dcdb49bc8a388fe6d055916a951868715e338011176dc6b0678c413e41b26"
+    },
+    {
+      "path": "epistemic-ai\\tests\\__pycache__\\test_v4_g.cpython-314.pyc",
+      "size_bytes": 8238,
+      "sha256": "c0eec7f6f2bff809c8bfb5f8797d94ead449d16060666c6b58bf305e5fa3620e"
+    },
+    {
+      "path": "epistemic-ai\\tests\\__pycache__\\test_v4_h.cpython-314.pyc",
+      "size_bytes": 11659,
+      "sha256": "7ceaf313ad41f1d381d328445cb4e045b2d479004276c6abc106e7836ecd9919"
+    },
+    {
+      "path": "epistemic-ai\\tests\\__pycache__\\test_v4_i.cpython-314.pyc",
+      "size_bytes": 11960,
+      "sha256": "40c869267d71ed977d7bd7b89155a3bd63bffcc79b1fb37da5ad4a94a0dbd38f"
+    },
+    {
+      "path": "epistemic-ai\\tests\\__pycache__\\test_v4_j.cpython-314.pyc",
+      "size_bytes": 12645,
+      "sha256": "8a924aef7b1cd6bef1bc8f84ddc3f1e20a566f8260995c7d97b0333696e356de"
+    },
+    {
+      "path": "epistemic-ai\\tests\\__pycache__\\test_v4_r2_extra.cpython-314.pyc",
+      "size_bytes": 19860,
+      "sha256": "deaa3e9fdf37c7ff1b0aff174976d79842c53d70fdf9945d34581993a9a6328f"
+    },
+    {
+      "path": "epistemic-ai\\tests\\__pycache__\\test_v4_studio.cpython-314.pyc",
+      "size_bytes": 9682,
+      "sha256": "2a54cb09c6fc9cfd60630f2e334a24b253ffa0968775cc1d6c369d53a59684ad"
+    },
+    {
+      "path": "formal-lean\\README.md",
+      "size_bytes": 2208,
+      "sha256": "a881c2a9a550629b069b0500dd64bd117b0248d65ac76bcf50eb6674a3fbb84d"
+    },
+    {
+      "path": "formal-lean\\QCat-BraidCore\\CORRESPONDENCE.md",
+      "size_bytes": 11227,
+      "sha256": "5165033b965021026ab8b5f6f9e4f085ac30bea69f7aecb7376e85cbc315f16f"
+    },
+    {
+      "path": "formal-lean\\QCat-BraidCore\\QCatBraidCore.lean",
+      "size_bytes": 3502,
+      "sha256": "cf621b0f2e68dd6f0ded5cf2966d1b7f13d7a33fba3ab5aac45f50574c91ae19"
+    },
+    {
+      "path": "formal-lean\\QCat-BraidCore\\README.md",
+      "size_bytes": 9490,
+      "sha256": "ca27b8a47782acac2d381227cca91c82b0a2208c3831fd58e79ddcba9fdd641a"
+    },
+    {
+      "path": "formal-lean\\QCat-BraidCore\\lake-manifest.json",
+      "size_bytes": 2067,
+      "sha256": "dbd62e29c7f1f2449c04b0cc67ea1ce036bf261f5067866e1a5b3cd9164418f5"
+    },
+    {
+      "path": "formal-lean\\QCat-BraidCore\\lakefile.toml",
+      "size_bytes": 381,
+      "sha256": "da582bd55ae3b035476ead8977846c7308e0fe089166477fc3e0188ad80bc31c"
+    },
+    {
+      "path": "formal-lean\\QCat-BraidCore\\lean-toolchain",
+      "size_bytes": 25,
+      "sha256": "692487121da24843c4cc39e8225d0e016615914dc602328195691014cc98c526"
+    },
+    {
+      "path": "formal-lean\\QCat-BraidCore\\provenance\\SOURCE_HASHES.sha256",
+      "size_bytes": 1291,
+      "sha256": "a1f246b8c5e391069af456805ec1e36a1ad2cb9cb80698268e7d1ce5aed59f9d"
+    },
+    {
+      "path": "formal-lean\\QCat-BraidCore\\QCatBraidCore\\Audit.lean",
+      "size_bytes": 4396,
+      "sha256": "6585cec6f6a1e5e28fbe84f9aac7d3c6865c7c24cdea3a2e76ebcf24feebd759"
+    },
+    {
+      "path": "formal-lean\\QCat-BraidCore\\QCatBraidCore\\Basic.lean",
+      "size_bytes": 6257,
+      "sha256": "3b1606eb70ae1f20c08bb986305e88d669660bb88041beb0dedf88f22c51f6e8"
+    },
+    {
+      "path": "formal-lean\\QCat-BraidCore\\QCatBraidCore\\Braided.lean",
+      "size_bytes": 5443,
+      "sha256": "78410500843354ef4293c9869df3de0e8b0d658bd94bdcaf72509f0d94b7fa70"
+    },
+    {
+      "path": "formal-lean\\QCat-BraidCore\\QCatBraidCore\\ColoredWord.lean",
+      "size_bytes": 9076,
+      "sha256": "f5ea4d1410d72cfa03fbdf471fedd14d8d1369328c82fb8015a6d662173d738d"
+    },
+    {
+      "path": "formal-lean\\QCat-BraidCore\\QCatBraidCore\\Generators.lean",
+      "size_bytes": 7097,
+      "sha256": "d0065dd6af9c64a9d40c9a80da00e90d431824a14b7b201ceda198dc69266a55"
+    },
+    {
+      "path": "formal-lean\\QCat-BraidCore\\QCatBraidCore\\LinearPhase.lean",
+      "size_bytes": 10989,
+      "sha256": "c79a1105c548ef303bc34e3d10de718535f4c401a001fa42da58b9cc860f9b7c"
+    },
+    {
+      "path": "formal-lean\\QCat-BraidCore\\QCatBraidCore\\Monoidal.lean",
+      "size_bytes": 6255,
+      "sha256": "ce0b341565640929052f4890a8649fe6d6aeb9d386e0cddca70a34f10af0c11e"
+    },
+    {
+      "path": "formal-lean\\QCat-BraidCore\\QCatBraidCore\\PhaseNaturality.lean",
+      "size_bytes": 11000,
+      "sha256": "64027130d633d41ce311808d1aa48ec99b1ffdf35798d6553374a0a53883b81b"
+    },
+    {
+      "path": "formal-lean\\QCat-CatBridge\\CORRESPONDENCE.md",
+      "size_bytes": 21366,
+      "sha256": "49a60a663d45ec57ac1b04f42bbfb5234e1b040b9ece8c8c6eca07dae8e5d6f1"
+    },
+    {
+      "path": "formal-lean\\QCat-CatBridge\\QCatCatBridge.lean",
+      "size_bytes": 2433,
+      "sha256": "488a1e84c3b581793227187f7395da56bdb31155fb6160f8b3fa3af23ea50d65"
+    },
+    {
+      "path": "formal-lean\\QCat-CatBridge\\README.md",
+      "size_bytes": 10130,
+      "sha256": "fa9cd7a693d057d3f5b46535f4f06706fd047b085d7a103d848b914680fbe2bd"
+    },
+    {
+      "path": "formal-lean\\QCat-CatBridge\\SNAPSHOT_BRIDGE-002.sha256",
+      "size_bytes": 117,
+      "sha256": "fb9834174df14d6f087a931bcd559445471b72cbbad396ed77d650cbb5e3da36"
+    },
+    {
+      "path": "formal-lean\\QCat-CatBridge\\SNAPSHOT_BRIDGE-003.sha256",
+      "size_bytes": 117,
+      "sha256": "51890216449f273e3b80e6b86e27c4b756e16ad0572ef28cbf0e84f148602687"
+    },
+    {
+      "path": "formal-lean\\QCat-CatBridge\\lake-manifest.json",
+      "size_bytes": 2062,
+      "sha256": "3a341e6ae3df6c8a29f99db4e38d8390e5f09ecadffba7892a66372b52d97c8f"
+    },
+    {
+      "path": "formal-lean\\QCat-CatBridge\\lakefile.toml",
+      "size_bytes": 171,
+      "sha256": "2c8238be2a57adb6f8af9dc11a3e6f9c4b5a4d8f2d0666ccf261c489acc7535b"
+    },
+    {
+      "path": "formal-lean\\QCat-CatBridge\\lean-toolchain",
+      "size_bytes": 25,
+      "sha256": "692487121da24843c4cc39e8225d0e016615914dc602328195691014cc98c526"
+    },
+    {
+      "path": "formal-lean\\QCat-CatBridge\\provenance\\SOURCE_HASHES.sha256",
+      "size_bytes": 1731,
+      "sha256": "0ee6b329c6a39cdbc82d5f198f717356eb56180967ab1e2f7946a82f4e64eee7"
+    },
+    {
+      "path": "formal-lean\\QCat-CatBridge\\QCatCatBridge\\Audit.lean",
+      "size_bytes": 5666,
+      "sha256": "8692229d36184cea4cd72adb2e6b79b6048c0cf8149e55f463bac6ef93c371b2"
+    },
+    {
+      "path": "formal-lean\\QCat-CatBridge\\QCatCatBridge\\MarkovKernel.lean",
+      "size_bytes": 13191,
+      "sha256": "901015ae76107f4ed6bf93e366be565ccfa4f5ad1064a9b25a5e7b1d92904704"
+    },
+    {
+      "path": "formal-lean\\QCat-CatBridge\\QCatCatBridge\\ObserverTrace.lean",
+      "size_bytes": 16267,
+      "sha256": "5bd85b5ee042437ea827229a1bcf0021d7b90faff2963306f3bb1985fd9bc0de"
+    },
+    {
+      "path": "formal-lean\\QCat-CatBridge\\QCatCatBridge\\PhaseObservation.lean",
+      "size_bytes": 12064,
+      "sha256": "969ed54527c63c366e27329e01e48f417d6957633c30891cfa03671334545910"
+    },
+    {
+      "path": "formal-lean\\QCat-CatBridge\\QCatCatBridge\\SignRealization.lean",
+      "size_bytes": 11503,
+      "sha256": "f79278d284609993ad557a35c8be26b48b14881299d7df769bc5c54a9c990103"
+    },
+    {
+      "path": "formal-lean\\QCat-CatBridge\\QCatCatBridge\\TowerLaw.lean",
+      "size_bytes": 21568,
+      "sha256": "a67b2198a91192f9e062a3ba77a846f0a29dd04680c4e221c549092031c9da9a"
+    },
+    {
+      "path": "formal-lean\\QCat-CatBridge\\QCatCatBridge\\TraceComposition.lean",
+      "size_bytes": 8690,
+      "sha256": "911c478d537006a3b851c0898e296f7ba410b9d556900954be47394ac700a0ce"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\QCatFormal.lean",
+      "size_bytes": 2047,
+      "sha256": "f811782c808c68a39b6a2c0b4238b41e41bb40416c90ad354907af921de04494"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\README.md",
+      "size_bytes": 15467,
+      "sha256": "bead791497e9b4b053af1d676f79786df7e9b7905e12e528f7242aee43f51a79"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\lake-manifest.json",
+      "size_bytes": 2059,
+      "sha256": "c8ceb28df588fb839a134df5770812e25b130750ab95c052b79c9522a9858add"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\lakefile.toml",
+      "size_bytes": 441,
+      "sha256": "bc3ef0c4be96807dbc1b1365b3f408b6fca55edbb713520ec1a751f0651cb1b1"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\lean-toolchain",
+      "size_bytes": 25,
+      "sha256": "692487121da24843c4cc39e8225d0e016615914dc602328195691014cc98c526"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\provenance\\BUILD_SUMMARY.md",
+      "size_bytes": 865,
+      "sha256": "5c2111d64c41f13eeb57ad2a4a1101082bcb6f38db190da60599c29961f48ab4"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\provenance\\CLOSURE-007.md",
+      "size_bytes": 3614,
+      "sha256": "9cb43343900de6c9e5a2e594584d3196815d5a7fdc1b527fad5697f23073a9df"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\provenance\\DEPENDENCY_FILES.sha256",
+      "size_bytes": 933823,
+      "sha256": "3f30441449673af7831722f55e759d44280e6f24e37b9fb397ed36a945edee3c"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\provenance\\PROVENANCE.md",
+      "size_bytes": 11421,
+      "sha256": "db096f0bc2dd51281187bfcf22999cd6f9195ceac019ddb6a083e1bc193b42e4"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\provenance\\Q-Mathematics_v3.4_Canonical_PATCHED.md",
+      "size_bytes": 20427,
+      "sha256": "f9d9373c7527956426f4675f6fcb48f78a77d47ab8d5929de2b811c15bbf8f9e"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\provenance\\Q-Mathematics_v3.md",
+      "size_bytes": 6502,
+      "sha256": "144895e4ddd49ce01d71f8d69ce2e5b36f47d1a2d57d3e90155568650d7d252b"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\provenance\\QMath_v3.md",
+      "size_bytes": 6502,
+      "sha256": "144895e4ddd49ce01d71f8d69ce2e5b36f47d1a2d57d3e90155568650d7d252b"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\provenance\\SOURCE_HASHES.sha256",
+      "size_bytes": 337,
+      "sha256": "7955b02e3ae4c043cc9de9b8552afec45ce176cccf526b44d19912ff249ee045"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\QCatFormal\\Audit.lean",
+      "size_bytes": 3306,
+      "sha256": "e245502c90b5755abdfe693c80f8475e65db21197302c2aa36caaff9595b9096"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\QCatFormal\\Basic.lean",
+      "size_bytes": 891,
+      "sha256": "02628b1b4ca058a739cfc6a177fb783efa5844ab64825bf77d7fab60f48d183d"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\QCatFormal\\BraidRelations.lean",
+      "size_bytes": 5102,
+      "sha256": "4ebbe33b036e277c248d6b7e6ac6e517f1e269d672b6c8f1d00fbcf8fb968e5f"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\QCatFormal\\Comparison.lean",
+      "size_bytes": 8594,
+      "sha256": "ae702ecd93ec70fb02652b0f93c4dfbd58f4196bd208ea532a3777a70951febc"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\QCatFormal\\FreeModule.lean",
+      "size_bytes": 7575,
+      "sha256": "35d8817af5f16e6d6a970db368453c013a7103b7daa035e898b10c48b2ca0db5"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\QCatFormal\\GeneralBraid.lean",
+      "size_bytes": 6411,
+      "sha256": "dde34167fbc9ef62d250b6fa20a647b87b4fc03c6fba1501bfa12358dcbe5845"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\QCatFormal\\Historical.lean",
+      "size_bytes": 9225,
+      "sha256": "29b9cc0836cfe5d1579110f3d32a7d5515ec548e861cd9d3ad67e7ab05aac79e"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\QCatFormal\\MathlibBridge.lean",
+      "size_bytes": 2712,
+      "sha256": "41d7c8f56fa3c02b61fc95e2e39e18de0f28f46d482fd00a91a11fe487321ed9"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\QCatFormal\\Naturality.lean",
+      "size_bytes": 7636,
+      "sha256": "14919539ff6245cc2c09736a5cb954a19997ca52396352d9bdd2ee61e518d80a"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\QCatFormal\\QAlgebra.lean",
+      "size_bytes": 8416,
+      "sha256": "a5fc078983a9022ee955b553b8ff42db07e75e5eedcb3f5befe7cd1edb0d3e46"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\QCatFormal\\Qm1NBad.lean",
+      "size_bytes": 6516,
+      "sha256": "8e16554b10cd6177f00581e19fe9b54418c7fa2837d598878de035eced9d815c"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\QCatFormal\\RMap.lean",
+      "size_bytes": 5146,
+      "sha256": "0a9354388feb5b0ec96e8cdc6f0fefc27f81417bd8b7f46ce716fd4928b22cd2"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\QCatFormal\\Scope.lean",
+      "size_bytes": 11255,
+      "sha256": "b473d2431f8168d2ba34683b18db0c3122aaf3ea04da530f924512973eda5e39"
+    },
+    {
+      "path": "formal-lean\\QCatFormal\\QCatFormal\\StdOnly.lean",
+      "size_bytes": 3086,
+      "sha256": "475e0834f35c22797d0daedf4358b3703f5db765ab24234712d6a729e3dc44bc"
+    },
+    {
+      "path": "formal-lean\\QCatFormal-Kernel\\QCatKernel.lean",
+      "size_bytes": 633,
+      "sha256": "34df28ec614cc58ffc43dae56a10a93b78cbff4a56c112a0bce9c772ce8c2212"
+    },
+    {
+      "path": "formal-lean\\QCatFormal-Kernel\\lake-manifest.json",
+      "size_bytes": 116,
+      "sha256": "eff52b7b8ad417753cf544c6dc5d00e08105506e49b26f00015b1fbb452ce748"
+    },
+    {
+      "path": "formal-lean\\QCatFormal-Kernel\\lakefile.toml",
+      "size_bytes": 140,
+      "sha256": "bc85faaa37c80339adc3ce3183979ca66a0e5f59dc3d71029d5a875b5c275258"
+    },
+    {
+      "path": "formal-lean\\QCatFormal-Kernel\\lean-toolchain",
+      "size_bytes": 25,
+      "sha256": "692487121da24843c4cc39e8225d0e016615914dc602328195691014cc98c526"
+    },
+    {
+      "path": "formal-lean\\QCatFormal-Kernel\\QCatKernel\\Comparison.lean",
+      "size_bytes": 8594,
+      "sha256": "ae702ecd93ec70fb02652b0f93c4dfbd58f4196bd208ea532a3777a70951febc"
+    },
+    {
+      "path": "formal-lean\\QCatFormal-Kernel\\QCatKernel\\Scope.lean",
+      "size_bytes": 11255,
+      "sha256": "b473d2431f8168d2ba34683b18db0c3122aaf3ea04da530f924512973eda5e39"
+    },
+    {
+      "path": "formal-lean\\QCatFormal-Kernel\\QCatKernel\\StdOnly.lean",
+      "size_bytes": 3086,
+      "sha256": "475e0834f35c22797d0daedf4358b3703f5db765ab24234712d6a729e3dc44bc"
+    },
+    {
+      "path": "neutrino\\PQT_AUDIT_MANIFEST_v1.json",
+      "size_bytes": 4902,
+      "sha256": "1054589a8f94e06e8960ba99038893eb5f7d21964d102613871c9c4e5b968665"
+    },
+    {
+      "path": "neutrino\\PQT_EXECUTIVE_SUMMARY_v1.md",
+      "size_bytes": 3888,
+      "sha256": "84b1c2a630861e2520092a6a04622dd193c942afd32276d2b719263584f67878"
+    },
+    {
+      "path": "neutrino\\PQT_FULL_FORMALIZATION_v1.md",
+      "size_bytes": 34788,
+      "sha256": "f000e58e6312ec5837c2dd44dc6ac81a8e0004788eeb489faa4f0f1344c694f2"
+    },
+    {
+      "path": "neutrino\\PQT_NEUTRINO_AUDIT_v1.md",
+      "size_bytes": 7906,
+      "sha256": "36e73e616d7909bd4e6f65f1c394f4783f4cf1ee09ad01f1e1e6f3aae30127de"
+    },
+    {
+      "path": "neutrino\\PQT_NEUTRINO_RESULTS_v1.md",
+      "size_bytes": 10568,
+      "sha256": "c247ac17c5eb73b4213a088128fdce67a5411ebac9f734cad6930c88f4626984"
+    },
+    {
+      "path": "neutrino\\PQT_NEUTRINO_RG_RESULTS.md",
+      "size_bytes": 2390,
+      "sha256": "9f1ab6d4ef214f6ca284a7d90c840d974d1ad97098c812a3a1d4557c5e52bc2c"
+    },
+    {
+      "path": "neutrino\\PQT_NEUTRINO_v10_RESULTS.md",
+      "size_bytes": 5572,
+      "sha256": "6bf4a1f91ae47e48ea6804376052c79e39d0496a6e9d6c3f4c1c4218d4af782d"
+    },
+    {
+      "path": "neutrino\\PQT_NEUTRINO_v11_RESULTS.md",
+      "size_bytes": 1908,
+      "sha256": "4488af4dc021c0de9ee104a51e26e7abbc9d1b00f75056f9d0f18701a1a992e0"
+    },
+    {
+      "path": "neutrino\\PQT_NEUTRINO_v12_RESULTS.md",
+      "size_bytes": 2346,
+      "sha256": "254a258985911e6bc447be24ba673a5bca42101f96622c1928fae79b83ad4348"
+    },
+    {
+      "path": "neutrino\\PQT_NEUTRINO_v2_RESULTS.md",
+      "size_bytes": 6302,
+      "sha256": "f7bfdb09ce8b6cc8c6b5ea90604eec40b1e7f8cf689b52d423162eb1c4181485"
+    },
+    {
+      "path": "neutrino\\PQT_NEUTRINO_v3_RESULTS.md",
+      "size_bytes": 5339,
+      "sha256": "6b0a4a304dfa2f29b6ac3fdaa0d833df9f2a3741b1c7f7dd11ba1d3f2d173e0d"
+    },
+    {
+      "path": "neutrino\\PQT_NEUTRINO_v4_RESULTS.md",
+      "size_bytes": 5232,
+      "sha256": "c3dba04ea69f7211aa1e0232c9815ff61d901b6c85775206344f9abc4ddbfdb0"
+    },
+    {
+      "path": "neutrino\\PQT_NEUTRINO_v5_RESULTS.md",
+      "size_bytes": 5338,
+      "sha256": "3d9b706c34734e3e3fccb036dc20b1d3269e245304e11a56cf78fe87c90902ca"
+    },
+    {
+      "path": "neutrino\\PQT_NEUTRINO_v6_RESULTS.md",
+      "size_bytes": 5144,
+      "sha256": "b1510aa13f06a8cf1dc26855f5a8447d3955e424c57b5bf7c9390c8f2b4a0ddd"
+    },
+    {
+      "path": "neutrino\\PQT_NEUTRINO_v7_RESULTS.md",
+      "size_bytes": 6164,
+      "sha256": "f2fba0c88d374ac6008381a37c2d64235d44dc2808530083078de23346ea1244"
+    },
+    {
+      "path": "neutrino\\PQT_NEUTRINO_v8_RESULTS.md",
+      "size_bytes": 6294,
+      "sha256": "248c00b1472bce12c552894e1f7e369c6e7d0c7fe90e66da837d121b3c6727e6"
+    },
+    {
+      "path": "neutrino\\PQT_NEUTRINO_v9_RESULTS.md",
+      "size_bytes": 3880,
+      "sha256": "30aadb17a9b51be86b5a891b89ade4d312f03274a998a8f04fab3ac4ab6c9867"
+    },
+    {
+      "path": "neutrino\\PQT_POPULAR_ARTICLE_RU.md",
+      "size_bytes": 14298,
+      "sha256": "b5ec7d234d65627f560b92fe7dfa27c9c6fc4a49732d24ba6276cc0787214f63"
+    },
+    {
+      "path": "neutrino\\README.md",
+      "size_bytes": 1353,
+      "sha256": "90f32ab3e86d508c2f2cd3830684204c43f54d2cd8f636658de9bc62efb378cc"
+    },
+    {
+      "path": "neutrino\\gap_analysis.py",
+      "size_bytes": 718,
+      "sha256": "5e991a09e77b3e19dab948040ced8236c9c4ed5828e4b57ae5263b07335d8e23"
+    },
+    {
+      "path": "neutrino\\lk_scan.py",
+      "size_bytes": 797,
+      "sha256": "33ebb0df5a6a4d19c3a2b557890a6aa8881d928ef263860211c1f92e631e40e7"
+    },
+    {
+      "path": "neutrino\\lk_scan_fine.py",
+      "size_bytes": 794,
+      "sha256": "89d48a8b0951dcae207e95fe4322f5ea2babb61631d3fd45cd6c53141d6d5f30"
+    },
+    {
+      "path": "neutrino\\matrix_reconstruction.py",
+      "size_bytes": 1015,
+      "sha256": "7cfaa6b79f802066ab5831556efd5671a74c74aaf5832b86a883a45dfc2cfc8c"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_audit.py",
+      "size_bytes": 10897,
+      "sha256": "aea964b7d08ff4b561fbd18581f34337663fb0f71ec4677022a5ba2017dd7b54"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_calc.py",
+      "size_bytes": 18012,
+      "sha256": "b45d702f3c5d49ac3a0d1c8cf7cd1b52b45b205222bcfd16390d95bdba7574f9"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v10.py",
+      "size_bytes": 12163,
+      "sha256": "83740145b1e2f0358ad3a09f203205a3250aef3ee8e8e494333714c4d558db74"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v11.py",
+      "size_bytes": 9028,
+      "sha256": "305ead30e47d3176bfa9e08072c679d79a617e282de04f32062ef9ca5ae1e8c2"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v12.py",
+      "size_bytes": 16075,
+      "sha256": "aff08a28193f08ee1aa933af63adfe1b03ed346ddbc72942dd80fb55f4965b73"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v12_FINAL.py",
+      "size_bytes": 2297,
+      "sha256": "6894e6aa45b3b74d438ec4e40081292810c63299b675d230e51342eec436f9fa"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v13.py",
+      "size_bytes": 6544,
+      "sha256": "0232cdc0c9c0b35891738333631c1beb7b6e536319272229e0c062ee69033b56"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v14.py",
+      "size_bytes": 15147,
+      "sha256": "9a6feb24f395bb5aac0b2e4a50dd97cf69d874b40a9c2563afd173edf25d65ce"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v15.py",
+      "size_bytes": 15397,
+      "sha256": "f99290864f1709205d9e7fb5173cb2a89eb35fc0a588eda4301e984a179ba7c9"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v16.py",
+      "size_bytes": 16638,
+      "sha256": "8c7505fe000951f1b14d72c7e1a583df96415c596b41994c65b8fde47b02eab7"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v17.py",
+      "size_bytes": 14648,
+      "sha256": "ec14f8e9643a69481ec6447615260cfae93ef0cec02ec2423997e4ab5800f1a0"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v18.py",
+      "size_bytes": 12179,
+      "sha256": "1a70df33418a4336b988b347b0c92683411a7c42c63f8e737fade7c1d13dd42f"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v2.py",
+      "size_bytes": 16461,
+      "sha256": "6dcc0155f1cccce05a11953fc1477faa69f8974b98c3af8e3075a340f583db6f"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v20.py",
+      "size_bytes": 13826,
+      "sha256": "63e188d960ff5b2462a893368fa41465ef340e14313a4d958ec0568bfb545960"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v21_reconstruction.py",
+      "size_bytes": 1035,
+      "sha256": "d48517cbf3c615665362bf89e9cc8774041d1716db9dfd1a2e649b53eab19800"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v3.py",
+      "size_bytes": 10400,
+      "sha256": "7c2770b21fa21ec8ed21ba74d566d5011c2be182da459b8e4107d2374689decd"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v4.py",
+      "size_bytes": 6879,
+      "sha256": "839dab4afb72de9d6cde2ca97955136729af76a7f481ea2232005b8ed9b1124f"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v4b.py",
+      "size_bytes": 7632,
+      "sha256": "4e3444349a885188c12ad662b72c3b64f0c5a74b2c10e63ed5e2a3bd5d385c87"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v4c.py",
+      "size_bytes": 5004,
+      "sha256": "5fc3f0d5d946754b97f48f72980271e23e024f5b877e53383cb72bf60d8a6c81"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v5.py",
+      "size_bytes": 12439,
+      "sha256": "570361fa6418e625a4468958576bd7b09fbbdaba43d32a6e32e0df12532ea193"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v6.py",
+      "size_bytes": 14884,
+      "sha256": "78fff13f68c8a75b1f3f699b7697da6d6290064dab5508f703b0176de6354a14"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v6b.py",
+      "size_bytes": 3938,
+      "sha256": "5520dd7350f86e305dfb990075808c2e8a12b3d061881b2b9aef331c411d9401"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v7.py",
+      "size_bytes": 8978,
+      "sha256": "10b7eaf7a6db07fa7de85734ac2ac44e41c48903c748e008ec182b8beb184eac"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v7b.py",
+      "size_bytes": 4982,
+      "sha256": "6291126c8f23bb459c9b013efb8ac85d8ddc7ab3fff63604fe0733ff94e6044b"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v8.py",
+      "size_bytes": 9125,
+      "sha256": "a49548e1d44975c5962bafd046ddecaf19c3a3f15052261fa5dd9137811d6ef4"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v8_debug.py",
+      "size_bytes": 4332,
+      "sha256": "af2840bbce252286642f58dea1642343c44e440394ae698729fb164bc7dbbd0f"
+    },
+    {
+      "path": "neutrino\\neutrino_pqt_v9.py",
+      "size_bytes": 11874,
+      "sha256": "a40a154c115cccc8486daf5c99cc93b4fd2b32ba6293645e02a7e3016a7d5014"
+    },
+    {
+      "path": "neutrino\\neutrino_structural_check.py",
+      "size_bytes": 2626,
+      "sha256": "7d11ea874756839fcbc1aefa40267c64d8a0f4f2f94011d915d3a4161ad2f4fe"
+    },
+    {
+      "path": "neutrino\\neutrino_v11_opt.py",
+      "size_bytes": 1350,
+      "sha256": "3612ffafc52f0156359f529590de62f547c76c485969fb06475a24a5d1269432"
+    },
+    {
+      "path": "neutrino\\neutrino_v11_search.py",
+      "size_bytes": 1935,
+      "sha256": "f50381111aedb6c14c9421efffe671b141372019734accbaf111c84877b35633"
+    },
+    {
+      "path": "neutrino\\neutrino_v11_test.py",
+      "size_bytes": 499,
+      "sha256": "bb1d6eb40336e9c932085ccda999907e5f5be8605daafd743ba75686cd3d8630"
+    },
+    {
+      "path": "neutrino\\neutrino_v12_breakthrough.py",
+      "size_bytes": 2972,
+      "sha256": "4c3ed9c330db34e07b64252582207345b8edd65ca3ba2754d93aa24a0f8855c4"
+    },
+    {
+      "path": "neutrino\\neutrino_v12_final_check.py",
+      "size_bytes": 3112,
+      "sha256": "f2d1478c5d2a3e06014dc6d348e45382e9e3e34fa13768351eb7042c963f570b"
+    },
+    {
+      "path": "neutrino\\neutrino_v12_reality.py",
+      "size_bytes": 2062,
+      "sha256": "d9b2ed4d4ae35539f9bd4d0ebda27dfbcf3ac290f709110609d53468bd82945f"
+    },
+    {
+      "path": "neutrino\\neutrino_v12_rigorous_scan.py",
+      "size_bytes": 4069,
+      "sha256": "da68591f6c35e44941add9b1908c3c9234e0bca525fb9533700d39b5dddc2d01"
+    },
+    {
+      "path": "neutrino\\neutrino_v12_test.py",
+      "size_bytes": 898,
+      "sha256": "dd2a8f8e851f2fd674e7d7fda7dc7b6ced3698c1e8c3d7110548609b765f1c5d"
+    },
+    {
+      "path": "neutrino\\neutrino_v12_truth.py",
+      "size_bytes": 2235,
+      "sha256": "a84628b4cb4da4519e24b4f3f05c66321b9bfa7faacc2ab68e7526e1976b4ae8"
+    },
+    {
+      "path": "neutrino\\neutrino_v12_verified.py",
+      "size_bytes": 2905,
+      "sha256": "9e5b39aa04f38593461925339495ca8ef6c6c8d78b8af7c41b6e3e96b3c83872"
+    },
+    {
+      "path": "neutrino\\neutrino_v12_verified_v2.py",
+      "size_bytes": 2461,
+      "sha256": "ca12d30b387af6bbb16d174547ed2050edaee277232fe7ca0f4f63c0bab3bb20"
+    },
+    {
+      "path": "neutrino\\pqt_emergent_metric.py",
+      "size_bytes": 9153,
+      "sha256": "e695d21bdcc979ac71f43968d026eae026302ed9f46c08f5aa2c0623afae9628"
+    },
+    {
+      "path": "neutrino\\pqt_neutrino_rg_v2.py",
+      "size_bytes": 8366,
+      "sha256": "d9303afe8ce08442dffa76589ac961076ed5dab236e9ae82d80c77277940426e"
+    },
+    {
+      "path": "neutrino\\rotation_analysis.py",
+      "size_bytes": 860,
+      "sha256": "023eef12df1bc9857e18cc9de0aa696a6f6171d569fc7d1c59258ea455723982"
+    },
+    {
+      "path": "neutrino\\figures\\obs_combined_zone_v31.png",
+      "size_bytes": 40660,
+      "sha256": "fb6ba9c8dcf6beb79c9f057f9db47b9ee8c33961b32627ad315f4cec6a586459"
+    },
+    {
+      "path": "neutrino\\figures\\obs_delta_mh_v31.png",
+      "size_bytes": 42980,
+      "sha256": "a8f98fa5addd408f9cd9b698feffba99d17319b85133dc1e8cdb82abe98610e0"
+    },
+    {
+      "path": "neutrino\\figures\\obs_participation_v31.png",
+      "size_bytes": 43371,
+      "sha256": "fe3a9067b75a745c5c40e231698424920a5e4c778e26b84eda9fdad92ac2778a"
+    },
+    {
+      "path": "neutrino\\figures\\obs_phase_overlay_v31.png",
+      "size_bytes": 55300,
+      "sha256": "74dcfbe6f9e9387e6745be9120d3f6cef36d5b5e6bd036831acab271a8fcacd2"
+    },
+    {
+      "path": "neutrino\\figures\\obs_sigmaBR_4l_v31.png",
+      "size_bytes": 47819,
+      "sha256": "892941d8595a72ed78969a6f63d5be58a653b73faf2b1847b253f88aba8e8015"
+    },
+    {
+      "path": "neutrino\\figures\\obs_sin2theta_phys_v31.png",
+      "size_bytes": 45180,
+      "sha256": "02063249bad1e4c22a584c27e5da6ca9fb521856e1e5da52d1dc942f5068faf4"
+    },
+    {
+      "path": "neutrino\\figures\\pqt_exp_zone_map_v3.png",
+      "size_bytes": 52106,
+      "sha256": "32430053fd9aab6872662c9cf814571314a1dfc9a0c4aeba5f4cf236c033035a"
+    },
+    {
+      "path": "neutrino\\figures\\pqt_mixed_transition_score_v3.png",
+      "size_bytes": 60467,
+      "sha256": "b30b648a5ee9ae23f284edc32a1a5e811b21a5ba8a54f47cc2573df02f6a91c1"
+    },
+    {
+      "path": "neutrino\\figures\\pqt_phase_fraction_sensitivity_v3.png",
+      "size_bytes": 43111,
+      "sha256": "fb44e339ffdcf2f406b726cde4d45837f6a05f7ac70c0495e56d53fcd91bc543"
+    },
+    {
+      "path": "neutrino\\figures\\pqt_phase_map_v3.png",
+      "size_bytes": 48670,
+      "sha256": "3bceb13e0f828a33ec473ecebdb77381ad42ed72297cc13c0e606698153f8f57"
+    },
+    {
+      "path": "neutrino\\figures\\seed_variance_v22b.png",
+      "size_bytes": 57739,
+      "sha256": "765b7ae708121cb2d2138b15ee00ed6237423f8bd9e96238d6698c04fe916275"
+    },
+    {
+      "path": "neutrino\\figures\\signal_background_split_v22b.png",
+      "size_bytes": 100056,
+      "sha256": "773e15ff06e0e092b0136437eb709e0e58aab72e9481f9accb7c0650944cb3d2"
+    },
+    {
+      "path": "neutrino\\figures\\window_sensitivity_v22b.png",
+      "size_bytes": 97736,
+      "sha256": "cc3516f2fb038e613972674b5539f074d718703e0a253e7b6765c864720ff25f"
+    },
+    {
+      "path": "neutrino\\__pycache__\\gap_analysis.cpython-314.pyc",
+      "size_bytes": 1810,
+      "sha256": "82283f16d2ced1dd9bb7489286551af33547fdd0a3935d78f2078cdc574bd87d"
+    },
+    {
+      "path": "neutrino\\__pycache__\\lk_scan.cpython-314.pyc",
+      "size_bytes": 2106,
+      "sha256": "574a60c678f16b7351d062bc14809f1933bf96bcd2905f1dcdc1ffe9037eb7b8"
+    },
+    {
+      "path": "neutrino\\__pycache__\\lk_scan_fine.cpython-314.pyc",
+      "size_bytes": 2144,
+      "sha256": "8b4cf4923d25f94e4f8deccc686f557268a84db75db357a94af6384df5290334"
+    },
+    {
+      "path": "neutrino\\__pycache__\\matrix_reconstruction.cpython-314.pyc",
+      "size_bytes": 2295,
+      "sha256": "0128b9626fc120a56f69fe3aeb6b7ee085a0f8450adb122dd07c10ace44bc711"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_audit.cpython-314.pyc",
+      "size_bytes": 16041,
+      "sha256": "ead6926cd3b48ed5dbfd90bef9d7481b8c2a4f2a3b9f40b9ebe800b029ef1a84"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_calc.cpython-314.pyc",
+      "size_bytes": 22991,
+      "sha256": "e1449dde828fb56367e61e971c93d7586e17d5ac564cfc52477a5e40c1aad603"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v10.cpython-314.pyc",
+      "size_bytes": 19194,
+      "sha256": "41721c75218011092efa40816e0ff357d7852496e492c143b1862b34d470e808"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v11.cpython-314.pyc",
+      "size_bytes": 13869,
+      "sha256": "3ca8b287381b750e3a1ee7603e20a7752859935495740d92e1b1537662f421d3"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v12.cpython-314.pyc",
+      "size_bytes": 23494,
+      "sha256": "79a3f4ba1eebed84058707e13ff3181b4cd898c11e530c04f355472a61f0886d"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v12_FINAL.cpython-314.pyc",
+      "size_bytes": 5522,
+      "sha256": "75247672071fcb8b0b15d8601d5d85ab65a153ae7b311fdb80bf71ef6ef9d21d"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v13.cpython-314.pyc",
+      "size_bytes": 10946,
+      "sha256": "1a56735f7aa60f5d750e0d6d364aa62a95712af2f0305ed19ae2c23d1d0242c3"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v14.cpython-314.pyc",
+      "size_bytes": 21458,
+      "sha256": "e6866a7da017ce407f4166cd0ab95bc92404c1530a097df95c2a25f0e80dd9b6"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v15.cpython-314.pyc",
+      "size_bytes": 23000,
+      "sha256": "f6a678183d5fee2b16fc54c097437a466e109c371aaebc570a3ca93967a0d508"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v16.cpython-314.pyc",
+      "size_bytes": 25856,
+      "sha256": "00d63896362e4a5ab56ac1e19f85248f29da2cb8bdb10d7dcd9e20d5c35541f0"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v17.cpython-314.pyc",
+      "size_bytes": 21980,
+      "sha256": "a7d2cd094039de8cbe85c8e9bdebd0fd101d9e453ca840b83ea84dd5d58cdc82"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v18.cpython-314.pyc",
+      "size_bytes": 19706,
+      "sha256": "61b979f1d4a2a236880f5dd519ef6bbe381a31716239a8189bbd4a90090ce18d"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v2.cpython-314.pyc",
+      "size_bytes": 28108,
+      "sha256": "c1039655e45302879dad8cb20931c52263005fb64501e25b67953e6322ea605f"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v20.cpython-314.pyc",
+      "size_bytes": 19391,
+      "sha256": "df3bc1f2aa80d0721d6941c1bb4d90d201a3624e03614200190ce8e205a3557b"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v21_reconstruction.cpython-314.pyc",
+      "size_bytes": 2427,
+      "sha256": "703bfa95c2115bdcf9996f09d8004e3341d0bb4e1cc5c80b0eee616a24fca9c7"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v3.cpython-314.pyc",
+      "size_bytes": 16100,
+      "sha256": "632910ad841b28875a2bf27477ffa42f64bf30c88370f066fa6b4756dd539114"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v4.cpython-314.pyc",
+      "size_bytes": 15952,
+      "sha256": "046df5d0fb29f78089fbc7627e9c95c77408e4b4efac20ce6ba572d24ac50ddc"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v4b.cpython-314.pyc",
+      "size_bytes": 18183,
+      "sha256": "21ed49c8597a13c71945d9c30e9116e492eb254c50d71ab407f0b5a934db6f35"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v4c.cpython-314.pyc",
+      "size_bytes": 10850,
+      "sha256": "760443b126390e99e61c8224e0eb9d87958df27ba13462e35026aa248d142fe0"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v5.cpython-314.pyc",
+      "size_bytes": 19757,
+      "sha256": "4c092b6abd90f6f310a74cef4fa66adf2a78dbe2a5bc2c0ee43dbff07a116eb5"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v6.cpython-314.pyc",
+      "size_bytes": 21498,
+      "sha256": "fda5e2dd4c4416f4298b322b1e95c0dcbf976ba9a111fa9713e5fcf6add55fd9"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v6b.cpython-314.pyc",
+      "size_bytes": 8238,
+      "sha256": "ac8509e3133c9cf5d1ddb3300e4c174cfd3107296599b2562d2c92f646f17362"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v7.cpython-314.pyc",
+      "size_bytes": 17051,
+      "sha256": "b06b404623e3bbc3d3882a45c286de21ca8402dd9a2bb86205a96f0ca41cef75"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v7b.cpython-314.pyc",
+      "size_bytes": 11263,
+      "sha256": "e4057729a1f81f58506bc11f72325708a0a94fe1c8cea129fbb1307c5d48d840"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v8.cpython-314.pyc",
+      "size_bytes": 15445,
+      "sha256": "41b44765b5a828ab861852ee59165499eaebe9cc748f773cf2269329bdb72eff"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v8_debug.cpython-314.pyc",
+      "size_bytes": 7745,
+      "sha256": "80abfb1e615a239806ab25b1ec4dd864f2293ba74395152f1f83a1bb63249f2c"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_pqt_v9.cpython-314.pyc",
+      "size_bytes": 19810,
+      "sha256": "7a5cb21b8e7aa3d708caff8476d5647433fb13d5db178d829fbd5aac9f6292d9"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_structural_check.cpython-314.pyc",
+      "size_bytes": 5801,
+      "sha256": "ba674632abb8e6dd48ded5debceb79a50c860433267a8dbcb90cd449b10c698a"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_v11_opt.cpython-314.pyc",
+      "size_bytes": 2401,
+      "sha256": "10925485cdcf3ff824656112818516bc93f9d0e8320fbef725848aa7b6b4dd4d"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_v11_search.cpython-314.pyc",
+      "size_bytes": 3183,
+      "sha256": "5273394f202216a5394c2b555b863c4cd0f30c0319378c7e96971d3e1da2ab72"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_v11_test.cpython-314.pyc",
+      "size_bytes": 962,
+      "sha256": "7832afa826aa997b673645c49216e09244d0bbfa72d2154a4d0d6e578a171afd"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_v12_breakthrough.cpython-314.pyc",
+      "size_bytes": 6766,
+      "sha256": "efb289e41dc60556829ed1f8e4b5477ef29dd3f839c488445578e1f5b532a117"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_v12_final_check.cpython-314.pyc",
+      "size_bytes": 6729,
+      "sha256": "da1f34659a3e7fac16ea6d5fca4337ba2f0a94f74e1c626f6c9ceaf67a58b88e"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_v12_reality.cpython-314.pyc",
+      "size_bytes": 5230,
+      "sha256": "57eef7dc629f01011d9533a02e96c9f6ee8af8207bf2e2312c1e8cc69f91f4c7"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_v12_rigorous_scan.cpython-314.pyc",
+      "size_bytes": 8386,
+      "sha256": "aa78ac817930a54b6d7b3d3a0228d510f77339d4dd949da1b9aae054c2eb0a9a"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_v12_test.cpython-314.pyc",
+      "size_bytes": 1695,
+      "sha256": "d192e42d429d43f0c5a6ea98668c0af47a7647a5596d89d8c35b23210fbfadd7"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_v12_truth.cpython-314.pyc",
+      "size_bytes": 5618,
+      "sha256": "31329eb0d8dcafd49dee329716c4c622bc6c6dc089f3ad93102ee64bc4a99223"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_v12_verified.cpython-314.pyc",
+      "size_bytes": 6401,
+      "sha256": "e1ffb70ebe9d237863bc10fa8af67293888ce1e36818b753417f78c39b59a4b5"
+    },
+    {
+      "path": "neutrino\\__pycache__\\neutrino_v12_verified_v2.cpython-314.pyc",
+      "size_bytes": 5963,
+      "sha256": "3355194e92bce04be900991ad58eb53327a3e0dd3d93d6e31cc0d16d0ce19a09"
+    },
+    {
+      "path": "neutrino\\__pycache__\\pqt_emergent_metric.cpython-314.pyc",
+      "size_bytes": 18802,
+      "sha256": "9836f3cef0142f6ce1de91f1233859b723a57b9fbb94bc3dbde8bc1d09e6e3b1"
+    },
+    {
+      "path": "neutrino\\__pycache__\\pqt_neutrino_rg_v2.cpython-314.pyc",
+      "size_bytes": 16303,
+      "sha256": "a489e2dba351eeff42ce77b11865747a9488458dd96aa67cd914c11d68cf4ffd"
+    },
+    {
+      "path": "neutrino\\__pycache__\\rotation_analysis.cpython-314.pyc",
+      "size_bytes": 2089,
+      "sha256": "3cfd7f75ccd7c02794685e45167ebb2e93c055e3bd22ea97bc5c5af7f6abf94d"
+    },
+    {
+      "path": "pheno-collider\\README.md",
+      "size_bytes": 1781,
+      "sha256": "affbd0cddb724f44b14a6a5324dd89b9d7500de6f03b45e5292cae90c1c5886a"
+    },
+    {
+      "path": "pheno-collider\\benchmarks\\BACKGROUND_CLOSURE_REPORT_v20.md",
+      "size_bytes": 1511,
+      "sha256": "5eb4628c5c3553469135274e7b51880a816f6d608b41eaf8a613da03bf03a5fe"
+    },
+    {
+      "path": "pheno-collider\\benchmarks\\background_summary_v20.csv",
+      "size_bytes": 1324,
+      "sha256": "65ebb16a0f6fed735f8834a97beb41c75024bcb248cafe84ebc7aa392dd4eb5e"
+    },
+    {
+      "path": "pheno-collider\\benchmarks\\background_summary_v20.json",
+      "size_bytes": 3839,
+      "sha256": "dfb8e572998e0fe033986d4a7a44c0c0096b1a7b1bb295525807ad96cf0d95f1"
+    },
+    {
+      "path": "pheno-collider\\benchmarks\\forensic_v22b_report.md",
+      "size_bytes": 1925,
+      "sha256": "b4dd7583e5981b782e04a169440d05e5bb27b630bdf5ea337a04f0efa828a857"
+    },
+    {
+      "path": "pheno-collider\\benchmarks\\m4l_signal_vs_background.png",
+      "size_bytes": 62815,
+      "sha256": "7d9c547b775bbe7be4612071ecc376b7e6d864c9083deb3fbbb35308d826329d"
+    },
+    {
+      "path": "pheno-collider\\benchmarks\\mjj_signal_vs_background.png",
+      "size_bytes": 68599,
+      "sha256": "b87b227ccd77f5e17bb7df0684dc9d50e3977161b4a98af3f52ad529d4a7d7ca"
+    },
+    {
+      "path": "pheno-collider\\benchmarks\\seed_variance_v22b.png",
+      "size_bytes": 57739,
+      "sha256": "765b7ae708121cb2d2138b15ee00ed6237423f8bd9e96238d6698c04fe916275"
+    },
+    {
+      "path": "pheno-collider\\benchmarks\\signal_background_split_v22b.png",
+      "size_bytes": 100056,
+      "sha256": "773e15ff06e0e092b0136437eb709e0e58aab72e9481f9accb7c0650944cb3d2"
+    },
+    {
+      "path": "pheno-collider\\benchmarks\\signal_vs_background_v20.csv",
+      "size_bytes": 531,
+      "sha256": "5850e7b04777a8e83cff2cd49efc168281809500293bbc2f87e31b3d460d98c4"
+    },
+    {
+      "path": "pheno-collider\\benchmarks\\significance_barplot.png",
+      "size_bytes": 48253,
+      "sha256": "9501f8b6997ca460264c37186c0515278f7c6e0fe585ad402050552d0827dcb6"
+    },
+    {
+      "path": "pheno-collider\\benchmarks\\significance_v20.csv",
+      "size_bytes": 531,
+      "sha256": "5850e7b04777a8e83cff2cd49efc168281809500293bbc2f87e31b3d460d98c4"
+    },
+    {
+      "path": "pheno-collider\\benchmarks\\v23_gate_status.json",
+      "size_bytes": 1921,
+      "sha256": "ba582706bf20235265a993f249c99ceb655dbf739b1bfb4ed71c7a0d14d34a22"
+    },
+    {
+      "path": "pheno-collider\\benchmarks\\v23_gate_status.md",
+      "size_bytes": 3448,
+      "sha256": "9440ed4185269caf1c5cf894eb5496fd60a3a4c98b2f784be4e355c702c39ae9"
+    },
+    {
+      "path": "pheno-collider\\benchmarks\\window_sensitivity_v22b.png",
+      "size_bytes": 97736,
+      "sha256": "cc3516f2fb038e613972674b5539f074d718703e0a253e7b6765c864720ff25f"
+    },
+    {
+      "path": "pheno-collider\\feynrules\\README.md",
+      "size_bytes": 605,
+      "sha256": "92e99c751e7cffd2882e5995cefcca5d3ce6bc3eb57da7c50c2eaadbd961c20c"
+    },
+    {
+      "path": "pheno-collider\\ufo\\PQT_MemorySector_massbasis\\README.md",
+      "size_bytes": 536,
+      "sha256": "ca74b0fbb1e6d9d019a4c4363e2663980f2229a9c4eb282862f315059cec8af4"
+    }
+  ]
+}

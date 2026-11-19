@@ -1,0 +1,53 @@
+{
+  "package": "PQT Full Formalization v1.0",
+  "date": "2026-05-16",
+  "truth_policy": "validated > simulated > speculative",
+
+  "validated": [
+    {"id": "theory_canon_v1.0", "description": "PQT canonical ODE system (12 equations + 1 SDE)", "source": "pqt_canon_v_1_0_draft.md"},
+    {"id": "theory_six_laws", "description": "Six laws of post-Schrödinger logic", "source": "PQT_logic.md"},
+    {"id": "theory_el_reduction", "description": "Euler-Lagrange reduction to overdamped limit", "source": "pqt_euler_lagrange_reduction_v_1_0.md"},
+    {"id": "theory_calibrated_params", "description": "7 numerically calibrated parameters", "source": "pqt_calibrated_params.json"},
+    {"id": "eft_feynrules_massbasis", "description": "FeynRules model with S, H2 scalars", "source": "PQT_MemorySector_massbasis.fr"},
+    {"id": "eft_feynrules_smext", "description": "SM extension with Lagrangian LPQTMassBasis", "source": "PQT_MemorySector_massbasis_SMext.fr"},
+    {"id": "ufo_model", "description": "UFO implementation (21 files), MG5 import validated", "source": "UFO/PQT_MemorySector_massbasis/"},
+    {"id": "pipeline_ufo_export", "description": "UFO export from FeynRules", "version": "v1.x"},
+    {"id": "pipeline_mg5_import", "description": "MG5_aMC import of PQT UFO model", "version": "v1.x"},
+    {"id": "pipeline_vbf_scaling", "description": "VBF cross-section scaling with sin²θ", "version": "v12"},
+    {"id": "pipeline_canonical_benchmark", "description": "Canonical VBF benchmark", "version": "v13"},
+    {"id": "pipeline_pythia_smoke", "description": "Pythia8 shower validation", "version": "v14"},
+    {"id": "pipeline_delphes", "description": "Delphes detector simulation", "version": "v15b"},
+    {"id": "pipeline_cutflow", "description": "Detector-level cutflow analysis", "version": "v16"},
+    {"id": "pipeline_integrity", "description": "Event count integrity audit", "version": "v17/v17b"},
+    {"id": "pipeline_efficiency", "description": "Efficiency measurement", "version": "v18"},
+    {"id": "pipeline_boosted", "description": "Boosted VBF yield analysis", "version": "v19"},
+    {"id": "pipeline_background_closure", "description": "Background closure (ZZjj, ttZ, Hjj)", "version": "v20"},
+    {"id": "pipeline_secondary_bg", "description": "Secondary background closure", "version": "v21"},
+    {"id": "pipeline_forensic", "description": "Forensic diagnostic: ANALYSIS_MISMATCH classified", "version": "v22b"},
+    {"id": "pipeline_observable_contours", "description": "100x100 observable grid, 6 acceptance checks all pass", "version": "v31"},
+    {"id": "phase_classification_v3", "description": "4-phase classification (Prema/Gurutva/Tamas/Mixed), 4/4 benchmarks pass", "source": "phase_v3_out/"},
+    {"id": "phase_grid_stability", "description": "Phase fractions stable across n=40,50,80 grids", "source": "pqt_phase_summary_v3.json"}
+  ],
+
+  "partial": [
+    {"id": "pipeline_robustness_v22", "description": "Robustness audit: v2.1 replay Z=5.32 but v2.2 cuts collapse significance", "classification": "ANALYSIS_MISMATCH", "source": "forensic_v22b_report.md"},
+    {"id": "theory_theorem_stabilization", "description": "Meaning Stabilization Theorem: proof sketch only, Lyapunov analysis pending", "status": "proof_sketch"},
+    {"id": "theory_theorem_interference", "description": "Interference Necessity Theorem: structural argument, formal proof pending", "status": "proof_sketch"},
+    {"id": "theory_theorem_phase_boundaries", "description": "Phase Transition Boundaries: numerically validated, closed-form equations pending", "status": "numerical_only"},
+    {"id": "theory_stochastic_theta", "description": "Phase θ SDE: not derivable from standard Lagrangian, needs Onsager-Machlup extension", "status": "formal_gap"}
+  ],
+
+  "failed": [
+    {"id": "pipeline_v22_consistent_significance", "description": "v2.2 with tight window+VBF cuts gives B=0, Z=undefined. Classified as ANALYSIS_MISMATCH, not physical failure.", "classification": "ANALYSIS_MISMATCH", "note": "Not a physics failure — cut optimization artifact"}
+  ],
+
+  "pending": [
+    {"id": "v23_consistent_cuts", "description": "Standardized m4l window and VBF cuts across all samples", "priority": "high"},
+    {"id": "larger_background_mc", "description": ">=10k events per background process", "priority": "high"},
+    {"id": "vbf_tail_estimate", "description": "Systematic VBF-tail optimization", "priority": "medium"},
+    {"id": "control_regions", "description": "Data-driven background estimation regions", "priority": "medium"},
+    {"id": "systematic_uncertainties", "description": "PDF, scale, detector systematic bands", "priority": "medium"},
+    {"id": "lyapunov_analysis", "description": "Formal stability proof for meaning stabilization theorem", "priority": "low"},
+    {"id": "closed_form_boundaries", "description": "Analytical phase boundary equations", "priority": "low"}
+  ]
+}

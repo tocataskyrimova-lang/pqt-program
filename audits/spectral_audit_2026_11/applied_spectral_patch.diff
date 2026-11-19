@@ -1,0 +1,32 @@
+--- a/pqt_qg/nonlocal_memory.py
++++ b/pqt_qg/nonlocal_memory.py
+@@ -109,20 +109,26 @@
+     log_ratio = np.log(np.abs(det) + kp.eps_det) - np.log(np.abs(det_ref) + kp.eps_det)
+     integral = np.sum(weights * k**3 * log_ratio) / (16.0 * np.pi * np.pi)
+     inv_iota = iota_inverse(q, neutral_mass_entries(phi, r, s, params)["m_ss_local2"], kernel_name, kp)
+-    # Fast diagnostic proxy for neutral eigenvalue health; full per-k eigenscan is
+-    # intentionally deferred because v0.7 smoke evaluates many cells.
+-    min_eval = float(min(np.min(det), np.min(inv_iota)))
++    # det(D) and one diagonal inverse are diagnostics, NOT eigenvalues.
++    # In particular diag(-1,-1,+1) passes min(det,inv_iota)>0 but is unhealthy.
++    min_det_inv_proxy = float(min(np.min(det), np.min(inv_iota)))
++    min_eval = float(min(
++        np.min(np.linalg.eigvalsh(delta_N_matrix(float(qq), phi, r, s, params, kernel_name, kp)))
++        for qq in q
++    ))
+     return {
+         "V1": float(integral),
+         "determinant_negative_count": int(np.sum(det < 0)),
+         "determinant_near_zero_count": int(np.sum(np.abs(det) < 1e-10)),
+         "min_det": float(np.min(det)),
+         "min_iota_inverse": float(np.min(inv_iota)),
++        "min_det_inv_proxy": min_det_inv_proxy,
+         "min_neutral_eigenvalue_over_k": float(min_eval),
+         "nonlocal_det_healthy": bool(np.all(det > 0) and np.all(inv_iota > 0) and min_eval > 0),
+         "nonlocal_det_negative": bool(np.any(det < 0)),
+         "nonlocal_det_near_zero": bool(np.any(np.abs(det) < 1e-10)),
+         "nonlocal_iota_inverse_negative": bool(np.any(inv_iota < 0)),
++        "health_scope": "Euclidean grid eigvalsh only; analytic-continuation pole/residue test is separate",
+     }
+ 
+ 

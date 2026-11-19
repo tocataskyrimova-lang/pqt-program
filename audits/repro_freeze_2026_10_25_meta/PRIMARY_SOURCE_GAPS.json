@@ -1,0 +1,52 @@
+[
+  {
+    "item": "Original Argon table-generating program",
+    "status": "SOURCE_BLOCKED",
+    "acquisition": "Request exact file/revision/hash from author; do not reconstruct missing program from target table."
+  },
+  {
+    "item": "Q-Mathematics v3.5, PO-SC0N/PO-SC0F original complete records",
+    "status": "PROVENANCE_PENDING",
+    "acquisition": "Request exact primary paths/revisions; archived CG-2b source/report is only the available frozen snapshot, not a substitute."
+  },
+  {
+    "item": "Path Integral Note, CORE EFT, PQT_MemorySector_massbasis.fr complete action",
+    "status": "SOURCE_BLOCKED",
+    "acquisition": "Obtain primary action and basis/normalization definitions from owner; nonlocal_memory.py is the available benchmark."
+  },
+  {
+    "item": "pqt_qcd_predictions_corrected.py and pqt_qcd_upilon_spectroscopy.md",
+    "status": "SOURCE_BLOCKED",
+    "acquisition": "Obtain originals and hashes; HIX Cornell reconstruction is independently attributed, not the missing original code."
+  },
+  {
+    "item": "Official Bari numeric 1D/2D/full6D likelihood",
+    "status": "SOURCE_BLOCKED",
+    "acquisition": "Acquire the named release tables when published; do not silently replace preliminary snapshot or sum marginals as joint likelihood."
+  },
+  {
+    "item": "Historical per-call Wolfram kernel versions",
+    "status": "PROVENANCE_PENDING",
+    "acquisition": "Not recoverable from old logs; current connected kernel metadata is captured separately, not backdated."
+  },
+  {
+    "item": "Original raw return for every historical HIX optimizer start",
+    "status": "PROVENANCE_PENDING",
+    "acquisition": "Some old result files preserve best/best-five or feasible results only; original source/seed/bounds retained. Fresh extended logger captures all current returns without claiming missing historical records."
+  },
+  {
+    "item": "Local clean-machine licensed Wolfram runtime",
+    "status": "SKIPPED",
+    "acquisition": "Install/license Wolfram kernel separately; replay_wolfram.ps1 re-executes exact archived WL scripts. No Wolfram binary/license is redistributed."
+  },
+  {
+    "item": "Original primary PDG PDFs used historically",
+    "status": "PROVENANCE_PENDING",
+    "acquisition": "Frozen input numbers and primary URLs from source reports are included; no newly downloaded PDF is mislabeled as the historical copy."
+  },
+  {
+    "item": "Physical phase derivation, global octant theorem, full collider validation",
+    "status": "NOT_RUN",
+    "acquisition": "Separate research tasks; not created by packaging/replay."
+  }
+]

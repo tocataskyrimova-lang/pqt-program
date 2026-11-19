@@ -1,0 +1,39 @@
+name: CI Smoke
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  python-syntax-check:
+    name: Python Syntax Verification
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install basic dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f eft-pqt-qg/requirements.txt ]; then pip install -r eft-pqt-qg/requirements.txt; fi
+
+      - name: Syntax verification (py_compile)
+        run: |
+          echo "Compiling eft-pqt-qg..."
+          python -m py_compile $(find eft-pqt-qg -name "*.py" -not -path "*/.*")
+          
+          echo "Compiling neutrino..."
+          python -m py_compile $(find neutrino -name "*.py" -not -path "*/.*")
+          
+          echo "Compiling epistemic-ai..."
+          python -m py_compile $(find epistemic-ai -name "*.py" -not -path "*/.*")
+          
+          echo "All Python syntax checks PASSED."

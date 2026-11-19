@@ -1,0 +1,2918 @@
+{
+  "raw_minima": [
+    {
+      "id": "A_prema_only_raw_0",
+      "benchmark": "A_prema_only",
+      "phase": "Prema",
+      "stability": "stable_minimum",
+      "phi": 1.0000000000000269,
+      "r": 0.0,
+      "s": 0.0,
+      "V0": -0.03250000000000001,
+      "hessian_eigenvalues": [
+        0.260000000000021,
+        0.7000000000000107,
+        1.0000000000000109
+      ],
+      "hessian": [
+        [
+          0.260000000000021,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.7000000000000107,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0000000000000109
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "params": {
+        "name": "A_prema_only",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": 0.5,
+        "brho": 0.3,
+        "arho": 0.4,
+        "miota2": 0.6,
+        "biota": 0.3,
+        "aiota": 0.4,
+        "c": 0.2,
+        "LambdaT2_kappa0": 0.2
+      }
+    },
+    {
+      "id": "A_prema_only_raw_1",
+      "benchmark": "A_prema_only",
+      "phase": "Symmetric",
+      "stability": "unstable_saddle_or_max",
+      "phi": 0.0,
+      "r": 0.0,
+      "s": 0.0,
+      "V0": 0.0,
+      "hessian_eigenvalues": [
+        -0.13,
+        0.5,
+        0.8
+      ],
+      "hessian": [
+        [
+          -0.13,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.5,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.8
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "params": {
+        "name": "A_prema_only",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": 0.5,
+        "brho": 0.3,
+        "arho": 0.4,
+        "miota2": 0.6,
+        "biota": 0.3,
+        "aiota": 0.4,
+        "c": 0.2,
+        "LambdaT2_kappa0": 0.2
+      }
+    },
+    {
+      "id": "B_gurutva_branch_raw_0",
+      "benchmark": "B_gurutva_branch",
+      "phase": "Gurutva",
+      "stability": "stable_minimum",
+      "phi": 0.6362090102832172,
+      "r": 0.8796644381868454,
+      "s": 0.0,
+      "V0": -0.08086309523809525,
+      "hessian_eigenvalues": [
+        0.08191366280398082,
+        0.642372051484891,
+        0.958333333334168
+      ],
+      "hessian": [
+        [
+          0.10523809523962262,
+          0.11193008832003905,
+          0.0
+        ],
+        [
+          0.11193008832003905,
+          0.6190476190492492,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.958333333334168
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "params": {
+        "name": "B_gurutva_branch",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.4,
+        "arho": 0.2,
+        "miota2": 0.6,
+        "biota": 0.3,
+        "aiota": 0.4,
+        "c": 0.2,
+        "LambdaT2_kappa0": 0.2
+      }
+    },
+    {
+      "id": "B_gurutva_branch_raw_1",
+      "benchmark": "B_gurutva_branch",
+      "phase": "Gurutva",
+      "stability": "stable_minimum",
+      "phi": 0.6362090211111427,
+      "r": -0.8796644408313808,
+      "s": 0.0,
+      "V0": -0.08086309523809525,
+      "hessian_eigenvalues": [
+        0.08191366779393178,
+        0.6423720592943774,
+        0.9583333365549583
+      ],
+      "hessian": [
+        [
+          0.105238101078166,
+          -0.11193009056152271,
+          0.0
+        ],
+        [
+          -0.11193009056152271,
+          0.6190476260101432,
+          -0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.9583333365549583
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "params": {
+        "name": "B_gurutva_branch",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.4,
+        "arho": 0.2,
+        "miota2": 0.6,
+        "biota": 0.3,
+        "aiota": 0.4,
+        "c": 0.2,
+        "LambdaT2_kappa0": 0.2
+      }
+    },
+    {
+      "id": "B_gurutva_branch_raw_2",
+      "benchmark": "B_gurutva_branch",
+      "phase": "Prema",
+      "stability": "unstable_saddle_or_max",
+      "phi": 1.0,
+      "r": 0.0,
+      "s": 0.0,
+      "V0": -0.0325,
+      "hessian_eigenvalues": [
+        -0.24999999999999997,
+        0.26,
+        1.0
+      ],
+      "hessian": [
+        [
+          0.26,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.24999999999999997,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "params": {
+        "name": "B_gurutva_branch",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.4,
+        "arho": 0.2,
+        "miota2": 0.6,
+        "biota": 0.3,
+        "aiota": 0.4,
+        "c": 0.2,
+        "LambdaT2_kappa0": 0.2
+      }
+    },
+    {
+      "id": "B_gurutva_branch_raw_3",
+      "benchmark": "B_gurutva_branch",
+      "phase": "Symmetric",
+      "stability": "unstable_saddle_or_max",
+      "phi": 0.0,
+      "r": 0.0,
+      "s": 0.0,
+      "V0": 0.0,
+      "hessian_eigenvalues": [
+        -0.35,
+        -0.13,
+        0.8
+      ],
+      "hessian": [
+        [
+          -0.13,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.35,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.8
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "params": {
+        "name": "B_gurutva_branch",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.4,
+        "arho": 0.2,
+        "miota2": 0.6,
+        "biota": 0.3,
+        "aiota": 0.4,
+        "c": 0.2,
+        "LambdaT2_kappa0": 0.2
+      }
+    },
+    {
+      "id": "C_tamas_branch_raw_0",
+      "benchmark": "C_tamas_branch",
+      "phase": "Tamas",
+      "stability": "stable_minimum",
+      "phi": 0.7734431390078317,
+      "r": 0.0,
+      "s": -1.0220777145187863,
+      "V0": -0.15002232142857147,
+      "hessian_eigenvalues": [
+        0.1476505647339993,
+        0.724107143307252,
+        0.9480637188707715
+      ],
+      "hessian": [
+        [
+          0.15553571554432963,
+          0.0,
+          -0.07905189958273605
+        ],
+        [
+          0.0,
+          0.7241071433072522,
+          -0.0
+        ],
+        [
+          -0.07905189958273605,
+          -0.0,
+          0.9401785680604411
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "params": {
+        "name": "C_tamas_branch",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": 0.5,
+        "brho": 0.3,
+        "arho": 0.4,
+        "miota2": -0.35,
+        "biota": 0.45,
+        "aiota": 0.1,
+        "c": 0.2,
+        "LambdaT2_kappa0": -0.15
+      }
+    },
+    {
+      "id": "C_tamas_branch_raw_1",
+      "benchmark": "C_tamas_branch",
+      "phase": "Tamas",
+      "stability": "stable_minimum",
+      "phi": 0.7734431390078317,
+      "r": 0.0,
+      "s": 1.0220777145187863,
+      "V0": -0.15002232142857147,
+      "hessian_eigenvalues": [
+        0.1476505647339993,
+        0.724107143307252,
+        0.9480637188707715
+      ],
+      "hessian": [
+        [
+          0.15553571554432963,
+          0.0,
+          0.07905189958273605
+        ],
+        [
+          0.0,
+          0.7241071433072522,
+          0.0
+        ],
+        [
+          0.07905189958273605,
+          0.0,
+          0.9401785680604411
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "params": {
+        "name": "C_tamas_branch",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": 0.5,
+        "brho": 0.3,
+        "arho": 0.4,
+        "miota2": -0.35,
+        "biota": 0.45,
+        "aiota": 0.1,
+        "c": 0.2,
+        "LambdaT2_kappa0": -0.15
+      }
+    },
+    {
+      "id": "C_tamas_branch_raw_2",
+      "benchmark": "C_tamas_branch",
+      "phase": "Prema",
+      "stability": "unstable_saddle_or_max",
+      "phi": 1.0,
+      "r": 0.0,
+      "s": 0.0,
+      "V0": -0.0325,
+      "hessian_eigenvalues": [
+        -0.45,
+        0.26,
+        0.7
+      ],
+      "hessian": [
+        [
+          0.26,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.7,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.45
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "params": {
+        "name": "C_tamas_branch",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": 0.5,
+        "brho": 0.3,
+        "arho": 0.4,
+        "miota2": -0.35,
+        "biota": 0.45,
+        "aiota": 0.1,
+        "c": 0.2,
+        "LambdaT2_kappa0": -0.15
+      }
+    },
+    {
+      "id": "C_tamas_branch_raw_3",
+      "benchmark": "C_tamas_branch",
+      "phase": "Symmetric",
+      "stability": "unstable_saddle_or_max",
+      "phi": 0.0,
+      "r": 0.0,
+      "s": 0.0,
+      "V0": 0.0,
+      "hessian_eigenvalues": [
+        -0.5,
+        -0.13,
+        0.5
+      ],
+      "hessian": [
+        [
+          -0.13,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.5,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.5
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "params": {
+        "name": "C_tamas_branch",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": 0.5,
+        "brho": 0.3,
+        "arho": 0.4,
+        "miota2": -0.35,
+        "biota": 0.45,
+        "aiota": 0.1,
+        "c": 0.2,
+        "LambdaT2_kappa0": -0.15
+      }
+    },
+    {
+      "id": "D_mixed_exploratory_raw_0",
+      "benchmark": "D_mixed_exploratory",
+      "phase": "Mixed",
+      "stability": "stable_minimum",
+      "phi": 1.2374969807461327,
+      "r": 0.978109995175485,
+      "s": -0.8776940579517927,
+      "V0": -0.1912576513262299,
+      "hessian_eigenvalues": [
+        0.35742557060756325,
+        0.7853506487986559,
+        0.8867635687821624
+      ],
+      "hessian": [
+        [
+          0.39816368228771687,
+          -0.09683265326938217,
+          0.08689149973873317
+        ],
+        [
+          -0.09683265326938217,
+          0.8610292470156241,
+          0.042924066539439
+        ],
+        [
+          0.08689149973873317,
+          0.042924066539439,
+          0.7703468588850406
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "params": {
+        "name": "D_mixed_exploratory",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.45,
+        "arho": -0.08,
+        "miota2": -0.35,
+        "biota": 0.5,
+        "aiota": -0.08,
+        "c": -0.05,
+        "LambdaT2_kappa0": 0.05,
+        "exploratory": true
+      }
+    },
+    {
+      "id": "D_mixed_exploratory_raw_1",
+      "benchmark": "D_mixed_exploratory",
+      "phase": "Mixed",
+      "stability": "stable_minimum",
+      "phi": 1.2374969807461327,
+      "r": 0.978109995175485,
+      "s": 0.8776940579517927,
+      "V0": -0.1912576513262299,
+      "hessian_eigenvalues": [
+        0.35742557060756325,
+        0.7853506487986559,
+        0.8867635687821624
+      ],
+      "hessian": [
+        [
+          0.39816368228771687,
+          -0.09683265326938217,
+          -0.08689149973873317
+        ],
+        [
+          -0.09683265326938217,
+          0.8610292470156241,
+          -0.042924066539439
+        ],
+        [
+          -0.08689149973873317,
+          -0.042924066539439,
+          0.7703468588850406
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "params": {
+        "name": "D_mixed_exploratory",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.45,
+        "arho": -0.08,
+        "miota2": -0.35,
+        "biota": 0.5,
+        "aiota": -0.08,
+        "c": -0.05,
+        "LambdaT2_kappa0": 0.05,
+        "exploratory": true
+      }
+    },
+    {
+      "id": "D_mixed_exploratory_raw_2",
+      "benchmark": "D_mixed_exploratory",
+      "phase": "Mixed",
+      "stability": "stable_minimum",
+      "phi": 1.2374969807461327,
+      "r": -0.978109995175485,
+      "s": 0.8776940579517927,
+      "V0": -0.1912576513262299,
+      "hessian_eigenvalues": [
+        0.35742557060756325,
+        0.7853506487986559,
+        0.8867635687821624
+      ],
+      "hessian": [
+        [
+          0.39816368228771687,
+          0.09683265326938217,
+          -0.08689149973873317
+        ],
+        [
+          0.09683265326938217,
+          0.8610292470156241,
+          0.042924066539439
+        ],
+        [
+          -0.08689149973873317,
+          0.042924066539439,
+          0.7703468588850406
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "params": {
+        "name": "D_mixed_exploratory",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.45,
+        "arho": -0.08,
+        "miota2": -0.35,
+        "biota": 0.5,
+        "aiota": -0.08,
+        "c": -0.05,
+        "LambdaT2_kappa0": 0.05,
+        "exploratory": true
+      }
+    },
+    {
+      "id": "D_mixed_exploratory_raw_3",
+      "benchmark": "D_mixed_exploratory",
+      "phase": "Mixed",
+      "stability": "stable_minimum",
+      "phi": 1.2374969807461327,
+      "r": -0.978109995175485,
+      "s": -0.8776940579517927,
+      "V0": -0.1912576513262299,
+      "hessian_eigenvalues": [
+        0.35742557060756325,
+        0.7853506487986559,
+        0.8867635687821624
+      ],
+      "hessian": [
+        [
+          0.39816368228771687,
+          0.09683265326938217,
+          0.08689149973873317
+        ],
+        [
+          0.09683265326938217,
+          0.8610292470156241,
+          -0.042924066539439
+        ],
+        [
+          0.08689149973873317,
+          -0.042924066539439,
+          0.7703468588850406
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "params": {
+        "name": "D_mixed_exploratory",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.45,
+        "arho": -0.08,
+        "miota2": -0.35,
+        "biota": 0.5,
+        "aiota": -0.08,
+        "c": -0.05,
+        "LambdaT2_kappa0": 0.05,
+        "exploratory": true
+      }
+    },
+    {
+      "id": "D_mixed_exploratory_raw_4",
+      "benchmark": "D_mixed_exploratory",
+      "phase": "Gurutva",
+      "stability": "unstable_saddle_or_max",
+      "phi": 1.128789263927219,
+      "r": 0.9439475122228065,
+      "s": 0.0,
+      "V0": -0.11937609841827769,
+      "hessian_eigenvalues": [
+        -0.37324253074008473,
+        0.3163202136581729,
+        0.81689595380633
+      ],
+      "hessian": [
+        [
+          0.3312829526861026,
+          -0.0852414254006329,
+          -0.0
+        ],
+        [
+          -0.0852414254006329,
+          0.8019332147784003,
+          -0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -0.37324253074008473
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "params": {
+        "name": "D_mixed_exploratory",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.45,
+        "arho": -0.08,
+        "miota2": -0.35,
+        "biota": 0.5,
+        "aiota": -0.08,
+        "c": -0.05,
+        "LambdaT2_kappa0": 0.05,
+        "exploratory": true
+      }
+    },
+    {
+      "id": "D_mixed_exploratory_raw_5",
+      "benchmark": "D_mixed_exploratory",
+      "phase": "Gurutva",
+      "stability": "unstable_saddle_or_max",
+      "phi": 1.128789263927219,
+      "r": -0.9439475122228065,
+      "s": 0.0,
+      "V0": -0.11937609841827769,
+      "hessian_eigenvalues": [
+        -0.37324253074008473,
+        0.3163202136581729,
+        0.81689595380633
+      ],
+      "hessian": [
+        [
+          0.3312829526861026,
+          0.0852414254006329,
+          -0.0
+        ],
+        [
+          0.0852414254006329,
+          0.8019332147784003,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.37324253074008473
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "params": {
+        "name": "D_mixed_exploratory",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.45,
+        "arho": -0.08,
+        "miota2": -0.35,
+        "biota": 0.5,
+        "aiota": -0.08,
+        "c": -0.05,
+        "LambdaT2_kappa0": 0.05,
+        "exploratory": true
+      }
+    },
+    {
+      "id": "D_mixed_exploratory_raw_6",
+      "benchmark": "D_mixed_exploratory",
+      "phase": "Tamas",
+      "stability": "unstable_saddle_or_max",
+      "phi": 1.1020485638174635,
+      "r": 0.0,
+      "s": 0.834961607852195,
+      "V0": -0.09175867507886434,
+      "hessian_eigenvalues": [
+        -0.41600946364516345,
+        0.3020576158684104,
+        0.7108761415030355
+      ],
+      "hessian": [
+        [
+          0.31577286897124734,
+          -0.0,
+          -0.07361345926209853
+        ],
+        [
+          -0.0,
+          -0.4160094636451634,
+          -0.0
+        ],
+        [
+          -0.07361345926209853,
+          -0.0,
+          0.6971608884001985
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "params": {
+        "name": "D_mixed_exploratory",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.45,
+        "arho": -0.08,
+        "miota2": -0.35,
+        "biota": 0.5,
+        "aiota": -0.08,
+        "c": -0.05,
+        "LambdaT2_kappa0": 0.05,
+        "exploratory": true
+      }
+    },
+    {
+      "id": "D_mixed_exploratory_raw_7",
+      "benchmark": "D_mixed_exploratory",
+      "phase": "Tamas",
+      "stability": "unstable_saddle_or_max",
+      "phi": 1.1020485638174635,
+      "r": 0.0,
+      "s": -0.834961607852195,
+      "V0": -0.09175867507886434,
+      "hessian_eigenvalues": [
+        -0.41600946364516345,
+        0.3020576158684104,
+        0.7108761415030355
+      ],
+      "hessian": [
+        [
+          0.31577286897124734,
+          -0.0,
+          0.07361345926209853
+        ],
+        [
+          -0.0,
+          -0.4160094636451634,
+          0.0
+        ],
+        [
+          0.07361345926209853,
+          0.0,
+          0.6971608884001985
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "params": {
+        "name": "D_mixed_exploratory",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.45,
+        "arho": -0.08,
+        "miota2": -0.35,
+        "biota": 0.5,
+        "aiota": -0.08,
+        "c": -0.05,
+        "LambdaT2_kappa0": 0.05,
+        "exploratory": true
+      }
+    },
+    {
+      "id": "D_mixed_exploratory_raw_8",
+      "benchmark": "D_mixed_exploratory",
+      "phase": "Prema",
+      "stability": "unstable_saddle_or_max",
+      "phi": 1.0,
+      "r": 0.0,
+      "s": 0.0,
+      "V0": -0.0325,
+      "hessian_eigenvalues": [
+        -0.38999999999999996,
+        -0.33999999999999997,
+        0.26
+      ],
+      "hessian": [
+        [
+          0.26,
+          -0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          -0.38999999999999996,
+          -0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -0.33999999999999997
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "params": {
+        "name": "D_mixed_exploratory",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.45,
+        "arho": -0.08,
+        "miota2": -0.35,
+        "biota": 0.5,
+        "aiota": -0.08,
+        "c": -0.05,
+        "LambdaT2_kappa0": 0.05,
+        "exploratory": true
+      }
+    },
+    {
+      "id": "D_mixed_exploratory_raw_9",
+      "benchmark": "D_mixed_exploratory",
+      "phase": "Symmetric",
+      "stability": "unstable_saddle_or_max",
+      "phi": 0.0,
+      "r": 0.0,
+      "s": 0.0,
+      "V0": 0.0,
+      "hessian_eigenvalues": [
+        -0.35,
+        -0.3,
+        -0.13
+      ],
+      "hessian": [
+        [
+          -0.13,
+          -0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          -0.35,
+          -0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -0.3
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "params": {
+        "name": "D_mixed_exploratory",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.45,
+        "arho": -0.08,
+        "miota2": -0.35,
+        "biota": 0.5,
+        "aiota": -0.08,
+        "c": -0.05,
+        "LambdaT2_kappa0": 0.05,
+        "exploratory": true
+      }
+    }
+  ],
+  "symmetry_grouped_minima": [
+    {
+      "id": "A_prema_only_group_0",
+      "benchmark": "A_prema_only",
+      "phase": "Prema",
+      "stability": "stable_minimum",
+      "phi": 1.0,
+      "abs_r": 0.0,
+      "abs_s": 0.0,
+      "V0": -0.03250000000000001,
+      "hessian_eigenvalues": [
+        0.26,
+        0.7,
+        1.0
+      ],
+      "hessian": [
+        [
+          0.26,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.7,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "symmetry_key": "(1.0, 0.0, 0.0)",
+      "symmetry_multiplicity": 1,
+      "raw_minima_ids": [
+        "A_prema_only_raw_0"
+      ],
+      "params": {
+        "name": "A_prema_only",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": 0.5,
+        "brho": 0.3,
+        "arho": 0.4,
+        "miota2": 0.6,
+        "biota": 0.3,
+        "aiota": 0.4,
+        "c": 0.2,
+        "LambdaT2_kappa0": 0.2
+      }
+    },
+    {
+      "id": "A_prema_only_group_1",
+      "benchmark": "A_prema_only",
+      "phase": "Symmetric",
+      "stability": "unstable_saddle_or_max",
+      "phi": 0.0,
+      "abs_r": 0.0,
+      "abs_s": 0.0,
+      "V0": 0.0,
+      "hessian_eigenvalues": [
+        -0.13,
+        0.5,
+        0.8
+      ],
+      "hessian": [
+        [
+          -0.13,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.5,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.8
+        ]
+      ],
+      "symmetry_key": "(0.0, 0.0, 0.0)",
+      "symmetry_multiplicity": 1,
+      "raw_minima_ids": [
+        "A_prema_only_raw_1"
+      ],
+      "params": {
+        "name": "A_prema_only",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": 0.5,
+        "brho": 0.3,
+        "arho": 0.4,
+        "miota2": 0.6,
+        "biota": 0.3,
+        "aiota": 0.4,
+        "c": 0.2,
+        "LambdaT2_kappa0": 0.2
+      }
+    },
+    {
+      "id": "B_gurutva_branch_group_0",
+      "benchmark": "B_gurutva_branch",
+      "phase": "Gurutva",
+      "stability": "stable_minimum",
+      "phi": 0.636209,
+      "abs_r": 0.8796644,
+      "abs_s": 0.0,
+      "V0": -0.08086309523809525,
+      "hessian_eigenvalues": [
+        0.08191365072846336,
+        0.6423719698107948,
+        0.9583333239989361
+      ],
+      "hessian": [
+        [
+          0.10523808341832602,
+          0.11193008165192002,
+          0.0
+        ],
+        [
+          0.11193008165192002,
+          0.6190475371209322,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.9583333239989361
+        ]
+      ],
+      "symmetry_key": "(0.636209, 0.8796644, 0.0)",
+      "symmetry_multiplicity": 2,
+      "raw_minima_ids": [
+        "B_gurutva_branch_raw_0",
+        "B_gurutva_branch_raw_1"
+      ],
+      "params": {
+        "name": "B_gurutva_branch",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.4,
+        "arho": 0.2,
+        "miota2": 0.6,
+        "biota": 0.3,
+        "aiota": 0.4,
+        "c": 0.2,
+        "LambdaT2_kappa0": 0.2
+      }
+    },
+    {
+      "id": "B_gurutva_branch_group_1",
+      "benchmark": "B_gurutva_branch",
+      "phase": "Prema",
+      "stability": "unstable_saddle_or_max",
+      "phi": 1.0,
+      "abs_r": 0.0,
+      "abs_s": 0.0,
+      "V0": -0.0325,
+      "hessian_eigenvalues": [
+        -0.24999999999999997,
+        0.26,
+        1.0
+      ],
+      "hessian": [
+        [
+          0.26,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.24999999999999997,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "symmetry_key": "(1.0, 0.0, 0.0)",
+      "symmetry_multiplicity": 1,
+      "raw_minima_ids": [
+        "B_gurutva_branch_raw_2"
+      ],
+      "params": {
+        "name": "B_gurutva_branch",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.4,
+        "arho": 0.2,
+        "miota2": 0.6,
+        "biota": 0.3,
+        "aiota": 0.4,
+        "c": 0.2,
+        "LambdaT2_kappa0": 0.2
+      }
+    },
+    {
+      "id": "B_gurutva_branch_group_2",
+      "benchmark": "B_gurutva_branch",
+      "phase": "Symmetric",
+      "stability": "unstable_saddle_or_max",
+      "phi": 0.0,
+      "abs_r": 0.0,
+      "abs_s": 0.0,
+      "V0": 0.0,
+      "hessian_eigenvalues": [
+        -0.35,
+        -0.13,
+        0.8
+      ],
+      "hessian": [
+        [
+          -0.13,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.35,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.8
+        ]
+      ],
+      "symmetry_key": "(0.0, 0.0, 0.0)",
+      "symmetry_multiplicity": 1,
+      "raw_minima_ids": [
+        "B_gurutva_branch_raw_3"
+      ],
+      "params": {
+        "name": "B_gurutva_branch",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.4,
+        "arho": 0.2,
+        "miota2": 0.6,
+        "biota": 0.3,
+        "aiota": 0.4,
+        "c": 0.2,
+        "LambdaT2_kappa0": 0.2
+      }
+    },
+    {
+      "id": "C_tamas_branch_group_0",
+      "benchmark": "C_tamas_branch",
+      "phase": "Tamas",
+      "stability": "stable_minimum",
+      "phi": 0.7734431,
+      "abs_r": 0.0,
+      "abs_s": 1.0220777,
+      "V0": -0.15002232142857147,
+      "hessian_eigenvalues": [
+        0.14765054054856036,
+        0.724107128271251,
+        0.9480636749561941
+      ],
+      "hessian": [
+        [
+          0.15553569052753247,
+          0.0,
+          0.07905189447288702
+        ],
+        [
+          0.0,
+          0.724107128271251,
+          0.0
+        ],
+        [
+          0.07905189447288702,
+          0.0,
+          0.9401785249772222
+        ]
+      ],
+      "symmetry_key": "(0.7734431, 0.0, 1.0220777)",
+      "symmetry_multiplicity": 2,
+      "raw_minima_ids": [
+        "C_tamas_branch_raw_0",
+        "C_tamas_branch_raw_1"
+      ],
+      "params": {
+        "name": "C_tamas_branch",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": 0.5,
+        "brho": 0.3,
+        "arho": 0.4,
+        "miota2": -0.35,
+        "biota": 0.45,
+        "aiota": 0.1,
+        "c": 0.2,
+        "LambdaT2_kappa0": -0.15
+      }
+    },
+    {
+      "id": "C_tamas_branch_group_1",
+      "benchmark": "C_tamas_branch",
+      "phase": "Prema",
+      "stability": "unstable_saddle_or_max",
+      "phi": 1.0,
+      "abs_r": 0.0,
+      "abs_s": 0.0,
+      "V0": -0.0325,
+      "hessian_eigenvalues": [
+        -0.45,
+        0.26,
+        0.7
+      ],
+      "hessian": [
+        [
+          0.26,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.7,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.45
+        ]
+      ],
+      "symmetry_key": "(1.0, 0.0, 0.0)",
+      "symmetry_multiplicity": 1,
+      "raw_minima_ids": [
+        "C_tamas_branch_raw_2"
+      ],
+      "params": {
+        "name": "C_tamas_branch",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": 0.5,
+        "brho": 0.3,
+        "arho": 0.4,
+        "miota2": -0.35,
+        "biota": 0.45,
+        "aiota": 0.1,
+        "c": 0.2,
+        "LambdaT2_kappa0": -0.15
+      }
+    },
+    {
+      "id": "C_tamas_branch_group_2",
+      "benchmark": "C_tamas_branch",
+      "phase": "Symmetric",
+      "stability": "unstable_saddle_or_max",
+      "phi": 0.0,
+      "abs_r": 0.0,
+      "abs_s": 0.0,
+      "V0": 0.0,
+      "hessian_eigenvalues": [
+        -0.5,
+        -0.13,
+        0.5
+      ],
+      "hessian": [
+        [
+          -0.13,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.5,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.5
+        ]
+      ],
+      "symmetry_key": "(0.0, 0.0, 0.0)",
+      "symmetry_multiplicity": 1,
+      "raw_minima_ids": [
+        "C_tamas_branch_raw_3"
+      ],
+      "params": {
+        "name": "C_tamas_branch",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": 0.5,
+        "brho": 0.3,
+        "arho": 0.4,
+        "miota2": -0.35,
+        "biota": 0.45,
+        "aiota": 0.1,
+        "c": 0.2,
+        "LambdaT2_kappa0": -0.15
+      }
+    },
+    {
+      "id": "D_mixed_exploratory_group_0",
+      "benchmark": "D_mixed_exploratory",
+      "phase": "Mixed",
+      "stability": "stable_minimum",
+      "phi": 1.237497,
+      "abs_r": 0.97811,
+      "abs_s": 0.8776941,
+      "V0": -0.1912576513262299,
+      "hessian_eigenvalues": [
+        0.3574255868926396,
+        0.785350749052597,
+        0.886763585061906
+      ],
+      "hessian": [
+        [
+          0.3981636975425176,
+          -0.0968326552536,
+          -0.086891505253416
+        ],
+        [
+          -0.0968326552536,
+          0.86102925600527,
+          -0.04292406880755001
+        ],
+        [
+          -0.086891505253416,
+          -0.04292406880755001,
+          0.7703469674593549
+        ]
+      ],
+      "symmetry_key": "(1.237497, 0.97811, 0.8776941)",
+      "symmetry_multiplicity": 4,
+      "raw_minima_ids": [
+        "D_mixed_exploratory_raw_0",
+        "D_mixed_exploratory_raw_1",
+        "D_mixed_exploratory_raw_2",
+        "D_mixed_exploratory_raw_3"
+      ],
+      "params": {
+        "name": "D_mixed_exploratory",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.45,
+        "arho": -0.08,
+        "miota2": -0.35,
+        "biota": 0.5,
+        "aiota": -0.08,
+        "c": -0.05,
+        "LambdaT2_kappa0": 0.05,
+        "exploratory": true
+      }
+    },
+    {
+      "id": "D_mixed_exploratory_group_1",
+      "benchmark": "D_mixed_exploratory",
+      "phase": "Gurutva",
+      "stability": "unstable_saddle_or_max",
+      "phi": 1.1287893,
+      "abs_r": 0.9439475,
+      "abs_s": 0.0,
+      "V0": -0.11937609841827769,
+      "hessian_eigenvalues": [
+        -0.37324253342068586,
+        0.31632024378436424,
+        0.8168959219543951
+      ],
+      "hessian": [
+        [
+          0.33128298536960105,
+          -0.08524142702094001,
+          -0.0
+        ],
+        [
+          -0.08524142702094001,
+          0.8019331803691583,
+          -0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -0.37324253342068586
+        ]
+      ],
+      "symmetry_key": "(1.1287893, 0.9439475, 0.0)",
+      "symmetry_multiplicity": 2,
+      "raw_minima_ids": [
+        "D_mixed_exploratory_raw_4",
+        "D_mixed_exploratory_raw_5"
+      ],
+      "params": {
+        "name": "D_mixed_exploratory",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.45,
+        "arho": -0.08,
+        "miota2": -0.35,
+        "biota": 0.5,
+        "aiota": -0.08,
+        "c": -0.05,
+        "LambdaT2_kappa0": 0.05,
+        "exploratory": true
+      }
+    },
+    {
+      "id": "D_mixed_exploratory_group_2",
+      "benchmark": "D_mixed_exploratory",
+      "phase": "Tamas",
+      "stability": "unstable_saddle_or_max",
+      "phi": 1.1020486,
+      "abs_r": 0.0,
+      "abs_s": 0.8349616,
+      "V0": -0.09175867507886434,
+      "hessian_eigenvalues": [
+        -0.4160094665073425,
+        0.302057645046351,
+        0.7108761210931924
+      ],
+      "hessian": [
+        [
+          0.315772900598182,
+          -0.0,
+          -0.07361346098670081
+        ],
+        [
+          -0.0,
+          -0.4160094665073424,
+          -0.0
+        ],
+        [
+          -0.07361346098670081,
+          -0.0,
+          0.6971608655413614
+        ]
+      ],
+      "symmetry_key": "(1.1020486, 0.0, 0.8349616)",
+      "symmetry_multiplicity": 2,
+      "raw_minima_ids": [
+        "D_mixed_exploratory_raw_6",
+        "D_mixed_exploratory_raw_7"
+      ],
+      "params": {
+        "name": "D_mixed_exploratory",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.45,
+        "arho": -0.08,
+        "miota2": -0.35,
+        "biota": 0.5,
+        "aiota": -0.08,
+        "c": -0.05,
+        "LambdaT2_kappa0": 0.05,
+        "exploratory": true
+      }
+    },
+    {
+      "id": "D_mixed_exploratory_group_3",
+      "benchmark": "D_mixed_exploratory",
+      "phase": "Prema",
+      "stability": "unstable_saddle_or_max",
+      "phi": 1.0,
+      "abs_r": 0.0,
+      "abs_s": 0.0,
+      "V0": -0.0325,
+      "hessian_eigenvalues": [
+        -0.38999999999999996,
+        -0.33999999999999997,
+        0.26
+      ],
+      "hessian": [
+        [
+          0.26,
+          -0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          -0.38999999999999996,
+          -0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -0.33999999999999997
+        ]
+      ],
+      "symmetry_key": "(1.0, 0.0, 0.0)",
+      "symmetry_multiplicity": 1,
+      "raw_minima_ids": [
+        "D_mixed_exploratory_raw_8"
+      ],
+      "params": {
+        "name": "D_mixed_exploratory",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.45,
+        "arho": -0.08,
+        "miota2": -0.35,
+        "biota": 0.5,
+        "aiota": -0.08,
+        "c": -0.05,
+        "LambdaT2_kappa0": 0.05,
+        "exploratory": true
+      }
+    },
+    {
+      "id": "D_mixed_exploratory_group_4",
+      "benchmark": "D_mixed_exploratory",
+      "phase": "Symmetric",
+      "stability": "unstable_saddle_or_max",
+      "phi": 0.0,
+      "abs_r": 0.0,
+      "abs_s": 0.0,
+      "V0": 0.0,
+      "hessian_eigenvalues": [
+        -0.35,
+        -0.3,
+        -0.13
+      ],
+      "hessian": [
+        [
+          -0.13,
+          -0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          -0.35,
+          -0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -0.3
+        ]
+      ],
+      "symmetry_key": "(0.0, 0.0, 0.0)",
+      "symmetry_multiplicity": 1,
+      "raw_minima_ids": [
+        "D_mixed_exploratory_raw_9"
+      ],
+      "params": {
+        "name": "D_mixed_exploratory",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.45,
+        "arho": -0.08,
+        "miota2": -0.35,
+        "biota": 0.5,
+        "aiota": -0.08,
+        "c": -0.05,
+        "LambdaT2_kappa0": 0.05,
+        "exploratory": true
+      }
+    }
+  ],
+  "global_minimum": {
+    "A_prema_only": {
+      "id": "A_prema_only_raw_0",
+      "benchmark": "A_prema_only",
+      "phase": "Prema",
+      "stability": "stable_minimum",
+      "phi": 1.0000000000000269,
+      "r": 0.0,
+      "s": 0.0,
+      "V0": -0.03250000000000001,
+      "hessian_eigenvalues": [
+        0.260000000000021,
+        0.7000000000000107,
+        1.0000000000000109
+      ],
+      "hessian": [
+        [
+          0.260000000000021,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.7000000000000107,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0000000000000109
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "params": {
+        "name": "A_prema_only",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": 0.5,
+        "brho": 0.3,
+        "arho": 0.4,
+        "miota2": 0.6,
+        "biota": 0.3,
+        "aiota": 0.4,
+        "c": 0.2,
+        "LambdaT2_kappa0": 0.2
+      }
+    },
+    "B_gurutva_branch": {
+      "id": "B_gurutva_branch_raw_0",
+      "benchmark": "B_gurutva_branch",
+      "phase": "Gurutva",
+      "stability": "stable_minimum",
+      "phi": 0.6362090102832172,
+      "r": 0.8796644381868454,
+      "s": 0.0,
+      "V0": -0.08086309523809525,
+      "hessian_eigenvalues": [
+        0.08191366280398082,
+        0.642372051484891,
+        0.958333333334168
+      ],
+      "hessian": [
+        [
+          0.10523809523962262,
+          0.11193008832003905,
+          0.0
+        ],
+        [
+          0.11193008832003905,
+          0.6190476190492492,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.958333333334168
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "params": {
+        "name": "B_gurutva_branch",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.4,
+        "arho": 0.2,
+        "miota2": 0.6,
+        "biota": 0.3,
+        "aiota": 0.4,
+        "c": 0.2,
+        "LambdaT2_kappa0": 0.2
+      }
+    },
+    "C_tamas_branch": {
+      "id": "C_tamas_branch_raw_0",
+      "benchmark": "C_tamas_branch",
+      "phase": "Tamas",
+      "stability": "stable_minimum",
+      "phi": 0.7734431390078317,
+      "r": 0.0,
+      "s": -1.0220777145187863,
+      "V0": -0.15002232142857147,
+      "hessian_eigenvalues": [
+        0.1476505647339993,
+        0.724107143307252,
+        0.9480637188707715
+      ],
+      "hessian": [
+        [
+          0.15553571554432963,
+          0.0,
+          -0.07905189958273605
+        ],
+        [
+          0.0,
+          0.7241071433072522,
+          -0.0
+        ],
+        [
+          -0.07905189958273605,
+          -0.0,
+          0.9401785680604411
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "params": {
+        "name": "C_tamas_branch",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": 0.5,
+        "brho": 0.3,
+        "arho": 0.4,
+        "miota2": -0.35,
+        "biota": 0.45,
+        "aiota": 0.1,
+        "c": 0.2,
+        "LambdaT2_kappa0": -0.15
+      }
+    },
+    "D_mixed_exploratory": {
+      "id": "D_mixed_exploratory_raw_0",
+      "benchmark": "D_mixed_exploratory",
+      "phase": "Mixed",
+      "stability": "stable_minimum",
+      "phi": 1.2374969807461327,
+      "r": 0.978109995175485,
+      "s": -0.8776940579517927,
+      "V0": -0.1912576513262299,
+      "hessian_eigenvalues": [
+        0.35742557060756325,
+        0.7853506487986559,
+        0.8867635687821624
+      ],
+      "hessian": [
+        [
+          0.39816368228771687,
+          -0.09683265326938217,
+          0.08689149973873317
+        ],
+        [
+          -0.09683265326938217,
+          0.8610292470156241,
+          0.042924066539439
+        ],
+        [
+          0.08689149973873317,
+          0.042924066539439,
+          0.7703468588850406
+        ]
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "params": {
+        "name": "D_mixed_exploratory",
+        "muH_eff2": 0.13,
+        "lambdaH": 0.13,
+        "mrho2": -0.35,
+        "brho": 0.45,
+        "arho": -0.08,
+        "miota2": -0.35,
+        "biota": 0.5,
+        "aiota": -0.08,
+        "c": -0.05,
+        "LambdaT2_kappa0": 0.05,
+        "exploratory": true
+      }
+    }
+  },
+  "all_stable_minima": {
+    "A_prema_only": [
+      {
+        "id": "A_prema_only_raw_0",
+        "benchmark": "A_prema_only",
+        "phase": "Prema",
+        "stability": "stable_minimum",
+        "phi": 1.0000000000000269,
+        "r": 0.0,
+        "s": 0.0,
+        "V0": -0.03250000000000001,
+        "hessian_eigenvalues": [
+          0.260000000000021,
+          0.7000000000000107,
+          1.0000000000000109
+        ],
+        "hessian": [
+          [
+            0.260000000000021,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.7000000000000107,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0000000000000109
+          ]
+        ],
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "params": {
+          "name": "A_prema_only",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": 0.5,
+          "brho": 0.3,
+          "arho": 0.4,
+          "miota2": 0.6,
+          "biota": 0.3,
+          "aiota": 0.4,
+          "c": 0.2,
+          "LambdaT2_kappa0": 0.2
+        }
+      }
+    ],
+    "B_gurutva_branch": [
+      {
+        "id": "B_gurutva_branch_raw_0",
+        "benchmark": "B_gurutva_branch",
+        "phase": "Gurutva",
+        "stability": "stable_minimum",
+        "phi": 0.6362090102832172,
+        "r": 0.8796644381868454,
+        "s": 0.0,
+        "V0": -0.08086309523809525,
+        "hessian_eigenvalues": [
+          0.08191366280398082,
+          0.642372051484891,
+          0.958333333334168
+        ],
+        "hessian": [
+          [
+            0.10523809523962262,
+            0.11193008832003905,
+            0.0
+          ],
+          [
+            0.11193008832003905,
+            0.6190476190492492,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.958333333334168
+          ]
+        ],
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "params": {
+          "name": "B_gurutva_branch",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": -0.35,
+          "brho": 0.4,
+          "arho": 0.2,
+          "miota2": 0.6,
+          "biota": 0.3,
+          "aiota": 0.4,
+          "c": 0.2,
+          "LambdaT2_kappa0": 0.2
+        }
+      },
+      {
+        "id": "B_gurutva_branch_raw_1",
+        "benchmark": "B_gurutva_branch",
+        "phase": "Gurutva",
+        "stability": "stable_minimum",
+        "phi": 0.6362090211111427,
+        "r": -0.8796644408313808,
+        "s": 0.0,
+        "V0": -0.08086309523809525,
+        "hessian_eigenvalues": [
+          0.08191366779393178,
+          0.6423720592943774,
+          0.9583333365549583
+        ],
+        "hessian": [
+          [
+            0.105238101078166,
+            -0.11193009056152271,
+            0.0
+          ],
+          [
+            -0.11193009056152271,
+            0.6190476260101432,
+            -0.0
+          ],
+          [
+            0.0,
+            -0.0,
+            0.9583333365549583
+          ]
+        ],
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "params": {
+          "name": "B_gurutva_branch",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": -0.35,
+          "brho": 0.4,
+          "arho": 0.2,
+          "miota2": 0.6,
+          "biota": 0.3,
+          "aiota": 0.4,
+          "c": 0.2,
+          "LambdaT2_kappa0": 0.2
+        }
+      }
+    ],
+    "C_tamas_branch": [
+      {
+        "id": "C_tamas_branch_raw_0",
+        "benchmark": "C_tamas_branch",
+        "phase": "Tamas",
+        "stability": "stable_minimum",
+        "phi": 0.7734431390078317,
+        "r": 0.0,
+        "s": -1.0220777145187863,
+        "V0": -0.15002232142857147,
+        "hessian_eigenvalues": [
+          0.1476505647339993,
+          0.724107143307252,
+          0.9480637188707715
+        ],
+        "hessian": [
+          [
+            0.15553571554432963,
+            0.0,
+            -0.07905189958273605
+          ],
+          [
+            0.0,
+            0.7241071433072522,
+            -0.0
+          ],
+          [
+            -0.07905189958273605,
+            -0.0,
+            0.9401785680604411
+          ]
+        ],
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "params": {
+          "name": "C_tamas_branch",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": 0.5,
+          "brho": 0.3,
+          "arho": 0.4,
+          "miota2": -0.35,
+          "biota": 0.45,
+          "aiota": 0.1,
+          "c": 0.2,
+          "LambdaT2_kappa0": -0.15
+        }
+      },
+      {
+        "id": "C_tamas_branch_raw_1",
+        "benchmark": "C_tamas_branch",
+        "phase": "Tamas",
+        "stability": "stable_minimum",
+        "phi": 0.7734431390078317,
+        "r": 0.0,
+        "s": 1.0220777145187863,
+        "V0": -0.15002232142857147,
+        "hessian_eigenvalues": [
+          0.1476505647339993,
+          0.724107143307252,
+          0.9480637188707715
+        ],
+        "hessian": [
+          [
+            0.15553571554432963,
+            0.0,
+            0.07905189958273605
+          ],
+          [
+            0.0,
+            0.7241071433072522,
+            0.0
+          ],
+          [
+            0.07905189958273605,
+            0.0,
+            0.9401785680604411
+          ]
+        ],
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "params": {
+          "name": "C_tamas_branch",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": 0.5,
+          "brho": 0.3,
+          "arho": 0.4,
+          "miota2": -0.35,
+          "biota": 0.45,
+          "aiota": 0.1,
+          "c": 0.2,
+          "LambdaT2_kappa0": -0.15
+        }
+      }
+    ],
+    "D_mixed_exploratory": [
+      {
+        "id": "D_mixed_exploratory_raw_0",
+        "benchmark": "D_mixed_exploratory",
+        "phase": "Mixed",
+        "stability": "stable_minimum",
+        "phi": 1.2374969807461327,
+        "r": 0.978109995175485,
+        "s": -0.8776940579517927,
+        "V0": -0.1912576513262299,
+        "hessian_eigenvalues": [
+          0.35742557060756325,
+          0.7853506487986559,
+          0.8867635687821624
+        ],
+        "hessian": [
+          [
+            0.39816368228771687,
+            -0.09683265326938217,
+            0.08689149973873317
+          ],
+          [
+            -0.09683265326938217,
+            0.8610292470156241,
+            0.042924066539439
+          ],
+          [
+            0.08689149973873317,
+            0.042924066539439,
+            0.7703468588850406
+          ]
+        ],
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "params": {
+          "name": "D_mixed_exploratory",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": -0.35,
+          "brho": 0.45,
+          "arho": -0.08,
+          "miota2": -0.35,
+          "biota": 0.5,
+          "aiota": -0.08,
+          "c": -0.05,
+          "LambdaT2_kappa0": 0.05,
+          "exploratory": true
+        }
+      },
+      {
+        "id": "D_mixed_exploratory_raw_1",
+        "benchmark": "D_mixed_exploratory",
+        "phase": "Mixed",
+        "stability": "stable_minimum",
+        "phi": 1.2374969807461327,
+        "r": 0.978109995175485,
+        "s": 0.8776940579517927,
+        "V0": -0.1912576513262299,
+        "hessian_eigenvalues": [
+          0.35742557060756325,
+          0.7853506487986559,
+          0.8867635687821624
+        ],
+        "hessian": [
+          [
+            0.39816368228771687,
+            -0.09683265326938217,
+            -0.08689149973873317
+          ],
+          [
+            -0.09683265326938217,
+            0.8610292470156241,
+            -0.042924066539439
+          ],
+          [
+            -0.08689149973873317,
+            -0.042924066539439,
+            0.7703468588850406
+          ]
+        ],
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "params": {
+          "name": "D_mixed_exploratory",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": -0.35,
+          "brho": 0.45,
+          "arho": -0.08,
+          "miota2": -0.35,
+          "biota": 0.5,
+          "aiota": -0.08,
+          "c": -0.05,
+          "LambdaT2_kappa0": 0.05,
+          "exploratory": true
+        }
+      },
+      {
+        "id": "D_mixed_exploratory_raw_2",
+        "benchmark": "D_mixed_exploratory",
+        "phase": "Mixed",
+        "stability": "stable_minimum",
+        "phi": 1.2374969807461327,
+        "r": -0.978109995175485,
+        "s": 0.8776940579517927,
+        "V0": -0.1912576513262299,
+        "hessian_eigenvalues": [
+          0.35742557060756325,
+          0.7853506487986559,
+          0.8867635687821624
+        ],
+        "hessian": [
+          [
+            0.39816368228771687,
+            0.09683265326938217,
+            -0.08689149973873317
+          ],
+          [
+            0.09683265326938217,
+            0.8610292470156241,
+            0.042924066539439
+          ],
+          [
+            -0.08689149973873317,
+            0.042924066539439,
+            0.7703468588850406
+          ]
+        ],
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "params": {
+          "name": "D_mixed_exploratory",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": -0.35,
+          "brho": 0.45,
+          "arho": -0.08,
+          "miota2": -0.35,
+          "biota": 0.5,
+          "aiota": -0.08,
+          "c": -0.05,
+          "LambdaT2_kappa0": 0.05,
+          "exploratory": true
+        }
+      },
+      {
+        "id": "D_mixed_exploratory_raw_3",
+        "benchmark": "D_mixed_exploratory",
+        "phase": "Mixed",
+        "stability": "stable_minimum",
+        "phi": 1.2374969807461327,
+        "r": -0.978109995175485,
+        "s": -0.8776940579517927,
+        "V0": -0.1912576513262299,
+        "hessian_eigenvalues": [
+          0.35742557060756325,
+          0.7853506487986559,
+          0.8867635687821624
+        ],
+        "hessian": [
+          [
+            0.39816368228771687,
+            0.09683265326938217,
+            0.08689149973873317
+          ],
+          [
+            0.09683265326938217,
+            0.8610292470156241,
+            -0.042924066539439
+          ],
+          [
+            0.08689149973873317,
+            -0.042924066539439,
+            0.7703468588850406
+          ]
+        ],
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "params": {
+          "name": "D_mixed_exploratory",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": -0.35,
+          "brho": 0.45,
+          "arho": -0.08,
+          "miota2": -0.35,
+          "biota": 0.5,
+          "aiota": -0.08,
+          "c": -0.05,
+          "LambdaT2_kappa0": 0.05,
+          "exploratory": true
+        }
+      }
+    ]
+  },
+  "phase_representatives": {
+    "A_prema_only": {
+      "Prema": {
+        "id": "A_prema_only_group_0",
+        "benchmark": "A_prema_only",
+        "phase": "Prema",
+        "stability": "stable_minimum",
+        "phi": 1.0,
+        "abs_r": 0.0,
+        "abs_s": 0.0,
+        "V0": -0.03250000000000001,
+        "hessian_eigenvalues": [
+          0.26,
+          0.7,
+          1.0
+        ],
+        "hessian": [
+          [
+            0.26,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.7,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "symmetry_key": "(1.0, 0.0, 0.0)",
+        "symmetry_multiplicity": 1,
+        "raw_minima_ids": [
+          "A_prema_only_raw_0"
+        ],
+        "params": {
+          "name": "A_prema_only",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": 0.5,
+          "brho": 0.3,
+          "arho": 0.4,
+          "miota2": 0.6,
+          "biota": 0.3,
+          "aiota": 0.4,
+          "c": 0.2,
+          "LambdaT2_kappa0": 0.2
+        }
+      },
+      "Symmetric": {
+        "id": "A_prema_only_group_1",
+        "benchmark": "A_prema_only",
+        "phase": "Symmetric",
+        "stability": "unstable_saddle_or_max",
+        "phi": 0.0,
+        "abs_r": 0.0,
+        "abs_s": 0.0,
+        "V0": 0.0,
+        "hessian_eigenvalues": [
+          -0.13,
+          0.5,
+          0.8
+        ],
+        "hessian": [
+          [
+            -0.13,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.5,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.8
+          ]
+        ],
+        "symmetry_key": "(0.0, 0.0, 0.0)",
+        "symmetry_multiplicity": 1,
+        "raw_minima_ids": [
+          "A_prema_only_raw_1"
+        ],
+        "params": {
+          "name": "A_prema_only",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": 0.5,
+          "brho": 0.3,
+          "arho": 0.4,
+          "miota2": 0.6,
+          "biota": 0.3,
+          "aiota": 0.4,
+          "c": 0.2,
+          "LambdaT2_kappa0": 0.2
+        }
+      }
+    },
+    "B_gurutva_branch": {
+      "Gurutva": {
+        "id": "B_gurutva_branch_group_0",
+        "benchmark": "B_gurutva_branch",
+        "phase": "Gurutva",
+        "stability": "stable_minimum",
+        "phi": 0.636209,
+        "abs_r": 0.8796644,
+        "abs_s": 0.0,
+        "V0": -0.08086309523809525,
+        "hessian_eigenvalues": [
+          0.08191365072846336,
+          0.6423719698107948,
+          0.9583333239989361
+        ],
+        "hessian": [
+          [
+            0.10523808341832602,
+            0.11193008165192002,
+            0.0
+          ],
+          [
+            0.11193008165192002,
+            0.6190475371209322,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.9583333239989361
+          ]
+        ],
+        "symmetry_key": "(0.636209, 0.8796644, 0.0)",
+        "symmetry_multiplicity": 2,
+        "raw_minima_ids": [
+          "B_gurutva_branch_raw_0",
+          "B_gurutva_branch_raw_1"
+        ],
+        "params": {
+          "name": "B_gurutva_branch",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": -0.35,
+          "brho": 0.4,
+          "arho": 0.2,
+          "miota2": 0.6,
+          "biota": 0.3,
+          "aiota": 0.4,
+          "c": 0.2,
+          "LambdaT2_kappa0": 0.2
+        }
+      },
+      "Prema": {
+        "id": "B_gurutva_branch_group_1",
+        "benchmark": "B_gurutva_branch",
+        "phase": "Prema",
+        "stability": "unstable_saddle_or_max",
+        "phi": 1.0,
+        "abs_r": 0.0,
+        "abs_s": 0.0,
+        "V0": -0.0325,
+        "hessian_eigenvalues": [
+          -0.24999999999999997,
+          0.26,
+          1.0
+        ],
+        "hessian": [
+          [
+            0.26,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -0.24999999999999997,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "symmetry_key": "(1.0, 0.0, 0.0)",
+        "symmetry_multiplicity": 1,
+        "raw_minima_ids": [
+          "B_gurutva_branch_raw_2"
+        ],
+        "params": {
+          "name": "B_gurutva_branch",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": -0.35,
+          "brho": 0.4,
+          "arho": 0.2,
+          "miota2": 0.6,
+          "biota": 0.3,
+          "aiota": 0.4,
+          "c": 0.2,
+          "LambdaT2_kappa0": 0.2
+        }
+      },
+      "Symmetric": {
+        "id": "B_gurutva_branch_group_2",
+        "benchmark": "B_gurutva_branch",
+        "phase": "Symmetric",
+        "stability": "unstable_saddle_or_max",
+        "phi": 0.0,
+        "abs_r": 0.0,
+        "abs_s": 0.0,
+        "V0": 0.0,
+        "hessian_eigenvalues": [
+          -0.35,
+          -0.13,
+          0.8
+        ],
+        "hessian": [
+          [
+            -0.13,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -0.35,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.8
+          ]
+        ],
+        "symmetry_key": "(0.0, 0.0, 0.0)",
+        "symmetry_multiplicity": 1,
+        "raw_minima_ids": [
+          "B_gurutva_branch_raw_3"
+        ],
+        "params": {
+          "name": "B_gurutva_branch",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": -0.35,
+          "brho": 0.4,
+          "arho": 0.2,
+          "miota2": 0.6,
+          "biota": 0.3,
+          "aiota": 0.4,
+          "c": 0.2,
+          "LambdaT2_kappa0": 0.2
+        }
+      }
+    },
+    "C_tamas_branch": {
+      "Tamas": {
+        "id": "C_tamas_branch_group_0",
+        "benchmark": "C_tamas_branch",
+        "phase": "Tamas",
+        "stability": "stable_minimum",
+        "phi": 0.7734431,
+        "abs_r": 0.0,
+        "abs_s": 1.0220777,
+        "V0": -0.15002232142857147,
+        "hessian_eigenvalues": [
+          0.14765054054856036,
+          0.724107128271251,
+          0.9480636749561941
+        ],
+        "hessian": [
+          [
+            0.15553569052753247,
+            0.0,
+            0.07905189447288702
+          ],
+          [
+            0.0,
+            0.724107128271251,
+            0.0
+          ],
+          [
+            0.07905189447288702,
+            0.0,
+            0.9401785249772222
+          ]
+        ],
+        "symmetry_key": "(0.7734431, 0.0, 1.0220777)",
+        "symmetry_multiplicity": 2,
+        "raw_minima_ids": [
+          "C_tamas_branch_raw_0",
+          "C_tamas_branch_raw_1"
+        ],
+        "params": {
+          "name": "C_tamas_branch",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": 0.5,
+          "brho": 0.3,
+          "arho": 0.4,
+          "miota2": -0.35,
+          "biota": 0.45,
+          "aiota": 0.1,
+          "c": 0.2,
+          "LambdaT2_kappa0": -0.15
+        }
+      },
+      "Prema": {
+        "id": "C_tamas_branch_group_1",
+        "benchmark": "C_tamas_branch",
+        "phase": "Prema",
+        "stability": "unstable_saddle_or_max",
+        "phi": 1.0,
+        "abs_r": 0.0,
+        "abs_s": 0.0,
+        "V0": -0.0325,
+        "hessian_eigenvalues": [
+          -0.45,
+          0.26,
+          0.7
+        ],
+        "hessian": [
+          [
+            0.26,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.7,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -0.45
+          ]
+        ],
+        "symmetry_key": "(1.0, 0.0, 0.0)",
+        "symmetry_multiplicity": 1,
+        "raw_minima_ids": [
+          "C_tamas_branch_raw_2"
+        ],
+        "params": {
+          "name": "C_tamas_branch",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": 0.5,
+          "brho": 0.3,
+          "arho": 0.4,
+          "miota2": -0.35,
+          "biota": 0.45,
+          "aiota": 0.1,
+          "c": 0.2,
+          "LambdaT2_kappa0": -0.15
+        }
+      },
+      "Symmetric": {
+        "id": "C_tamas_branch_group_2",
+        "benchmark": "C_tamas_branch",
+        "phase": "Symmetric",
+        "stability": "unstable_saddle_or_max",
+        "phi": 0.0,
+        "abs_r": 0.0,
+        "abs_s": 0.0,
+        "V0": 0.0,
+        "hessian_eigenvalues": [
+          -0.5,
+          -0.13,
+          0.5
+        ],
+        "hessian": [
+          [
+            -0.13,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.5,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -0.5
+          ]
+        ],
+        "symmetry_key": "(0.0, 0.0, 0.0)",
+        "symmetry_multiplicity": 1,
+        "raw_minima_ids": [
+          "C_tamas_branch_raw_3"
+        ],
+        "params": {
+          "name": "C_tamas_branch",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": 0.5,
+          "brho": 0.3,
+          "arho": 0.4,
+          "miota2": -0.35,
+          "biota": 0.45,
+          "aiota": 0.1,
+          "c": 0.2,
+          "LambdaT2_kappa0": -0.15
+        }
+      }
+    },
+    "D_mixed_exploratory": {
+      "Mixed": {
+        "id": "D_mixed_exploratory_group_0",
+        "benchmark": "D_mixed_exploratory",
+        "phase": "Mixed",
+        "stability": "stable_minimum",
+        "phi": 1.237497,
+        "abs_r": 0.97811,
+        "abs_s": 0.8776941,
+        "V0": -0.1912576513262299,
+        "hessian_eigenvalues": [
+          0.3574255868926396,
+          0.785350749052597,
+          0.886763585061906
+        ],
+        "hessian": [
+          [
+            0.3981636975425176,
+            -0.0968326552536,
+            -0.086891505253416
+          ],
+          [
+            -0.0968326552536,
+            0.86102925600527,
+            -0.04292406880755001
+          ],
+          [
+            -0.086891505253416,
+            -0.04292406880755001,
+            0.7703469674593549
+          ]
+        ],
+        "symmetry_key": "(1.237497, 0.97811, 0.8776941)",
+        "symmetry_multiplicity": 4,
+        "raw_minima_ids": [
+          "D_mixed_exploratory_raw_0",
+          "D_mixed_exploratory_raw_1",
+          "D_mixed_exploratory_raw_2",
+          "D_mixed_exploratory_raw_3"
+        ],
+        "params": {
+          "name": "D_mixed_exploratory",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": -0.35,
+          "brho": 0.45,
+          "arho": -0.08,
+          "miota2": -0.35,
+          "biota": 0.5,
+          "aiota": -0.08,
+          "c": -0.05,
+          "LambdaT2_kappa0": 0.05,
+          "exploratory": true
+        }
+      },
+      "Gurutva": {
+        "id": "D_mixed_exploratory_group_1",
+        "benchmark": "D_mixed_exploratory",
+        "phase": "Gurutva",
+        "stability": "unstable_saddle_or_max",
+        "phi": 1.1287893,
+        "abs_r": 0.9439475,
+        "abs_s": 0.0,
+        "V0": -0.11937609841827769,
+        "hessian_eigenvalues": [
+          -0.37324253342068586,
+          0.31632024378436424,
+          0.8168959219543951
+        ],
+        "hessian": [
+          [
+            0.33128298536960105,
+            -0.08524142702094001,
+            -0.0
+          ],
+          [
+            -0.08524142702094001,
+            0.8019331803691583,
+            -0.0
+          ],
+          [
+            -0.0,
+            -0.0,
+            -0.37324253342068586
+          ]
+        ],
+        "symmetry_key": "(1.1287893, 0.9439475, 0.0)",
+        "symmetry_multiplicity": 2,
+        "raw_minima_ids": [
+          "D_mixed_exploratory_raw_4",
+          "D_mixed_exploratory_raw_5"
+        ],
+        "params": {
+          "name": "D_mixed_exploratory",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": -0.35,
+          "brho": 0.45,
+          "arho": -0.08,
+          "miota2": -0.35,
+          "biota": 0.5,
+          "aiota": -0.08,
+          "c": -0.05,
+          "LambdaT2_kappa0": 0.05,
+          "exploratory": true
+        }
+      },
+      "Tamas": {
+        "id": "D_mixed_exploratory_group_2",
+        "benchmark": "D_mixed_exploratory",
+        "phase": "Tamas",
+        "stability": "unstable_saddle_or_max",
+        "phi": 1.1020486,
+        "abs_r": 0.0,
+        "abs_s": 0.8349616,
+        "V0": -0.09175867507886434,
+        "hessian_eigenvalues": [
+          -0.4160094665073425,
+          0.302057645046351,
+          0.7108761210931924
+        ],
+        "hessian": [
+          [
+            0.315772900598182,
+            -0.0,
+            -0.07361346098670081
+          ],
+          [
+            -0.0,
+            -0.4160094665073424,
+            -0.0
+          ],
+          [
+            -0.07361346098670081,
+            -0.0,
+            0.6971608655413614
+          ]
+        ],
+        "symmetry_key": "(1.1020486, 0.0, 0.8349616)",
+        "symmetry_multiplicity": 2,
+        "raw_minima_ids": [
+          "D_mixed_exploratory_raw_6",
+          "D_mixed_exploratory_raw_7"
+        ],
+        "params": {
+          "name": "D_mixed_exploratory",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": -0.35,
+          "brho": 0.45,
+          "arho": -0.08,
+          "miota2": -0.35,
+          "biota": 0.5,
+          "aiota": -0.08,
+          "c": -0.05,
+          "LambdaT2_kappa0": 0.05,
+          "exploratory": true
+        }
+      },
+      "Prema": {
+        "id": "D_mixed_exploratory_group_3",
+        "benchmark": "D_mixed_exploratory",
+        "phase": "Prema",
+        "stability": "unstable_saddle_or_max",
+        "phi": 1.0,
+        "abs_r": 0.0,
+        "abs_s": 0.0,
+        "V0": -0.0325,
+        "hessian_eigenvalues": [
+          -0.38999999999999996,
+          -0.33999999999999997,
+          0.26
+        ],
+        "hessian": [
+          [
+            0.26,
+            -0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            -0.38999999999999996,
+            -0.0
+          ],
+          [
+            -0.0,
+            -0.0,
+            -0.33999999999999997
+          ]
+        ],
+        "symmetry_key": "(1.0, 0.0, 0.0)",
+        "symmetry_multiplicity": 1,
+        "raw_minima_ids": [
+          "D_mixed_exploratory_raw_8"
+        ],
+        "params": {
+          "name": "D_mixed_exploratory",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": -0.35,
+          "brho": 0.45,
+          "arho": -0.08,
+          "miota2": -0.35,
+          "biota": 0.5,
+          "aiota": -0.08,
+          "c": -0.05,
+          "LambdaT2_kappa0": 0.05,
+          "exploratory": true
+        }
+      },
+      "Symmetric": {
+        "id": "D_mixed_exploratory_group_4",
+        "benchmark": "D_mixed_exploratory",
+        "phase": "Symmetric",
+        "stability": "unstable_saddle_or_max",
+        "phi": 0.0,
+        "abs_r": 0.0,
+        "abs_s": 0.0,
+        "V0": 0.0,
+        "hessian_eigenvalues": [
+          -0.35,
+          -0.3,
+          -0.13
+        ],
+        "hessian": [
+          [
+            -0.13,
+            -0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            -0.35,
+            -0.0
+          ],
+          [
+            -0.0,
+            -0.0,
+            -0.3
+          ]
+        ],
+        "symmetry_key": "(0.0, 0.0, 0.0)",
+        "symmetry_multiplicity": 1,
+        "raw_minima_ids": [
+          "D_mixed_exploratory_raw_9"
+        ],
+        "params": {
+          "name": "D_mixed_exploratory",
+          "muH_eff2": 0.13,
+          "lambdaH": 0.13,
+          "mrho2": -0.35,
+          "brho": 0.45,
+          "arho": -0.08,
+          "miota2": -0.35,
+          "biota": 0.5,
+          "aiota": -0.08,
+          "c": -0.05,
+          "LambdaT2_kappa0": 0.05,
+          "exploratory": true
+        }
+      }
+    }
+  }
+}

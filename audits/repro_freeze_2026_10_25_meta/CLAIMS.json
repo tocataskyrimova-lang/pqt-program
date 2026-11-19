@@ -1,0 +1,210 @@
+[
+  {
+    "id": "N01",
+    "claim": "v10 exact original operator spectrum",
+    "scientific_status": "PASS",
+    "portable_test": "v10_exact_operator",
+    "source": "sources/formalization_package/neutrino_pqt_v10.py",
+    "artifact": "evidence/CODEX/NEUTRINO_SOURCE_REPLAY/PYTHON_OPERATOR_REPLAY.json"
+  },
+  {
+    "id": "N02",
+    "claim": "published rho=.1528/.2294 at four decimals",
+    "scientific_status": "FAIL",
+    "portable_test": "v10_exact_operator",
+    "source": "same as N01",
+    "artifact": "evidence/HIX/h1b_results.json"
+  },
+  {
+    "id": "N03",
+    "claim": "theta23=58.740208 source output; experimental fit failure",
+    "scientific_status": "CONDITIONAL",
+    "portable_test": "v10_exact_operator",
+    "source": "same as N01",
+    "artifact": "evidence/CODEX/NEUTRINO_SOURCE_REPLAY/CODEX_AUDIT_REPORT.md"
+  },
+  {
+    "id": "N04",
+    "claim": "3 effective shape parameters; rank/doF caveats; kappa1 rank2",
+    "scientific_status": "PASS",
+    "portable_test": "symmetric_projectors_rank_basis",
+    "source": "same as N01",
+    "artifact": "evidence/HIX/h1e_results.json"
+  },
+  {
+    "id": "N05",
+    "claim": "old incoherent operator invariant under degenerate-basis rotation",
+    "scientific_status": "FAIL",
+    "portable_test": "symmetric_projectors_rank_basis",
+    "source": "same as N01",
+    "artifact": "evidence/HIX/H1E_RANK_BASIS.md"
+  },
+  {
+    "id": "N06",
+    "claim": "projector identity for symmetric source; separate joint sectors gamma0",
+    "scientific_status": "PASS",
+    "portable_test": "symmetric_projectors_rank_basis",
+    "source": "same as N01",
+    "artifact": "evidence/CODEX/ROUND3_COMPLEX_PHASE/PROJECTOR_AND_PHASE_PROOFS.wl"
+  },
+  {
+    "id": "N07",
+    "claim": "arbitrary-source projector equivalence",
+    "scientific_status": "FAIL",
+    "portable_test": "symmetric_projectors_rank_basis",
+    "source": "same as N01",
+    "artifact": "evidence/HIX/h4_results.json"
+  },
+  {
+    "id": "C01",
+    "claim": "literal complex ansatz and all eight sign assignments",
+    "scientific_status": "PASS",
+    "portable_test": "complex_8_signs_and_counterexamples",
+    "source": "evidence/CODEX/ROUND3_COMPLEX_PHASE/FORUM_SOURCE_SNAPSHOT.json",
+    "artifact": "evidence/HIX/h4_results.json"
+  },
+  {
+    "id": "C02",
+    "claim": "Argon supplied numerical table follows literal formula",
+    "scientific_status": "FAIL",
+    "portable_test": "complex_8_signs_and_counterexamples",
+    "source": "same as C01",
+    "artifact": "evidence/CODEX/ROUND3_COMPLEX_PHASE/PYTHON_LITERAL_REPLAY.json"
+  },
+  {
+    "id": "C03",
+    "claim": "universal cos(delta)>0 at fixed +pi/2",
+    "scientific_status": "FAIL",
+    "portable_test": "complex_8_signs_and_counterexamples",
+    "source": "same as C01",
+    "artifact": "evidence/CODEX/ROUND3_COMPLEX_PHASE/FIXED90_COUNTEREXAMPLE.wl"
+  },
+  {
+    "id": "C04",
+    "claim": "fixed-phase historical and Bari pseudo fits, constrained scans",
+    "scientific_status": "SCAN_ONLY",
+    "portable_test": "extended_frozen_optimization_protocols",
+    "source": "same as C01",
+    "artifact": "evidence/CODEX/ROUND4_CP_RESIDUES/CP_SCAN.json"
+  },
+  {
+    "id": "C05",
+    "claim": "physical phase origin and sign allocation",
+    "scientific_status": "PROVENANCE_PENDING",
+    "portable_test": null,
+    "source": "missing primary phase derivation",
+    "artifact": "evidence/CODEX/ROUND3_COMPLEX_PHASE/CODEX_COMPLEX_PHASE_AUDIT.md"
+  },
+  {
+    "id": "C06",
+    "claim": "global upper-octant theorem",
+    "scientific_status": "NOT_RUN",
+    "portable_test": null,
+    "source": "no supplied rigorous eigenvector proof",
+    "artifact": "forum/forum-7966a9411004a1e0a14243a7.json"
+  },
+  {
+    "id": "B01",
+    "claim": "Bari 90-node marginal CP graphical extraction",
+    "scientific_status": "PASS",
+    "portable_test": "Bari_graphical_profiles_and_2D",
+    "source": "evidence/CODEX/ROUND4_CP_RESIDUES/BARI_RESULTS.html",
+    "artifact": "evidence/HIX/h4c_official_cp_profile.json"
+  },
+  {
+    "id": "B02",
+    "claim": "specific point outside published outer dotted NO contour",
+    "scientific_status": "PASS",
+    "portable_test": "Bari_graphical_profiles_and_2D",
+    "source": "evidence/CODEX/ROUND4_CP_RESIDUES/BARI_s23_delta.png",
+    "artifact": "evidence/CODEX/ROUND5_2D_AND_SOURCE_POLES/FIGURE_AUDIT.json"
+  },
+  {
+    "id": "B03",
+    "claim": "exact official 2D/6D likelihood, calibrated full-model significance",
+    "scientific_status": "SOURCE_BLOCKED",
+    "portable_test": null,
+    "source": "numeric tables unavailable in frozen release",
+    "artifact": "evidence/CODEX/ROUND5_2D_AND_SOURCE_POLES/CODEX_ROUND5_2D_SOURCE_AUDIT.md"
+  },
+  {
+    "id": "E01",
+    "claim": "correct continuation derivative, healthy 2x2 and exact 4-pole benchmark",
+    "scientific_status": "PASS",
+    "portable_test": "EFT_source_HIX_exact_patch_and_rollback",
+    "source": "sources/nonlocal_memory.py",
+    "artifact": "evidence/HIX/h2d_results.json"
+  },
+  {
+    "id": "E02",
+    "claim": "Argon minus-sign ghost criterion",
+    "scientific_status": "FAIL",
+    "portable_test": "EFT_source_HIX_exact_patch_and_rollback",
+    "source": "same as E01",
+    "artifact": "evidence/CODEX/ROUND4_CP_RESIDUES/EFT_PYTHON.json"
+  },
+  {
+    "id": "E03",
+    "claim": "exact HIX patch API13, V1 bitwise9/9, eigen gate, copy-only rollback",
+    "scientific_status": "PASS",
+    "portable_test": "EFT_source_HIX_exact_patch_and_rollback",
+    "source": "evidence/HIX/PROPOSED_nonlocal_memory_health.patch",
+    "artifact": "evidence/HIX/h2e_results.json"
+  },
+  {
+    "id": "E04",
+    "claim": "general nonlocal physical stability and source patch release",
+    "scientific_status": "CONDITIONAL",
+    "portable_test": null,
+    "source": "unified action and approval absent",
+    "artifact": "evidence/HIX/H2E_HEALTH_RELEASE_GATE_ADDENDUM.md"
+  },
+  {
+    "id": "Q01",
+    "claim": "PDG-width ratios and frozen Cornell sensitivity near g2=.114",
+    "scientific_status": "CONDITIONAL",
+    "portable_test": "bottomonium_frozen_model",
+    "source": "evidence/HIX/h3_bottomonium.py",
+    "artifact": "evidence/CODEX/HIX_REVIEW/HIX_REVIEW.md"
+  },
+  {
+    "id": "Q02",
+    "claim": "general model-independent coupling/string bound",
+    "scientific_status": "FAIL",
+    "portable_test": null,
+    "source": "nuisance/refit degeneracy",
+    "artifact": "evidence/CODEX/NEUTRINO_SOURCE_REPLAY/BOTTOMONIUM_DIMENSIONS.md"
+  },
+  {
+    "id": "R01",
+    "claim": "RG doc-code audit, not a physical no-go",
+    "scientific_status": "CONDITIONAL",
+    "portable_test": null,
+    "source": "sources/formalization_package/pqt_neutrino_rg_v2.py",
+    "artifact": "evidence/HIX/h1c_results.json"
+  },
+  {
+    "id": "Z01",
+    "claim": "collider Z significance historical claims",
+    "scientific_status": "NOT_RUN",
+    "portable_test": null,
+    "source": "formalization historical scripts only",
+    "artifact": "sources/formalization_package"
+  },
+  {
+    "id": "I01",
+    "claim": "Round4 Markdown original freeze still matches current file",
+    "scientific_status": "FAIL",
+    "portable_test": "quarantined_integrity",
+    "source": "evidence/CODEX/ROUND4_CP_RESIDUES/CODEX_ROUND4_CP_EFT_AUDIT.md",
+    "artifact": "evidence/CODEX/ROUND5_2D_AND_SOURCE_POLES/postfreeze_integrity/INTEGRITY.json"
+  },
+  {
+    "id": "I02",
+    "claim": "both incident variants and exact reconstructed digest preserved",
+    "scientific_status": "PASS",
+    "portable_test": "quarantined_integrity",
+    "source": "same as I01",
+    "artifact": "evidence/CODEX/ROUND5_2D_AND_SOURCE_POLES/postfreeze_integrity"
+  }
+]

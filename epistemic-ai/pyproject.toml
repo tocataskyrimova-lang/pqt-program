@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qvch"
+version = "4.1.0"
+description = "QVCH v4.1 — epistemic integrity restoration and canonical hippocampus (LLM cognitive memory)"
+readme = "README.md"
+requires-python = ">=3.11"
+# P0 constraint: runtime is standard-library only. No heavy framework deps.
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools]
+# R1 §13: auto-discover ALL subpackages so the installed wheel can never miss
+# a module (R1-Q14). Legacy v3 is preserved unchanged; v4 is the new package.
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["qvch_v3*", "qvch_v4*", "apps*"]
+exclude = ["tests*", "scripts*", "BREAF*", "docs*"]
+
+[tool.qvch]
+# P0-0 portability: the EXT1-DRY research sidecar math root is resolved from
+# QVCH_MATH_DEFAULTS_PATH; absence yields a controlled skip, not a crash.

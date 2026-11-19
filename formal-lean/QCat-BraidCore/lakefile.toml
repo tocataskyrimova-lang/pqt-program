@@ -1,0 +1,15 @@
+name = "QCat-BraidCore"
+version = "0.2.0"
+keywords = ["qcat", "braided-monoidal"]
+defaultTargets = ["QCatBraidCore", "QCatBraidCore.Audit"]
+
+[leanOptions]
+autoImplicit = false
+
+# Та же офлайн-связка, что и в QCatFormal: Lean 4.18.0 + Mathlib v4.18.0.
+[[require]]
+name = "mathlib"
+path = "../mathlib-v4.18.0"
+
+[[lean_lib]]
+name = "QCatBraidCore"

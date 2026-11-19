@@ -1,0 +1,318 @@
+{
+  "grid": 61,
+  "loop_scale": 1.0,
+  "summaries": [
+    {
+      "slice": "preserved_c_plus_0_10",
+      "source": "v0.3 preserved slice c_+0.10",
+      "tree_phase_counts": {
+        "Prema": 841,
+        "Gurutva": 972,
+        "Tamas": 967,
+        "Mixed": 941,
+        "Symmetric": 0,
+        "Rho_only": 0,
+        "Iota_only": 0,
+        "Other": 0,
+        "Unstable": 0
+      },
+      "cw_phase_counts": {
+        "Prema": 841,
+        "Gurutva": 983,
+        "Tamas": 978,
+        "Mixed": 919,
+        "Symmetric": 0,
+        "Rho_only": 0,
+        "Iota_only": 0,
+        "Other": 0,
+        "Unstable": 0
+      },
+      "tree_phase_fractions": {
+        "Prema": 0.22601451222789573,
+        "Gurutva": 0.2612201021230852,
+        "Tamas": 0.2598763773179253,
+        "Mixed": 0.2528890083310938,
+        "Symmetric": 0.0,
+        "Rho_only": 0.0,
+        "Iota_only": 0.0,
+        "Other": 0.0,
+        "Unstable": 0.0
+      },
+      "cw_phase_fractions": {
+        "Prema": 0.22601451222789573,
+        "Gurutva": 0.264176296694437,
+        "Tamas": 0.26283257188927706,
+        "Mixed": 0.24697661918839023,
+        "Symmetric": 0.0,
+        "Rho_only": 0.0,
+        "Iota_only": 0.0,
+        "Other": 0.0,
+        "Unstable": 0.0
+      },
+      "tree_quadrant_agreement": 0.9805555555555555,
+      "cw_quadrant_agreement": 0.9802777777777778,
+      "tree_mismatch_count": 70,
+      "cw_mismatch_count": 71,
+      "comparable_count": 3600,
+      "changed_phase_fraction": 0.005912389142703574,
+      "changed_cells_count": 22,
+      "mixed_fraction_tree": 0.2528890083310938,
+      "mixed_fraction_cw": 0.24697661918839023,
+      "topology_status_tree": "preserved",
+      "topology_status_cw": "preserved",
+      "instability_fraction_cw": 0.0002687449610319806,
+      "instability_cells_count": 1,
+      "copositivity_pairwise": {
+        "status": "pass",
+        "checks": {
+          "lambdaH_positive": true,
+          "brho_positive": true,
+          "biota_positive": true,
+          "arho_pairwise": true,
+          "aiota_pairwise": true,
+          "c_pairwise": true
+        },
+        "values": {
+          "arho_plus_2sqrt_lambdaH_brho": 0.40373546489791295,
+          "aiota_plus_2sqrt_lambdaH_biota": 0.4299019513592785,
+          "c_plus_2sqrt_brho_biota": 1.0486832980505139
+        },
+        "note": "Pairwise quartic boundedness sanity check only; not a full three-field copositivity proof."
+      }
+    },
+    {
+      "slice": "baseline_mild_deformed",
+      "source": "v0.2/v0.3 baseline mixed-friendly slice",
+      "tree_phase_counts": {
+        "Prema": 841,
+        "Gurutva": 885,
+        "Tamas": 891,
+        "Mixed": 1104,
+        "Symmetric": 0,
+        "Rho_only": 0,
+        "Iota_only": 0,
+        "Other": 0,
+        "Unstable": 0
+      },
+      "cw_phase_counts": {
+        "Prema": 841,
+        "Gurutva": 896,
+        "Tamas": 899,
+        "Mixed": 1085,
+        "Symmetric": 0,
+        "Rho_only": 0,
+        "Iota_only": 0,
+        "Other": 0,
+        "Unstable": 0
+      },
+      "tree_phase_fractions": {
+        "Prema": 0.22601451222789573,
+        "Gurutva": 0.23783929051330288,
+        "Tamas": 0.23945176027949475,
+        "Mixed": 0.29669443697930664,
+        "Symmetric": 0.0,
+        "Rho_only": 0.0,
+        "Iota_only": 0.0,
+        "Other": 0.0,
+        "Unstable": 0.0
+      },
+      "cw_phase_fractions": {
+        "Prema": 0.22601451222789573,
+        "Gurutva": 0.24079548508465468,
+        "Tamas": 0.2416017199677506,
+        "Mixed": 0.291588282719699,
+        "Symmetric": 0.0,
+        "Rho_only": 0.0,
+        "Iota_only": 0.0,
+        "Other": 0.0,
+        "Unstable": 0.0
+      },
+      "tree_quadrant_agreement": 0.9447222222222222,
+      "cw_quadrant_agreement": 0.95,
+      "tree_mismatch_count": 199,
+      "cw_mismatch_count": 180,
+      "comparable_count": 3600,
+      "changed_phase_fraction": 0.005106154259607632,
+      "changed_cells_count": 19,
+      "mixed_fraction_tree": 0.29669443697930664,
+      "mixed_fraction_cw": 0.291588282719699,
+      "topology_status_tree": "strongly deformed",
+      "topology_status_cw": "mildly deformed",
+      "instability_fraction_cw": 0.0,
+      "instability_cells_count": 0,
+      "copositivity_pairwise": {
+        "status": "pass",
+        "checks": {
+          "lambdaH_positive": true,
+          "brho_positive": true,
+          "biota_positive": true,
+          "arho_pairwise": true,
+          "aiota_pairwise": true,
+          "c_pairwise": true
+        },
+        "values": {
+          "arho_plus_2sqrt_lambdaH_brho": 0.40373546489791295,
+          "aiota_plus_2sqrt_lambdaH_biota": 0.4299019513592785,
+          "c_plus_2sqrt_brho_biota": 0.8986832980505137
+        },
+        "note": "Pairwise quartic boundedness sanity check only; not a full three-field copositivity proof."
+      }
+    },
+    {
+      "slice": "cooperative_strongly_deformed",
+      "source": "v0.3 strongly deformed portal grid",
+      "tree_phase_counts": {
+        "Prema": 729,
+        "Gurutva": 876,
+        "Tamas": 850,
+        "Mixed": 1185,
+        "Symmetric": 0,
+        "Rho_only": 0,
+        "Iota_only": 0,
+        "Other": 81,
+        "Unstable": 0
+      },
+      "cw_phase_counts": {
+        "Prema": 763,
+        "Gurutva": 768,
+        "Tamas": 786,
+        "Mixed": 1404,
+        "Symmetric": 0,
+        "Rho_only": 0,
+        "Iota_only": 0,
+        "Other": 0,
+        "Unstable": 0
+      },
+      "tree_phase_fractions": {
+        "Prema": 0.19591507659231389,
+        "Gurutva": 0.23542058586401504,
+        "Tamas": 0.22843321687718354,
+        "Mixed": 0.3184627788228971,
+        "Symmetric": 0.0,
+        "Rho_only": 0.0,
+        "Iota_only": 0.0,
+        "Other": 0.021768341843590434,
+        "Unstable": 0.0
+      },
+      "cw_phase_fractions": {
+        "Prema": 0.20505240526740123,
+        "Gurutva": 0.20639613007256113,
+        "Tamas": 0.21123353937113679,
+        "Mixed": 0.37731792528890085,
+        "Symmetric": 0.0,
+        "Rho_only": 0.0,
+        "Iota_only": 0.0,
+        "Other": 0.0,
+        "Unstable": 0.0
+      },
+      "tree_quadrant_agreement": 0.7361111111111112,
+      "cw_quadrant_agreement": 0.8430555555555556,
+      "tree_mismatch_count": 950,
+      "cw_mismatch_count": 565,
+      "comparable_count": 3600,
+      "changed_phase_fraction": 0.10507927976350444,
+      "changed_cells_count": 391,
+      "mixed_fraction_tree": 0.3184627788228971,
+      "mixed_fraction_cw": 0.37731792528890085,
+      "topology_status_tree": "strongly deformed",
+      "topology_status_cw": "strongly deformed",
+      "instability_fraction_cw": 0.010481053480247245,
+      "instability_cells_count": 39,
+      "copositivity_pairwise": {
+        "status": "pass",
+        "checks": {
+          "lambdaH_positive": true,
+          "brho_positive": true,
+          "biota_positive": true,
+          "arho_pairwise": true,
+          "aiota_pairwise": true,
+          "c_pairwise": true
+        },
+        "values": {
+          "arho_plus_2sqrt_lambdaH_brho": 0.28373546489791296,
+          "aiota_plus_2sqrt_lambdaH_biota": 0.3099019513592785,
+          "c_plus_2sqrt_brho_biota": 0.8986832980505137
+        },
+        "note": "Pairwise quartic boundedness sanity check only; not a full three-field copositivity proof."
+      }
+    },
+    {
+      "slice": "positive_edge_deformed",
+      "source": "v0.3 arho_+0.20 strongly deformed edge",
+      "tree_phase_counts": {
+        "Prema": 986,
+        "Gurutva": 522,
+        "Tamas": 1099,
+        "Mixed": 735,
+        "Symmetric": 0,
+        "Rho_only": 261,
+        "Iota_only": 0,
+        "Other": 118,
+        "Unstable": 0
+      },
+      "cw_phase_counts": {
+        "Prema": 957,
+        "Gurutva": 551,
+        "Tamas": 1083,
+        "Mixed": 754,
+        "Symmetric": 0,
+        "Rho_only": 261,
+        "Iota_only": 0,
+        "Other": 115,
+        "Unstable": 0
+      },
+      "tree_phase_fractions": {
+        "Prema": 0.26498253157753293,
+        "Gurutva": 0.1402848696586939,
+        "Tamas": 0.2953507121741467,
+        "Mixed": 0.19752754635850578,
+        "Symmetric": 0.0,
+        "Rho_only": 0.07014243482934696,
+        "Iota_only": 0.0,
+        "Other": 0.03171190540177372,
+        "Unstable": 0.0
+      },
+      "cw_phase_fractions": {
+        "Prema": 0.2571889277076055,
+        "Gurutva": 0.14807847352862133,
+        "Tamas": 0.29105079279763507,
+        "Mixed": 0.20263370061811342,
+        "Symmetric": 0.0,
+        "Rho_only": 0.07014243482934696,
+        "Iota_only": 0.0,
+        "Other": 0.030905670518677774,
+        "Unstable": 0.0
+      },
+      "tree_quadrant_agreement": 0.8302777777777778,
+      "cw_quadrant_agreement": 0.8430555555555556,
+      "tree_mismatch_count": 611,
+      "cw_mismatch_count": 565,
+      "comparable_count": 3600,
+      "changed_phase_fraction": 0.012899758129535071,
+      "changed_cells_count": 48,
+      "mixed_fraction_tree": 0.19752754635850578,
+      "mixed_fraction_cw": 0.20263370061811342,
+      "topology_status_tree": "strongly deformed",
+      "topology_status_cw": "strongly deformed",
+      "instability_fraction_cw": 0.0,
+      "instability_cells_count": 0,
+      "copositivity_pairwise": {
+        "status": "pass",
+        "checks": {
+          "lambdaH_positive": true,
+          "brho_positive": true,
+          "biota_positive": true,
+          "arho_pairwise": true,
+          "aiota_pairwise": true,
+          "c_pairwise": true
+        },
+        "values": {
+          "arho_plus_2sqrt_lambdaH_brho": 0.683735464897913,
+          "aiota_plus_2sqrt_lambdaH_biota": 0.4299019513592785,
+          "c_plus_2sqrt_brho_biota": 0.8986832980505137
+        },
+        "note": "Pairwise quartic boundedness sanity check only; not a full three-field copositivity proof."
+      }
+    }
+  ]
+}

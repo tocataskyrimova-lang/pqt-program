@@ -1,0 +1,9 @@
+name = "QCatKernel"
+version = "0.1.0"
+defaultTargets = ["QCatKernel"]
+
+[leanOptions]
+autoImplicit = false
+
+[[lean_lib]]
+name = "QCatKernel"

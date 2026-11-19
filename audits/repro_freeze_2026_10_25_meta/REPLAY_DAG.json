@@ -1,0 +1,41 @@
+{
+  "scope": "input files -> portable command -> new result files -> semantic status in CLAIMS.json",
+  "quick": {
+    "inputs": [
+      "sources/",
+      "evidence/CODEX/",
+      "evidence/HIX/",
+      "validation/wolfram/"
+    ],
+    "command": "python -B -X utf8 replay/replay.py --mode quick --output <new folder outside bundle>",
+    "outputs": [
+      "replay_results.json",
+      "replay_results.csv",
+      "patch_staging/"
+    ]
+  },
+  "extended": {
+    "inputs": [
+      "quick inputs",
+      "frozen optimizer source + seeds/bounds in evidence/CODEX/ROUND3_COMPLEX_PHASE/audit_round3.py",
+      "evidence/CODEX/ROUND4_CP_RESIDUES/audit_round4.py",
+      "evidence/HIX/h4_complex_phase.py",
+      "evidence/HIX/h4b_phase_sign.py"
+    ],
+    "command": "python -B -X utf8 replay/replay.py --mode extended --output <new folder outside bundle>",
+    "outputs": [
+      "quick outputs",
+      "extended_historical_fits.json",
+      "extended_CP/",
+      "extended_HIX/ALL_OPTIMIZER_RETURNS.json"
+    ]
+  },
+  "Wolfram": {
+    "inputs": [
+      "nine unchanged WL scripts listed by replay_wolfram.ps1"
+    ],
+    "command": "replay_wolfram.ps1 -Output <new folder>",
+    "external_dependency": "separately licensed Wolfram kernel; captured connected-service rerun is bundled"
+  },
+  "status_mapping": "CLAIMS.json separates computation verification from PASS/FAIL/CONDITIONAL/SCAN_ONLY/SOURCE_BLOCKED/PROVENANCE_PENDING/NOT_RUN scientific status"
+}

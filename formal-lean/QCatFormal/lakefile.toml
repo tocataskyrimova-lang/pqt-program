@@ -1,0 +1,17 @@
+name = "QCatFormal"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["QCatFormal"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+autoImplicit = false
+
+# Mathlib v4.18.0: offline-снимок, собранный по GitHub tree API.
+# Зафиксирован на стабильном Lean 4.18.0 вместо master/RC.
+[[require]]
+name = "mathlib"
+path = "../mathlib-v4.18.0"
+
+[[lean_lib]]
+name = "QCatFormal"

@@ -1,0 +1,55 @@
+[
+  {
+    "name": "A_prema_only",
+    "muH_eff2": 0.13,
+    "lambdaH": 0.13,
+    "mrho2": 0.5,
+    "brho": 0.3,
+    "arho": 0.4,
+    "miota2": 0.6,
+    "biota": 0.3,
+    "aiota": 0.4,
+    "c": 0.2,
+    "LambdaT2_kappa0": 0.2
+  },
+  {
+    "name": "B_gurutva_branch",
+    "muH_eff2": 0.13,
+    "lambdaH": 0.13,
+    "mrho2": -0.35,
+    "brho": 0.4,
+    "arho": 0.2,
+    "miota2": 0.6,
+    "biota": 0.3,
+    "aiota": 0.4,
+    "c": 0.2,
+    "LambdaT2_kappa0": 0.2
+  },
+  {
+    "name": "C_tamas_branch",
+    "muH_eff2": 0.13,
+    "lambdaH": 0.13,
+    "mrho2": 0.5,
+    "brho": 0.3,
+    "arho": 0.4,
+    "miota2": -0.35,
+    "biota": 0.45,
+    "aiota": 0.1,
+    "c": 0.2,
+    "LambdaT2_kappa0": -0.15
+  },
+  {
+    "name": "D_mixed_exploratory",
+    "muH_eff2": 0.13,
+    "lambdaH": 0.13,
+    "mrho2": -0.35,
+    "brho": 0.45,
+    "arho": -0.08,
+    "miota2": -0.35,
+    "biota": 0.5,
+    "aiota": -0.08,
+    "c": -0.05,
+    "LambdaT2_kappa0": 0.05,
+    "exploratory": true
+  }
+]

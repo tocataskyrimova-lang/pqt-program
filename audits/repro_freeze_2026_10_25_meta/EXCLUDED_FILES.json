@@ -1,0 +1,42 @@
+[
+  {
+    "path": "C:\\AGI\\PQT-AUDIT-001\\CODEX\\NEUTRINO_SOURCE_REPLAY\\__pycache__\\freeze_and_python.cpython-314.pyc",
+    "reason": "runtime cache or symlink, not scientific evidence"
+  },
+  {
+    "path": "C:\\AGI\\PQT-AUDIT-001\\CODEX\\ROUND3_COMPLEX_PHASE\\__pycache__\\audit_round3.cpython-314.pyc",
+    "reason": "runtime cache or symlink, not scientific evidence"
+  },
+  {
+    "path": "C:\\AGI\\PQT-AUDIT-001\\CODEX\\ROUND4_CP_RESIDUES\\__pycache__\\audit_round4.cpython-314.pyc",
+    "reason": "runtime cache or symlink, not scientific evidence"
+  },
+  {
+    "path": "C:\\AGI\\PQT-AUDIT-001\\CODEX\\ROUND4_CP_RESIDUES\\__pycache__\\local_singlepole_residues.cpython-314.pyc",
+    "reason": "runtime cache or symlink, not scientific evidence"
+  },
+  {
+    "path": "C:\\AGI\\PQT-AUDIT-001\\CODEX\\ROUND4_CP_RESIDUES\\__pycache__\\proposed_nonlocal_memory.cpython-314.pyc",
+    "reason": "runtime cache or symlink, not scientific evidence"
+  },
+  {
+    "path": "C:\\AGI\\PQT-AUDIT-001\\CODEX\\ROUND4_CP_RESIDUES\\__pycache__\\test_proposal.cpython-314.pyc",
+    "reason": "runtime cache or symlink, not scientific evidence"
+  },
+  {
+    "path": "C:\\AGI\\PQT-AUDIT-001\\CODEX\\ROUND4_CP_RESIDUES\\sources\\__pycache__\\nonlocal_memory.cpython-314.pyc",
+    "reason": "runtime cache or symlink, not scientific evidence"
+  },
+  {
+    "path": "C:\\AGI\\PQT-AUDIT-001\\CODEX\\ROUND5_2D_AND_SOURCE_POLES\\sources\\__pycache__\\nonlocal_memory.cpython-314.pyc",
+    "reason": "runtime cache or symlink, not scientific evidence"
+  },
+  {
+    "path": "C:\\AGI\\PQT\\MAIN\\PQT_FORMALIZATION_PACKAGE\\__pycache__\\neutrino_pqt_v11.cpython-314.pyc",
+    "reason": "runtime cache or symlink, not scientific evidence"
+  },
+  {
+    "path": "C:\\AGI\\PQT\\MAIN\\PQT_FORMALIZATION_PACKAGE\\__pycache__\\neutrino_pqt_v12.cpython-314.pyc",
+    "reason": "runtime cache or symlink, not scientific evidence"
+  }
+]

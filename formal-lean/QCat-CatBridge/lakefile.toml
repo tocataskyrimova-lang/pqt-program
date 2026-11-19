@@ -1,0 +1,10 @@
+name = "QCatCatBridge"
+version = "0.1.0"
+defaultTargets = ["QCatCatBridge"]
+
+[[require]]
+name = "mathlib"
+path = "../mathlib-v4.18.0"
+
+[[lean_lib]]
+name = "QCatCatBridge"

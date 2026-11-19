@@ -1,0 +1,16 @@
+{
+  "validated_at_utc": "2026-10-25T10:43:52.484720+00:00",
+  "clean_bundle_path": "C:\\AGI\\PQT-AUDIT-001\\REPRO_FREEZE_2026-10-25\\CLEAN_VALIDATION_B\\relocated_bundle",
+  "isolated_python": "C:\\AGI\\PQT-AUDIT-001\\REPRO_FREEZE_2026-10-25\\CLEAN_VALIDATION_A\\isolated_env\\Scripts\\python.exe",
+  "environment": "fresh venv without system-site-packages; offline --require-hashes wheel installation",
+  "mode": "extended",
+  "cases_passed": 10,
+  "adapter_assertions": 227,
+  "elapsed_seconds": 27.680773600004613,
+  "fresh_HIX_optimizer_returns": 236,
+  "failed_optimizer_returns": 55,
+  "not_all_optimizer_returns_are_success": true,
+  "pip_check": "No broken requirements found.",
+  "clean_machine_OS_install_tested": false,
+  "clean_path_and_clean_package_environment_tested": true
+}

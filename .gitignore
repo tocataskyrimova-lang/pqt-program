@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments & Dependencies
+venv/
+.venv/
+isolated_env/
+env/
+ENV/
+node_modules/
+
+# Lean 4 / Lake build artifacts
+.lake/
+build/
+lake-packages/
+mathlib-v4.18.0/
+*.olean
+*.ilean
+*.c
+
+# High Energy Physics (HEP) Data & Binaries
+*.root
+*.hepmc
+*.lhe
+*.lhe.gz
+*.vhdx
+*.zip
+*.tar.gz
+*.tar
+*.7z
+*.gz
+*.bz2
+*.xz
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.out
+*.app
+
+# Large run dumps / scratch / local event folders
+**/runs/
+**/Events/
+**/scratch/
+**/tmp/
+**/temp/
+
+# Secrets, Credentials, and Environment Files
+.env
+.env.*
+*.pem
+*.key
+*.id_rsa
+*.id_ed25519
+*.pfx
+*.p12
+
+# OS / Editor specific
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
