@@ -1,0 +1,103 @@
+M$ModelName = "PQT_MemorySector_massbasis_SMext";
+
+M$Information = {
+  Authors -> {"PQT/AGI Architect"},
+  Version -> "v3.1-smoke",
+  Date -> "2026"
+};
+
+M$InteractionOrderHierarchy = {
+  {QCD, 1},
+  {QED, 2}
+};
+
+M$Parameters = {
+
+  MS == {
+    ParameterType -> External,
+    Value -> 200.,
+    InteractionOrder -> {QED, 0},
+    Description -> "PQT light scalar S mass",
+    LesHouches -> {PQT, 1}
+  },
+
+  MH2 == {
+    ParameterType -> External,
+    Value -> 700.,
+    InteractionOrder -> {QED, 0},
+    Description -> "PQT heavy scalar H2 mass",
+    LesHouches -> {PQT, 2}
+  },
+
+  sint == {
+    ParameterType -> External,
+    Value -> 0.01,
+    InteractionOrder -> {QED, 0},
+    Description -> "sin(theta_mix)",
+    LesHouches -> {PQT, 3}
+  },
+
+  cost == {
+    ParameterType -> Internal,
+    Value -> Sqrt[1 - sint^2],
+    InteractionOrder -> {QED, 0},
+    Description -> "cos(theta_mix)"
+  },
+
+  WS == {
+    ParameterType -> External,
+    Value -> 1.,
+    InteractionOrder -> {QED, 0},
+    Description -> "PQT light scalar width",
+    LesHouches -> {PQT, 11}
+  },
+
+  WH2 == {
+    ParameterType -> External,
+    Value -> 1.,
+    InteractionOrder -> {QED, 0},
+    Description -> "PQT heavy scalar width",
+    LesHouches -> {PQT, 12}
+  }
+
+};
+
+M$ClassesDescription = {
+
+  S[4] == {
+    ClassName -> S,
+    SelfConjugate -> True,
+    Mass -> {MS, 200.},
+    Width -> {WS, 1.},
+    PDG -> 9000006,
+    PropagatorLabel -> "S",
+    PropagatorType -> D,
+    PropagatorArrow -> None,
+    ParticleName -> "S",
+    FullName -> "PQT light scalar"
+  },
+
+  S[5] == {
+    ClassName -> H2,
+    SelfConjugate -> True,
+    Mass -> {MH2, 700.},
+    Width -> {WH2, 1.},
+    PDG -> 9000007,
+    PropagatorLabel -> "H2",
+    PropagatorType -> D,
+    PropagatorArrow -> None,
+    ParticleName -> "H2",
+    FullName -> "PQT heavy scalar"
+  }
+
+};
+
+LPQTMassBasis =
+  1/2 del[S, mu] del[S, mu] - 1/2 MS^2 S^2
++ 1/2 del[H2, mu] del[H2, mu] - 1/2 MH2^2 H2^2
+
++ sint * (MZ^2/vev)      * S  * Z[mu] * Z[mu]
++ sint * (2 MW^2/vev)    * S  * Wbar[mu] * W[mu]
+
++ cost * (MZ^2/vev)      * H2 * Z[mu] * Z[mu]
++ cost * (2 MW^2/vev)    * H2 * Wbar[mu] * W[mu];

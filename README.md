@@ -40,8 +40,9 @@ pqt-program/
 │   └── QCat-CatBridge/      # Categorical dictionary and bridge theorems
 ├── pheno-collider/          # Track B: Collider Pheno (VBF / Higgs / 4-lepton Channel)
 │   ├── benchmarks/          # v2.0 background closure, v2.2b forensic reports, v2.3 gate records
-│   ├── feynrules/           # FeynRules model exports & scripts (status documented)
-│   └── ufo/                 # UFO python structures (status documented)
+│   ├── feynrules/           # FeynRules model definitions (.fr) & UFO export scripts (.wls)
+│   ├── ufo/                 # Combined SM+PQT UFO Python package (PQT_MemorySector_massbasis)
+│   └── tests/               # Deterministic UFO massbasis pytest validation suite
 ├── neutrino/                # Neutrino Mass Matrix, PMNS Angles, and RG Evolution
 │   ├── neutrino_pqt_v*.py   # Mass-basis operators, seesaw textures, and parameter scans
 │   ├── pqt_neutrino_rg_*.py # One-loop renormalization group equations for neutrino parameters
@@ -66,9 +67,11 @@ pqt-program/
 ## 4. Known Status & Open Items
 
 1. **`eft-pqt-qg` Spectral Patch (PR #1):**  
-   The baseline import retains the unpatched `nonlocal_memory.py` determinant proxy (`min_eval = min(det, inv_iota)`). As established in the November 2026 audit, this proxy is vulnerable to the Sylvester counterexample $M_{\text{bad}} = \text{diag}(-0.2, -0.1, +2.0)$. Staged under `eft-pqt-qg/patches/PROPOSED_nonlocal_memory_health.patch` is the exact spectral `eigvalsh` patch, ready to be applied in **Pull Request #1**. A/B audit confirms 0 false-positive tachyons across 2,361 cells.
-2. **Collider `v2.3` Cut Stability Gate:**  
-   The 144-point collider scan is officially marked `BLOCKED_MISSING_EVENT_LEVEL_DATA` (see `pheno-collider/benchmarks/v23_gate_status.md`). No kinematic cuts will be interpolated from summary tables until fresh $\ge 50\text{k}$–$100\text{k}$ event-level `.root` files are generated.
+   **Merged upstream (`feat/eft-spectral-eigvalsh`):** Replaced legacy determinant heuristic (`min(det, inv_iota)`) with exact global spectral positivity (`np.linalg.eigvalsh`). Multi-seed A/B audit confirmed 0 false-positive tachyonic cells and 100% agreement with positive-definite control benchmarks.
+2. **UFO & FeynRules Model Import (PR #2):**  
+   Ported tree-level FeynRules `.fr` specifications, WolframScript export scripts, and the combined SM+PQT mass-basis UFO Python package (`PQT_MemorySector_massbasis`). Validated with deterministic 5-test pytest suite (`test_ufo_massbasis.py`) covering particle spectrum, electroweak parameters, live VBF vertices, coupling reference integrity, and automatic widths.
+3. **Collider `v2.3` Cut Stability Gate:**  
+   The 144-point collider scan is officially marked `BLOCKED_MISSING_EVENT_LEVEL_DATA` (see `pheno-collider/benchmarks/v23_gate_status.md`). Historical benchmark archives confirm the epistemic forensic finding: the original significance peak ($Z_{3000} = 598.4$) was an artifact of background starvation ($B_{3000} = 0.014$, raw signal $N = 2$). No kinematic cuts will be interpolated from summary tables; fresh event-level generation ($\ge 50\text{k}$–$100\text{k}$ events) is required before unblocking this track.
 3. **Formal Lean Mathlib Integration:**  
    `QCatFormal`, `QCat-BraidCore`, and `QCat-CatBridge` reference an offline snapshot of Mathlib v4.18.0 via `path = "../mathlib-v4.18.0"`. See [`formal-lean/README.md`](formal-lean/README.md) for instructions on setting up or redirecting this dependency.
 

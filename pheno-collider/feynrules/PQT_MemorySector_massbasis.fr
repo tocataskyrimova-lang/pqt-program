@@ -1,0 +1,132 @@
+(*
+ * PQT Memory Sector Model - Physical Mass Basis
+ * 
+ * Physical scalar S (light, PDG 9000006) with SM-like couplings scaled by sinθ
+ * Physical scalar H2 (heavy, PDG 9000007) with SM-like couplings scaled by cosθ
+ *
+ * Vertices included:
+ *   S Z Z, S W+ W-, S t t~, S b b~, S tau+ tau-
+ *)
+
+(* Model information *)
+M$ModelName = "PQT_MemorySector_massbasis";
+M$Information = "PQT Memory Sector EFT - Physical Mass Basis with S and H2 scalars";
+
+(* ======================== *)
+(* Parameter Definitions    *)
+(* ======================== *)
+
+M$Parameters = {
+  {
+    sint,
+    ParameterType -> External,
+    ParameterName -> sinth,
+    Description -> "sin(theta) mixing angle between Higgs and memory scalar",
+    Value -> 0.1,
+    InteractionOrder -> {Higgs, 1}
+  },
+  {
+    MS,
+    ParameterType -> External,
+    ParameterName -> MS,
+    Description -> "Mass of light physical scalar S (GeV)",
+    Value -> 200.0,
+    InteractionOrder -> {Higgs, 1}
+  },
+  {
+    MH2,
+    ParameterType -> External,
+    ParameterName -> MH2,
+    Description -> "Mass of heavy physical scalar H2 (GeV)",
+    Value -> 700.0,
+    InteractionOrder -> {Higgs, 2}
+  }
+};
+
+(* Derived parameters *)
+M$Parameters = Append[M$Parameters,
+  {
+    cost,
+    ParameterType -> Internal,
+    ParameterName -> costh,
+    Description -> "cos(theta) = sqrt(1 - sin^2 theta)",
+    Value -> Sqrt[1 - sint^2],
+    InteractionOrder -> {Higgs, 1}
+  }
+];
+
+(* ======================== *)
+(* Particle Definitions     *)
+(* ======================== *)
+
+M$Particles = {
+  S -> {
+    ClassName -> S,
+    ClassMembers -> {S},
+    SelfConjugate -> True,
+    PDG -> 9000006,
+    Mass -> MS,
+    Width -> Automatic,
+    Description -> "Light physical memory scalar (mass basis)",
+    QuantumNumbers -> {Q -> 0, CP -> +1}
+  },
+  H2 -> {
+    ClassName -> H2,
+    ClassMembers -> {H2},
+    SelfConjugate -> True,
+    PDG -> 9000007,
+    Mass -> MH2,
+    Width -> Automatic,
+    Description -> "Heavy physical scalar (mass basis)",
+    QuantumNumbers -> {Q -> 0, CP -> +1}
+  }
+};
+
+(* ======================== *)
+(* Vertex Definitions       *)
+(* ======================== *)
+
+vSM = 246.0;
+
+M$Vertices = {
+  (* S Z Z vertex: coupling = sint * 2 * MZ^2 / vSM *)
+  {S, Z, Z, sint * 2 * MZ^2 / vSM},
+  
+  (* S W+ W- vertex: coupling = sint * 2 * MW^2 / vSM *)
+  {S, W[+], W[-], sint * 2 * MW^2 / vSM},
+  
+  (* H2 Z Z vertex: coupling = cost * 2 * MZ^2 / vSM *)
+  {H2, Z, Z, cost * 2 * MZ^2 / vSM},
+  
+  (* H2 W+ W- vertex: coupling = cost * 2 * MW^2 / vSM *)
+  {H2, W[+], W[-], cost * 2 * MW^2 / vSM},
+  
+  (* S t t~ vertex: coupling = sint * yt, where yt = MT/vSM *)
+  {S, TopField, -TopField, sint * MT / vSM / Sqrt[2]},
+  
+  (* S b b~ vertex: coupling = sint * yb, where yb = MB/vSM *)
+  {S, BottomField, -BottomField, sint * MB / vSM / Sqrt[2]},
+  
+  (* S tau+ tau- vertex: coupling = sint * ytau *)
+  {S, TauField, -TauField, sint * MTau / vSM / Sqrt[2]},
+  
+  (* H2 t t~ vertex: coupling = cost * yt *)
+  {H2, TopField, -TopField, cost * MT / vSM / Sqrt[2]},
+  
+  (* H2 b b~ vertex: coupling = cost * yb *)
+  {H2, BottomField, -BottomField, cost * MB / vSM / Sqrt[2]},
+  
+  (* H2 tau+ tau- vertex: coupling = cost * ytau *)
+  {H2, TauField, -TauField, cost * MTau / vSM / Sqrt[2]}
+};
+
+(* ======================== *)
+(* UFO Export Settings      *)
+(* ======================== *)
+
+M$ExportParticles = Select[M$Particles, Head[#] === Rule &];
+M$ExportParameters = Select[M$Parameters, #ParameterType === External &];
+
+Print["PQT Memory Sector Mass Basis model loaded successfully."];
+Print["Light scalar S PDG: 9000006, mass MS, coupling scale sint"];
+Print["Heavy scalar H2 PDG: 9000007, mass MH2, coupling scale cost"];
