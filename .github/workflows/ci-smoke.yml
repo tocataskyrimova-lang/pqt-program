@@ -65,7 +65,7 @@ jobs:
           PYTHONPATH=eft-pqt-qg pytest eft-pqt-qg/tests/test_spectral_health.py -v
 
   pheno-ufo-tests:
-    name: Pheno UFO Model Validation Tests
+    name: Pheno Collider & UFO Validation Tests
     runs-on: ubuntu-latest
 
     steps:
@@ -83,6 +83,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest
 
-      - name: Run UFO massbasis validation test suite
+      - name: Run collider & UFO validation test suites
         run: |
-          pytest pheno-collider/tests/test_ufo_massbasis.py -v
+          pytest pheno-collider/tests/ -v

@@ -1,0 +1,26 @@
+{
+  "classification": "BACKGROUND_STARVATION",
+  "max_Z3000": 598.3622850511475,
+  "mean_Z3000": 304.1961634065253,
+  "largest_component": 108,
+  "hot_fraction": 1.0,
+  "mean_local_variation": 39.438672335075196,
+  "best_config": {
+    "mjj_cut": 600,
+    "deta_cut": 5.0,
+    "window": "w3",
+    "Z3000": 598.3622850511475,
+    "S3000": 71.5968,
+    "B3000": 0.014317223351999999
+  },
+  "worst_config": {
+    "mjj_cut": 300,
+    "deta_cut": 2.5,
+    "window": "w1",
+    "Z3000": 36.465143748408714,
+    "S3000": 71.5968,
+    "B3000": 3.8550619750332005
+  },
+  "background_starvation": true,
+  "min_B_nonzero": 0.014317223351999999
+}

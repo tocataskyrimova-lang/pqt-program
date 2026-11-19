@@ -1,25 +1,33 @@
 {
   "gate": "COLLIDER_V2_3_EVENT_LEVEL_GATE",
-  "status": "BLOCKED_MISSING_EVENT_LEVEL_DATA",
-  "timestamp": "2026-11-19T13:25:00+05:00",
-  "searched_paths": [
-    "C:\\AGI\\benchmark_v31_out\\",
-    "C:\\AGI\\PQT-transformers\\benchmark_v31_out\\",
-    "C:\\AGI\\PQT-transformers\\CAGIbenchmark_v31_outv20_background_closure\\root\\",
-    "C:\\AGI\\PQT\\MAIN\\PQT_FORMALIZATION_PACKAGE\\",
-    "C:\\AGI\\PQT-AUDIT-001\\REPRO_FREEZE_2026-10-25\\",
-    "D:\\WSL\\",
-    "D:\\WSL\\Ubuntu\\ext4.vhdx",
-    "D:\\WSL\\Ubuntu2204\\ext4.vhdx (WSL2 internal /root/hep)",
-    "Root drives C:\\, D:\\, E:\\, O:\\ for *.root, *.hepmc, *.lhe, *.parquet"
-  ],
-  "event_level_files_found": [],
-  "reasons": [
-    "No *.root, *.hepmc, *.lhe, *.lhe.gz, *.parquet, or per-event kinematic tabular files (m4l, mjj, deta_jj per row) exist on local NTFS storage or reachable WSL filesystems.",
-    "The directory C:\\AGI\\benchmark_v31_out does not exist; historical summary files reside under C:\\AGI\\PQT-transformers\\.",
-    "The directory C:\\AGI\\PQT-transformers\\CAGIbenchmark_v31_outv20_background_closure\\root is empty (0 bytes).",
-    "WSL default distro Ubuntu is broken due to missing D:\\WSL\\Ubuntu\\ext4.vhdx; working distro Ubuntu-22.04-PQT does not contain /root/hep/."
-  ],
-  "statistical_caveat": "Historical baseline window (forensic_v22b_report.md) contained only N_signal_raw = 2 raw events out of 10,000 for signal m150_s2_1e-3_modeA. The 144-point v2.3 cut-stability scan requires event-level kinematics per event to avoid artificial statistical collapse (B=0). Fabricating or interpolating the scan from aggregate summary tables is strictly prohibited by epistemic rules. Future unblocking requires a fresh >=50k–100k event generation run rather than table interpolation.",
-  "action_taken": "Collider v2.3 scan halted at Gate. Proceeding to Part B (PQT-QG Spectral Patch & A/B Audit)."
+  "historical_10k_v23_status": "ARCHIVED_BACKGROUND_STARVATION",
+  "statistically_valid_v23_status": "BLOCKED_NEEDS_HIGH_STATS_REGEN",
+  "timestamp": "2026-11-20T01:48:00+05:00",
+  "historical_archive": {
+    "path": "pheno-collider/benchmarks/historical_v23/",
+    "source_archive": "C:\\AGIOLD\\AGI\\benchmark_v31_out\\v23_cut_stability_map\\",
+    "mc_events_per_channel": 10000,
+    "total_grid_configurations": 144,
+    "unique_configurations": 144,
+    "valid_configurations": 108,
+    "background_zero_cells": 36,
+    "background_starved_cells_lt_1": 135,
+    "peak_Z3000": 598.3622850511475,
+    "peak_configuration": {
+      "window": "w3",
+      "mjj_cut": 600,
+      "deta_cut": 5.0,
+      "S3000": 71.5968,
+      "B3000": 0.014317223351999999
+    },
+    "mean_local_variation": 39.438672335075196,
+    "recorded_classification": "BACKGROUND_STARVATION"
+  },
+  "high_stats_requirements": {
+    "required_events_per_channel": ">= 50000 - 100000",
+    "required_channels": ["pp -> j j S (S -> ZZ* -> 4l)", "pp -> j j ZZ (QCD + EW)", "pp -> tt~ Z", "pp -> j j H (H -> ZZ*)"],
+    "kinematic_format": "Per-event (m4l, mjj, deta_jj, pt_jets, pt_leptons) in ROOT or Parquet format",
+    "table_interpolation_forbidden": true
+  },
+  "statistical_caveat": "Historical baseline window contained only N_signal_raw = 2 raw events out of 10,000 for signal m150_s2_1e-3_modeA. The peak Z_3000 = 598.4 is driven entirely by background starvation (B_3000 = 0.0143 events), not by a robust signal plateau. Interpolating cuts from summary tables is strictly prohibited. Physical validation requires fresh >= 50k-100k event generation."
 }

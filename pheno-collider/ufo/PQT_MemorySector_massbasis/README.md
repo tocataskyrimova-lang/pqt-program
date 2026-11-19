@@ -27,3 +27,16 @@ The model includes the complete Standard Model spectrum (43 SM particles includi
 
 ## 4. Restriction Cards
 - `restrict_default.dat`: Sets `DECAY 9000006 Auto` and `DECAY 9000007 Auto`, enabling automatic tree-level partial width calculations within MadGraph5.
+
+
+## 5. Model Scope Caveat (Gauge-Only VBF UFO)
+
+> [!IMPORTANT]
+> **Electroweak Gauge Couplings vs. Fermionic Yukawas:**
+> The compiled UFO package reflects the Lagrangian implemented in `PQT_MemorySector_massbasis_SMext.fr`. It explicitly includes electroweak gauge interaction vertices ($SZZ, SW^+W^-, H_2ZZ, H_2W^+W^-$) optimized for Vector Boson Fusion (VBF) phenomenology, but intentionally **omits fermionic Yukawa couplings** ($Sb\bar{b}, S\tau^+\tau^-, St\bar{t}$) present in the broader exploratory file `PQT_MemorySector_massbasis.fr`.
+
+### Impact on Width & Branching Ratios
+* When MadGraph5 runs with `DECAY 9000006 Auto`, it computes partial decay widths $\Gamma(S \to X)$ strictly across active vertices defined in the model.
+* For scalar masses below the $2 M_W$ threshold (such as the historical benchmark point $M_S = 150\text{ GeV}$), the gauge decays $S \to ZZ^*$ and $S \to WW^*$ are off-shell 3-body / 4-body processes.
+* In a full Standard Model singlet extension or Higgs-portal model, the tree-level fermionic decay $S \to b\bar{b}$ dominates the total width below $2 M_W$.
+* **Consequence:** Omitting $S \to b\bar{b}$ underestimates the total scalar width $\Gamma_S$ and artificially inflates the branching ratio $\text{BR}(S \to ZZ^* \to 4\ell)$. When interpreting cross sections and signal rates from this UFO model below $2 M_W$, analysts must apply an external branching-ratio correction or explicitly restore the Yukawa terms.
