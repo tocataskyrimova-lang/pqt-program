@@ -36,6 +36,9 @@ jobs:
           echo "Compiling epistemic-ai..."
           python -m py_compile $(find epistemic-ai -name "*.py" -not -path "*/.*")
           
+          echo "Compiling pheno-collider..."
+          python -m py_compile $(find pheno-collider -name "*.py" -not -path "*/.*")
+          
           echo "All Python syntax checks PASSED."
 
   eft-spectral-tests:
@@ -60,3 +63,26 @@ jobs:
       - name: Run spectral health test suite
         run: |
           PYTHONPATH=eft-pqt-qg pytest eft-pqt-qg/tests/test_spectral_health.py -v
+
+  pheno-ufo-tests:
+    name: Pheno UFO Model Validation Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest
+
+      - name: Run UFO massbasis validation test suite
+        run: |
+          pytest pheno-collider/tests/test_ufo_massbasis.py -v
