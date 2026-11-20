@@ -1,46 +1,44 @@
 # Collider v2.3 Event-Level Gate Report
 
-**Date:** 2026-11-19  
-**Status:** `BLOCKED_MISSING_EVENT_LEVEL_DATA`  
+**Date:** 2026-11-20  
+**Historical 10k v2.3 Status:** `ARCHIVED_BACKGROUND_STARVATION`  
+**Statistically Valid v2.3 Status:** `BLOCKED_NEEDS_HIGH_STATS_REGEN`  
 **Execution Environment:** Native Windows (`C:\Python314\python.exe`)
 
 ---
 
-## 1. Executive Summary
+## 1. Dual Status Classification
 
-In accordance with **Strict Epistemic Rule 3**, execution of the 144-point Collider Benchmark v2.3 Cut Stability Map requires true event-level kinematics $(m_{4\ell}, m_{jj}, \Delta\eta_{jj})$ for every generated Monte Carlo event. Fabricating, interpolating, or approximating per-event cutflows from aggregate summary tables (`forensic_v22b_report.md`, `background_summary_v20.json`, `observable_grid_v31.csv`) is strictly prohibited.
+In accordance with **Strict Epistemic Rule 3**, Collider Track B explicitly separates the historical 10k benchmark diagnostic artifacts from production statistical discovery gates:
 
-A comprehensive read-only search across all local drives (`C:`, `D:`, `E:`, `O:`) and WSL2 volumes determined that **zero event-level files exist on the system**. Therefore, Benchmark v2.3 is gated and halted safely without mutating any project state.
-
----
-
-## 2. Searched Locations & Findings
-
-| Location / File Pattern | Intended Artifact | Actual Finding |
+| Track Status Dimension | Assigned Status | Meaning & Boundaries |
 |---|---|---|
-| `C:\AGI\benchmark_v31_out\` | Delphes ROOT trees / HEP outputs | **Directory does not exist** |
-| `C:\AGI\PQT-transformers\benchmark_v31_out\` | Benchmark v31 output files | Only 100x100 grid summaries (`observable_grid_v31.csv`) |
-| `C:\AGI\PQT-transformers\CAGIbenchmark_v31_outv20_background_closure\root\` | `zzjj_delphes.root`, `m150_*.root` | **Directory exists but is empty (0 bytes)** |
-| `C:\AGI\PQT\MAIN\PQT_FORMALIZATION_PACKAGE\` | Forensic reports & scripts | Only summary reports and figures |
-| `C:\AGI\PQT-AUDIT-001\REPRO_FREEZE_2026-10-25\` | Frozen audit package | Verified offline sources, no raw collider event trees |
-| `D:\WSL\Ubuntu\ext4.vhdx` | Default WSL distro volume | **File missing** (`ERROR_PATH_NOT_FOUND`) |
-| `D:\WSL\Ubuntu2204\ext4.vhdx` (`Ubuntu-22.04-PQT`) | Active secondary WSL volume | Reachable, but `/root/hep` does not exist |
-| Drives `C:\`, `D:\`, `E:\`, `O:\` (`*.root`, `*.hepmc`, `*.lhe`, `*.parquet`) | Full-disk root search | 0 event-level collider data files found |
+| **Historical 10k Diagnostic Scan** | `ARCHIVED_BACKGROUND_STARVATION` | Preserved in [`historical_v23/`](historical_v23/) as a documented negative/starvation artifact on $10\text{k}$ events. Peak $Z_{3000} = 598.4$ is an artifact of $B_{3000} \to 0.0143$ ($36$ cells with $B=0$, $135/144$ cells with $B < 1.0$). |
+| **Statistically Valid Significance Gate** | `BLOCKED_NEEDS_HIGH_STATS_REGEN` | Requires fresh, independent Monte Carlo event generation ($\ge 50\text{k}$–$100\text{k}$ events) with true event-level kinematics. **Table interpolation or synthetic fitting is strictly forbidden.** |
 
 ---
 
-## 3. Statistical Caveat & Epistemic Analysis
+## 2. Summary of Historical 10k Findings (`historical_v23/`)
 
-From `forensic_v22b_report.md` and `PQT_FULL_FORMALIZATION_v1.md` Section 10:
-1. **Low Raw Signal Statistics:** At the benchmark signal point $m150\_s2\_1e-3\_modeA$, the original 10,000 Delphes event pass yielded only:
-   $$N_{\text{signal, raw}} = 2 \text{ events}$$
-2. **Analysis Mismatch:** Under loose cuts ($100 < m_{4\ell} < 180$ GeV), $Z_{3000} = 5.32$ ($S_{3000} = 71.6$, $B_{3000} = 181.2$, $N_{\text{bg, raw}} = 799$). However, when applying tight VBF cuts ($m_{jj} > 400$ GeV, $\Delta\eta_{jj} > 3.0$) inside a narrow mass window ($130 < m_{4\ell} < 165$ GeV), background collapsed to $N_{\text{bg, raw}} = 0$ ($B_{3000} = 0$), producing an undefined or artificial statistical artifact ($Z = \infty$ / $Z$ undefined).
-3. **Recovery Requirement:** Because of Poisson fluctuations on $N_{\text{signal, raw}} = 2$, legitimate resolution of the v2.3 cut landscape requires generating a fresh, high-statistics Monte Carlo sample ($\ge 50\,000$–$100\,000$ events per channel in MadGraph5 $\to$ Pythia8 $\to$ Delphes), rather than attempting to slice existing zero-event background bins.
+* **Dataset Origin:** Recovered from `C:\AGIOLD\AGI\benchmark_v31_out\v23_cut_stability_map\` (10k Delphes MC events).
+* **Grid Topology:** $144$ total configurations ($4\text{ mass windows} \times 6\text{ } m_{jj}\text{ cuts} \times 6\text{ } \Delta\eta_{jj}\text{ cuts}$).
+* **Raw Statistics Limitation:** Only $N_{\text{signal, raw}} = 2$ raw events generated in acceptance window across all 144 configurations.
+* **Background Depletion:**
+  - $36$ cells ($25.0\%$) have $B_{3000} = 0.0$ (`status == "BG_ZERO"`, undefined significance).
+  - $135$ cells ($93.8\%$) have $B_{3000} < 1.0$ event.
+  - Peak configuration (`w3`, $m_{jj}=600$, $\Delta\eta_{jj}=5.0$): $S_{3000} = 71.6$, $B_{3000} = 0.0143$, producing nominal $Z = 598.4$.
+  - Mean local variation across adjacent grid points is $39.44$, refuting any plateau hypothesis.
+* **Official Classification:** `BACKGROUND_STARVATION` (confirmed in `plateau_metrics_v23.json`).
 
 ---
 
-## 4. Gate Decision
+## 3. High-Statistics Production Gate Requirements
 
-* **Status:** `BLOCKED_MISSING_EVENT_LEVEL_DATA`
-* **Collider v2.3 Action:** Gated (No synthetic or interpolated data emitted).
-* **Next Step:** Immediate transition to **Part B: PQT-QG Spectral Patch & A/B Audit**.
+To unblock the `statistically_valid_v23_status` gate:
+1. **Sample Statistics:** $\ge 50\,000$–$100\,000$ events per channel for:
+   - Signal: $pp \to j j (S \to ZZ^* \to 4\ell)$
+   - Electroweak Background: $pp \to j j ZZ \to j j 4\ell$ (QCD + EW)
+   - Resonant Background: $pp \to t\bar{t}Z \to 4\ell + X$
+   - Higgs Background: $pp \to j j H \to j j 4\ell$
+2. **Event-Level Storage:** Complete per-event kinematic tuples $(m_{4\ell}, m_{jj}, \Delta\eta_{jj}, p_{T,j1}, p_{T,j2})$ in ROOT or Parquet format.
+3. **Statistical Profile:** Rigorous profile-likelihood significance ($q_0$) or $\text{CL}_s$ upper limits incorporating Poisson uncertainty on small background counts, replacing naive $S/\sqrt{B}$ when $B < 10$.
